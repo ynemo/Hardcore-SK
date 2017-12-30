@@ -1,68 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<CookMealSalad.label>Hacer Ensalada Simple</CookMealSalad.label>
-	<CookMealSalad.description>Preparar una ensalada simple hecha de vegetales crudos. Produce 1.</CookMealSalad.description>
-	<CookMealSalad.jobString>Haciendo Ensalada Simple.</CookMealSalad.jobString>
+  <CookMealSalad.label>Ensalada simple x1</CookMealSalad.label>
+  <CookMealSalad.description>Preparar una ensalada simple hecha de vegetales crudos. Produce 1.</CookMealSalad.description>
+  <CookMealSalad.jobString>Haciendo ensalada simple.</CookMealSalad.jobString>
 
-	<CookMealSalad_Bulk.label>Hacer Ensalada Simple (x4)</CookMealSalad_Bulk.label>
-	<CookMealSalad_Bulk.description>Preparar una ensalada simple hecha de vegetales crudos. Produce 4.</CookMealSalad_Bulk.description>
-	<CookMealSalad_Bulk.jobString>Haciendo Ensaladas Simple.</CookMealSalad_Bulk.jobString>
+  <CookMealSalad_Bulk.label>Ensalada simple x4</CookMealSalad_Bulk.label>
+  <CookMealSalad_Bulk.description>Preparar una ensalada simple hecha de vegetales crudos. Produce 4.</CookMealSalad_Bulk.description>
+  <CookMealSalad_Bulk.jobString>Haciendo ensaladas simple.</CookMealSalad_Bulk.jobString>
 
-	<CookRoastedMeat.label>Cocinar Carne Asada</CookRoastedMeat.label>
-	<CookRoastedMeat.description>Preparar Carne Asada Fresca. Produce 1.</CookRoastedMeat.description>
-	<CookRoastedMeat.jobString>Cocinando Carne Asada</CookRoastedMeat.jobString>
+  <CookRoastedMeat.label>Carne asada x1</CookRoastedMeat.label>
+  <CookRoastedMeat.description>Preparar carne asada fresca. Produce 1.</CookRoastedMeat.description>
+  <CookRoastedMeat.jobString>Cocinando carne asada</CookRoastedMeat.jobString>
 
-	<CookRoadMeatx4.label>Cocinar Carne Asada (x4)</CookRoadMeatx4.label>
-	<CookRoadMeatx4.description>Preparar Carnes Asadas Fresca. Produce 4.</CookRoadMeatx4.description>
-	<CookRoadMeatx4.jobString>Cocinando Carne Asada</CookRoadMeatx4.jobString>
+  <CookRoastedMeatCampfire.label>Carne rostizada x1</CookRoastedMeatCampfire.label>
+  <CookRoastedMeatCampfire.description>Preparar Carne Asada Fresca. Produce 1.</CookRoastedMeatCampfire.description>
+  <CookRoastedMeatCampfire.jobString>Cocinando Carne Asada</CookRoastedMeatCampfire.jobString>
 
-	<CookMealJerky.label>Cocinar Carne Seca</CookMealJerky.label>
-	<CookMealJerky.description>Preparar carne ahumada a partir de carne cruda. Produce 1.</CookMealJerky.description>
-	<CookMealJerky.jobString>Cocinando carne seca.</CookMealJerky.jobString>
+  <CookRoadMeatx4.label>Carne asada x4</CookRoadMeatx4.label>
+  <CookRoadMeatx4.description>Preparar carnes asadas fresca. Produce 4.</CookRoadMeatx4.description>
+  <CookRoadMeatx4.jobString>Cocinando carne asada</CookRoadMeatx4.jobString>
 
-	<CookJerkyMeatx4.label>Cocinar Carne Seca (x4)</CookJerkyMeatx4.label>
-	<CookJerkyMeatx4.description>Preparar carne ahumada a partir de carne cruda. Produce 4.</CookJerkyMeatx4.description>
-	<CookJerkyMeatx4.jobString>Cocinando carne seca.</CookJerkyMeatx4.jobString>
+  <CookMealJerky.label>Carne seca x1</CookMealJerky.label>
+  <CookMealJerky.description>Preparar carne ahumada a partir de carne cruda. Produce 1.</CookMealJerky.description>
+  <CookMealJerky.jobString>Cocinando carne seca.</CookMealJerky.jobString>
 
-	<CookMealSimple_Bulk.label>cocinar Comida Simple (x4)</CookMealSimple_Bulk.label>
-	<CookMealSimple_Bulk.description>Cocinar una simple comida de un Ingrediente. Produce 4.</CookMealSimple_Bulk.description>
-	<CookMealSimple_Bulk.jobString>Cocinando Comida Simple.</CookMealSimple_Bulk.jobString>
+  <CookMealJerkyCampfire.label>Carne Seca x1</CookMealJerkyCampfire.label>
+  <CookMealJerkyCampfire.description>Preparar carne ahumada a partir de carne cruda. Produce 1.</CookMealJerkyCampfire.description>
+  <CookMealJerkyCampfire.jobString>Cocinando carne seca.</CookMealJerkyCampfire.jobString>
 
-	<CookMealFine_Bulk.label>cocinar Buena Comida (x4)</CookMealFine_Bulk.label>
-	<CookMealFine_Bulk.description>Cocina unas comidas algo complejas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Produce 4.</CookMealFine_Bulk.description>
-	<CookMealFine_Bulk.jobString>Cocinando Buenas Comidas.</CookMealFine_Bulk.jobString>
+  <CookJerkyMeatx4.label>Carne seca x4</CookJerkyMeatx4.label>
+  <CookJerkyMeatx4.description>Preparar carne ahumada a partir de carne cruda. Produce 4.</CookJerkyMeatx4.description>
+  <CookJerkyMeatx4.jobString>Cocinando carne seca.</CookJerkyMeatx4.jobString>
 
-	<CookMealLavish_Bulk.label>cocinar Comida Prodigiosa (x4)</CookMealLavish_Bulk.label>
-	<CookMealLavish_Bulk.description>Cocina comidas muy complejas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Produce 4.</CookMealLavish_Bulk.description>
-	<CookMealLavish_Bulk.jobString>Cocinando Comida Prodigiosa.</CookMealLavish_Bulk.jobString>
+  <CookMealSimple_Bulk.label>Comida simple x4</CookMealSimple_Bulk.label>
+  <CookMealSimple_Bulk.description>Cocinar una simple comida de un ingrediente. Produce 4.</CookMealSimple_Bulk.description>
+  <CookMealSimple_Bulk.jobString>Cocinando comida simple.</CookMealSimple_Bulk.jobString>
 
-	<CookMealLuxury.label>cocinar Comida Lujosa.</CookMealLuxury.label>
-	<CookMealLuxury.description>Cocina una lujosa comida a partir de una combinación de carne cruda e ingredientes vegetales crudos. Algunos ingredientes son desperdiciados como sólo lo mejor. Produce 1.</CookMealLuxury.description>
-	<CookMealLuxury.jobString>Cocinando Comida Lujosa.</CookMealLuxury.jobString>
+  <CookMealFine_Bulk.label>Buena comida x4</CookMealFine_Bulk.label>
+  <CookMealFine_Bulk.description>Cocina unas comidas algo complejas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Produce 4.</CookMealFine_Bulk.description>
+  <CookMealFine_Bulk.jobString>Cocinando buenas comidas.</CookMealFine_Bulk.jobString>
 
-	<CookMealLuxury_Bulk.label>cocinar Comidas Lujosas (x4)</CookMealLuxury_Bulk.label>
-	<CookMealLuxury_Bulk.description>Cocinar unas lujosas comidas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Algunos ingredientes son desperdiciados como sólo lo mejor. Produce 4.</CookMealLuxury_Bulk.description>
-	<CookMealLuxury_Bulk.jobString>Cocinando cuatro comidas Lujosas.</CookMealLuxury_Bulk.jobString>
+  <CookMealLavish_Bulk.label>Comida prodigiosa x4</CookMealLavish_Bulk.label>
+  <CookMealLavish_Bulk.description>Cocina comidas muy complejas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Produce 4.</CookMealLavish_Bulk.description>
+  <CookMealLavish_Bulk.jobString>Cocinando comida prodigiosa.</CookMealLavish_Bulk.jobString>
 
-	<MakeDriedfruit.label>fruta fresca seca</MakeDriedfruit.label>
-	<MakeDriedfruit.description>Deshidratar la fruta para incrementar su vida útil. Produce 1.</MakeDriedfruit.description>
-	<MakeDriedfruit.jobString>Deshidratando fruta.</MakeDriedfruit.jobString>
+  <CookMealLuxury.label>Comida lujosa x1</CookMealLuxury.label>
+  <CookMealLuxury.description>Cocina una lujosa comida a partir de una combinación de carne cruda e ingredientes vegetales crudos. Algunos ingredientes son desperdiciados como sólo lo mejor. Produce 1.</CookMealLuxury.description>
+  <CookMealLuxury.jobString>Cocinando comida lujosa.</CookMealLuxury.jobString>
 
-	<MakeTofu.label>hacer Tofu</MakeTofu.label>
-	<MakeTofu.description>Convierte los frijoles en tofu. El tofu se utiliza en lugar de carne en comidas o se puede comer crudo. Produce 5.</MakeTofu.description>
-	<MakeTofu.jobString>Prensando Tofu.</MakeTofu.jobString>
+  <CookMealLuxury_Bulk.label>Comidas lujosas x4</CookMealLuxury_Bulk.label>
+  <CookMealLuxury_Bulk.description>Cocinar unas lujosas comidas a partir de una combinación de carne cruda e ingredientes vegetales crudos. Algunos ingredientes son desperdiciados como sólo lo mejor. Produce 4.</CookMealLuxury_Bulk.description>
+  <CookMealLuxury_Bulk.jobString>Cocinando cuatro comidas Lujosas.</CookMealLuxury_Bulk.jobString>
 
-	<MakeVegetables.label>cocinar asado frito</MakeVegetables.label>
-	<MakeVegetables.description>Prepara un simple surtido seco de verduras. Produce 1.</MakeVegetables.description>
-	<MakeVegetables.jobString>cocinando asado frito.</MakeVegetables.jobString>
+  <MakeDriedfruit.label>Fruta seca x1</MakeDriedfruit.label>
+  <MakeDriedfruit.description>Deshidratar la fruta para incrementar su vida útil. Produce 1.</MakeDriedfruit.description>
+  <MakeDriedfruit.jobString>Deshidratando fruta.</MakeDriedfruit.jobString>
 
-	<BakePotato.label>Hacer papa horneada</BakePotato.label>
-	<BakePotato.description>Preparar patatas horneadas a partir de patatas crudas. Produce 1.</BakePotato.description>
-	<BakePotato.jobString>Haciendo papa horneada.</BakePotato.jobString>
+  <MakeTofu.label>Tofu x5</MakeTofu.label>
+  <MakeTofu.description>Convierte los frijoles en tofu. El tofu se utiliza en lugar de carne en comidas o se puede comer crudo. Produce 5.</MakeTofu.description>
+  <MakeTofu.jobString>Prensando tofu.</MakeTofu.jobString>
 
-	<HalfCoconut.label>Cocos partidos</HalfCoconut.label>
-	<HalfCoconut.description>Se dividen los cocos en dos y extrae la leche de la fruta. Hacer 5 leches.</HalfCoconut.description>
-	<HalfCoconut.jobString>Dividiendo coco.</HalfCoconut.jobString>
+  <MakeVegetables.label>Asado frito x1</MakeVegetables.label>
+  <MakeVegetables.description>Prepara un simple surtido seco de verduras. Produce 1.</MakeVegetables.description>
+  <MakeVegetables.jobString>cocinando asado frito.</MakeVegetables.jobString>
 
+  <BakePotato.label>Papa horneada x1</BakePotato.label>
+  <BakePotato.description>Preparar patatas horneadas a partir de patatas crudas. Produce 1.</BakePotato.description>
+  <BakePotato.jobString>Haciendo papa horneada.</BakePotato.jobString>
+
+  <HalfCoconut.label>Leche de coco x5</HalfCoconut.label>
+  <HalfCoconut.description>Se dividen los cocos en dos y extrae la leche de la fruta. Hacer 5 leches.</HalfCoconut.description>
+  <HalfCoconut.jobString>Dividiendo coco.</HalfCoconut.jobString>
+ 
 </LanguageData>

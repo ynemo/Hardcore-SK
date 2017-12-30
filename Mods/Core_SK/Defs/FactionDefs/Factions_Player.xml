@@ -15,7 +15,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Colonist</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
@@ -34,7 +34,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>ColonistNova</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
@@ -53,7 +53,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>ColonistExiled</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
@@ -72,7 +72,7 @@
     <isPlayer>true</isPlayer>
     <pawnsPlural>tribespeople</pawnsPlural>
     <basicMemberKind>Tribesperson</basicMemberKind>
-    <factionBaseNameMaker>NamerFactionBasePlayerTribe</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
     <techLevel>Neolithic</techLevel>
     <backstoryCategory>Tribal</backstoryCategory>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
@@ -98,7 +98,7 @@
     <isPlayer>true</isPlayer>
     <pawnsPlural>norbals</pawnsPlural>
     <basicMemberKind>Norbalperson</basicMemberKind>
-    <factionBaseNameMaker>NamerFactionBaseNorbal</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBaseNorbal</baseNameMaker>
 	<techLevel>Medieval</techLevel>
     <backstoryCategory>Tribal</backstoryCategory>
     <pawnNameMaker>NamerPersonNorbal</pawnNameMaker>
@@ -117,9 +117,9 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
         <li>CopperBar</li>
@@ -138,7 +138,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Survivor</basicMemberKind>
     <pawnsPlural>survivors</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
@@ -158,7 +158,8 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Orassan</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+	<pawnNameMaker>NamerPersonOrassan</pawnNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Spacer</techLevel>
     <backstoryCategory>Orassan</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
@@ -181,17 +182,20 @@
         <li>Plasteel</li>
     </thingDefs>
     </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
   </FactionDef>
  
  
-  <FactionDef Parent="PlayerFactionBase">
+  <FactionDef ParentName="PlayerFactionBase">
     <defName>AsariPlayerColony</defName>
     <label>Asari Republic</label>
     <description>Your own Asari community.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>AsariPawn</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
 	<pawnNameMaker>NamerPersonAsari</pawnNameMaker>
 	<techLevel>Spacer</techLevel>
     <backstoryCategory>Asaris</backstoryCategory>
@@ -229,7 +233,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>NuclearSurvivor</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionBaseNameMaker>NamerFactionBasePlayerColony</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
     <techLevel>Industrial</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>

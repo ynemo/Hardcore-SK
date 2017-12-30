@@ -31,12 +31,24 @@
         <multiplier>7.5</multiplier>
       </li>
       <li>
+        <damageDef>Thermobaric</damageDef>
+        <multiplier>2.5</multiplier>
+      </li>
+      <li>
         <damageDef>Bullet</damageDef>
         <multiplier>1.0</multiplier>
       </li>
       <li>
         <damageDef>Fragment</damageDef>
         <multiplier>1.0</multiplier>
+      </li>
+      <li>
+        <damageDef>Arrow</damageDef>
+        <multiplier>0.0</multiplier>
+      </li>
+      <li>
+        <damageDef>Electrical</damageDef>
+        <multiplier>0.0</multiplier>
       </li>
       <li>
         <damageDef>ArmorPiercing</damageDef>
@@ -63,6 +75,14 @@
         <multiplier>4.0</multiplier>
       </li>
     </damageMultipliers>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkBase" Name="ChunkRockBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Chunk/ChunkStone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase" Name="StoneBlocksBase" Abstract="True">
@@ -111,6 +131,9 @@
       <Flammability>0</Flammability>
       <Beauty>-2</Beauty>
     </statBases>
+		<building>
+			<mineableYieldWasteable>false</mineableYieldWasteable>
+		</building>
   </ThingDef>
 
   <!-- =========== Misc chunks =========== -->
@@ -119,7 +142,7 @@
   <ThingDef ParentName="ChunkBase">
     <defName>ChunkSlagSteel</defName>
     <label>Steel Slag Chunk</label>
-	<description>A rough glob of steel that has been melted from extreme temperatures. It can be smelted into alloy at an electric smelter.</description>
+	<description>A rough glob of metal that has been melted from extreme temperatures. It can be smelted into alloy at an electric smelter.</description>
     <graphicData>
     <texPath>Things/Item/Chunk/Slag</texPath>
     <graphicClass>Graphic_Random</graphicClass>
@@ -133,7 +156,12 @@
       <li>Chunks</li>
     </thingCategories>
     <smeltProducts>
-		<SteelBar>10</SteelBar>
+		<SteelBar>5</SteelBar>
+		<AluminiumBar>3</AluminiumBar>
+		<CopperBar>3</CopperBar>
+		<GoldBar>2</GoldBar>
+		<CarbonAlloy>1</CarbonAlloy>
+		<NickelBar>1</NickelBar>
     </smeltProducts>
   </ThingDef>
 
@@ -158,7 +186,7 @@
   </ThingDef>
   
   
-  <ThingDef ParentName="ChunkBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>ChunkSandstone</defName>
     <label>Sandstone Chunk</label>
 	<description>Sandstone is a sedimentary rock that is composed of sand particles that have been compressed together. This is a large chunk of rock that can be cut into blocks.</description>
@@ -209,7 +237,7 @@
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>MakeStoneBlocksSandstone</defName>
 		<label>Make Sandstone Blocks</label>
-		<description>Cuts sandstone chunks into usable blocks. Produces 20 sand and 5 rubble as a by-product.</description>
+		<description>Cuts sandstone chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -227,8 +255,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<BlocksSandstone>20</BlocksSandstone>
-			<CrushedStone>5</CrushedStone>
-			<Sand>20</Sand>
 		</products>
 	</RecipeDef>
 
@@ -249,7 +275,7 @@
   </ThingDef>
 
   
-  <ThingDef ParentName="ChunkBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>ChunkGranite</defName>
     <label>Granite Chunk</label>
 	<description>Granite is a very hard igneous rock. This is a large chunk of rock that can be cut into blocks.</description>
@@ -297,7 +323,7 @@
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>MakeStoneBlocksGranite</defName>
 		<label>Make Granite Blocks</label>
-		<description>Cuts granite chunks into usable blocks. Produces 20 sand and 5 rubble as a by-product.</description>
+		<description>Cuts granite chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -315,8 +341,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<BlocksGranite>20</BlocksGranite>
-			<CrushedStone>5</CrushedStone>
-			<Sand>20</Sand>
 		</products>
 	</RecipeDef>
 
@@ -337,7 +361,7 @@
   </ThingDef>
 
   
-  <ThingDef ParentName="ChunkBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>ChunkLimestone</defName>
     <label>Limestone Chunk</label>
 	<description>Limestone is a sedimentary rock formed from the compacted remains of ancient seashells. This is a large chunk of rock that can be cut into blocks.</description>
@@ -385,7 +409,7 @@
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>MakeStoneBlocksLimestone</defName>
 		<label>Make Limestone Blocks</label>
-		<description>Cuts limestone chunks into usable blocks. Produces 20 sand and 5 rubble as a by-product.</description>
+		<description>Cuts limestone chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -403,8 +427,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<BlocksLimestone>20</BlocksLimestone>
-			<CrushedStone>5</CrushedStone>
-			<Sand>20</Sand>
 		</products>
 	</RecipeDef>
 
@@ -425,7 +447,7 @@
   </ThingDef>
 
   
-  <ThingDef ParentName="ChunkBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>ChunkSlate</defName>
     <label>Slate Chunk</label>
 	<description>Slate is a dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage. This is a large chunk of rock that can be cut into blocks.</description>
@@ -473,7 +495,7 @@
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>MakeStoneBlocksSlate</defName>
 		<label>Make Slate Blocks</label>
-		<description>Cuts slate chunks into usable blocks. Produces 20 sand and 5 rubble as a by-product.</description>
+		<description>Cuts slate chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -491,8 +513,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<BlocksSlate>20</BlocksSlate>
-			<CrushedStone>5</CrushedStone>
-			<Sand>20</Sand>
 		</products>
 	</RecipeDef>
 
@@ -514,7 +534,7 @@
   </ThingDef>
 
   
-  <ThingDef ParentName="ChunkBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>ChunkMarble</defName>
     <label>Marble Chunk</label>
 	<description>Marble is a soft metamorphic rock composed of recrystallized carbonate minerals. It is commonly used in sculptures. This is a large chunk of rock that can be cut into blocks.</description>
@@ -564,7 +584,7 @@
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>MakeStoneBlocksMarble</defName>
 		<label>Make Marble Blocks</label>
-		<description>Cuts marble chunks into usable blocks. Produces 20 sand and 5 rubble as a by-product.</description>
+		<description>Cuts marble chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -582,8 +602,6 @@
 		</fixedIngredientFilter>
 		<products>
 			<BlocksMarble>20</BlocksMarble>
-			<CrushedStone>5</CrushedStone>
-			<Sand>20</Sand>
 		</products>
 	</RecipeDef>
 

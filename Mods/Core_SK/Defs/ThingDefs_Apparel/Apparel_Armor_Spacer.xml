@@ -24,8 +24,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
-			<PersonalShieldRechargeRate>0.2</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.7</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.7</EnergyShieldEnergyMax>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>3</Flammability>
 			<Insulation_Heat>6</Insulation_Heat>
@@ -36,7 +36,6 @@
 			<ArmorRating_Electric>0.65</ArmorRating_Electric>
 			<Mass>15</Mass>
 			<Bulk>30</Bulk>
-			<WornWeight>15</WornWeight>
 			<WornBulk>15</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -48,7 +47,9 @@
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<MeleeHitChance>-0.05</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
+			<Suppressability>-0.16</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1.6</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -59,7 +60,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>1.6</commonality>
 		<tags>
 			<li>SyndicateLight</li>
 			<li>OrionLight</li>
@@ -106,8 +106,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>28000</WorkToMake>
-			<PersonalShieldRechargeRate>0.1</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>1.2</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1.2</EnergyShieldEnergyMax>
 			<MaxHitPoints>95</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -118,7 +118,6 @@
 			<ArmorRating_Electric>0.65</ArmorRating_Electric>
 			<Mass>2.5</Mass>
 			<Bulk>25</Bulk>
-			<WornWeight>2.5</WornWeight>
 			<WornBulk>15</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -133,7 +132,9 @@
 			<MeleeHitChance>-0.03</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.05</MeleeWeapon_Cooldown>
 			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<Suppressability>-0.2</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1.15</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -145,7 +146,6 @@
 			<li>Shell</li>
 			<li>Middle</li>
 		  </layers>
-			<commonality>1.15</commonality>
 		<tags>
 			<li>SyndicateLight</li>
 			<li>OrionScout</li>
@@ -224,8 +224,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>29000</WorkToMake>
-			<PersonalShieldRechargeRate>0.1</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>1.3</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1.3</EnergyShieldEnergyMax>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>6</Insulation_Heat>
@@ -236,7 +236,6 @@
 			<ArmorRating_Electric>0.7</ArmorRating_Electric>
 			<Mass>3.5</Mass>
 			<Bulk>50</Bulk>
-			<WornWeight>3.5</WornWeight>
 			<WornBulk>20</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -251,7 +250,9 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.12</MeleeWeapon_Cooldown>
 			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<Suppressability>-0.22</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1.1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -263,7 +264,6 @@
 			<li>Shell</li>
 			<li>Middle</li>
 		  </layers>
-			<commonality>1.1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>OrionMedium</li>
@@ -312,8 +312,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>27000</WorkToMake>
-			<PersonalShieldRechargeRate>0.2</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.7</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.7</EnergyShieldEnergyMax>
 			<MaxHitPoints>95</MaxHitPoints>
 			<Flammability>2</Flammability>
 			<Insulation_Heat>4</Insulation_Heat>
@@ -324,7 +324,6 @@
 			<ArmorRating_Electric>0.4</ArmorRating_Electric>
 			<Mass>2.5</Mass>
 			<Bulk>20</Bulk>
-			<WornWeight>2.5</WornWeight>
 			<WornBulk>15</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -337,7 +336,9 @@
 			<AimingDelayFactor>0.04</AimingDelayFactor>
 			<MeleeHitChance>0.15</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
+			<Suppressability>-0.17</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1.4</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -349,7 +350,6 @@
 			<li>Middle</li>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1.4</commonality>
 		<tags>
 			<li>SyndicateMelee</li>
 			<li>OrionMelee</li>
@@ -368,7 +368,7 @@
 					<weight>5</weight>
 					<max>RGBA(1,1,1,1)</max>
 					<min>RGBA(0.30,0.30,0.30,1)</min>
-				</li>				
+				</li>
 			</options>
 		</colorGenerator>
 		<thingCategories>

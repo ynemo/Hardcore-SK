@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
     <defName>Tribe</defName>
     <label>tribe</label>
     <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nSome tribes are more aggressive than others; many are open to trade and alliances, even with strange peoples like yourselves. Close cooperation or recruitment will be very difficult because of the vast sociotechnological and linguistic gap between the tribals and yourselves.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.</description>
     <pawnsPlural>tribespeople</pawnsPlural>
-    <factionBaseSelectionWeight>2</factionBaseSelectionWeight>
+    <baseSelectionWeight>2</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>90</raidCommonality>
+    <raidCommonality>64</raidCommonality>
 	<autoFlee>true</autoFlee>
     <canStageAttacks>true</canStageAttacks>
+    <canSiege>false</canSiege>
     <expandingIconTexture>UI/Icons/Factions/Tribals</expandingIconTexture>
     <colorSpectrum>
       <li>(0.4, 0.92, 0.35)</li>
@@ -24,7 +25,7 @@
     </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <factionBaseNameMaker>NamerFactionBaseTribal</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
 	<techLevel>Industrial</techLevel>
     <backstoryCategory>Tribal</backstoryCategory>
@@ -38,15 +39,16 @@
     </naturalColonyGoodwill>
     <caravanTraderKinds>
       <li>Caravan_Neolithic_BulkGoods</li>
-      <li>Caravan_Neolithic_CombatSupplier</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
       <li>Caravan_Neolithic_Slaver</li>
+	  <li>Caravan_Neolithic_ShamanMerchant</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Neolithic_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Neolithic_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-35</min>
       <max>45</max>
@@ -58,27 +60,22 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
         <li>CopperBar</li>
 		<li>Bronze</li>
-        <li>SilverBar</li>
     </thingDefs>
     </apparelStuffFilter>
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
-		<disallowedStrategies>
-          <li>StageThenAttack</li>
-          <li>Siege</li>
-        </disallowedStrategies>
         <options>
-          <TribalWarrior>60</TribalWarrior>
-          <TribalArcher>100</TribalArcher>
-          <TribalChief>70</TribalChief>
+          <TribalWarrior>90</TribalWarrior>
+          <TribalArcher>35</TribalArcher>
+          <TribalChief>110</TribalChief>
         </options>
       </li>
       <li>
@@ -102,20 +99,20 @@
 		  <Mammoth>1</Mammoth>
         </carriers>
         <guards>
-          <TribalWarrior>60</TribalWarrior>
-          <TribalArcher>100</TribalArcher>
+          <TribalWarrior>40</TribalWarrior>
+          <TribalArcher>80</TribalArcher>
         </guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <TribalWarrior>60</TribalWarrior>
-          <TribalArcher>100</TribalArcher>
-          <TribalChief>70</TribalChief>
+          <TribalWarrior>90</TribalWarrior>
+          <TribalArcher>35</TribalArcher>
+          <TribalChief>110</TribalChief>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

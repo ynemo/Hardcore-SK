@@ -25,7 +25,6 @@
 			<ArmorRating_Electric>0.05</ArmorRating_Electric>
 			<Mass>1.5</Mass>
 			<Bulk>10</Bulk>
-			<WornWeight>1.5</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -37,6 +36,7 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+				  <generateCommonality>7</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -47,7 +47,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-		  <commonality>7</commonality>
 		  <tags>
 			<li>NorbalKingly</li>
 			<li>NorbalSage</li>
@@ -91,7 +90,6 @@
 			<ArmorRating_Electric>0.07</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>10</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -103,6 +101,7 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -113,7 +112,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -191,7 +189,6 @@
 			<ArmorRating_Electric>0.08</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>10</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -203,6 +200,7 @@
 			<MeleeHitChance>-0.05</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.04</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -213,7 +211,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -271,7 +268,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>1.6</Mass>
 			<Bulk>13</Bulk>
-			<WornWeight>1.6</WornWeight>
 			<WornBulk>11</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -283,6 +279,7 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>2</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -293,7 +290,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>2</commonality>
 			<tags>
 				<li>Outlander</li>
 				<li>BanditsLight</li>
@@ -349,7 +345,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>1.6</Mass>
 			<Bulk>13</Bulk>
-			<WornWeight>1.6</WornWeight>
 			<WornBulk>11</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -361,6 +356,7 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -371,7 +367,6 @@
 		  <layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>3</commonality>
 			<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -426,7 +421,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>11</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -438,6 +432,7 @@
 			<MeleeHitChance>-0.03</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -448,7 +443,6 @@
 		  <layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -525,7 +519,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>10</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -537,6 +530,7 @@
 			<MeleeHitChance>-0.03</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>4</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -547,7 +541,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>4</commonality>
 		<tags>
 			<li>NorbalKingly</li>
 			<li>NorbalSage</li>
@@ -626,7 +619,6 @@
 			<ArmorRating_Electric>0.06</ArmorRating_Electric>
 			<Mass>0.6</Mass>
 			<Bulk>11</Bulk>
-			<WornWeight>0.6</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -635,6 +627,7 @@
 			<WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
 			<AimingDelayFactor>-0.07</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 		 <worngraphicPath>Things/Apparel/Apparello/Apparel/Poncho/Ponpon</worngraphicPath>
 			<bodyPartGroups>
@@ -644,7 +637,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>

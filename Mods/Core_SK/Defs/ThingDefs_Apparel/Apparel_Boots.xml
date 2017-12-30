@@ -28,7 +28,6 @@
 			<ArmorRating_Electric>0.05</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -37,6 +36,7 @@
 			<SocialImpact>0.03</SocialImpact>
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -44,7 +44,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Tribal</li>
 			<li>PredatorsLight</li>
@@ -85,7 +84,6 @@
 			<ArmorRating_Electric>0.05</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -94,6 +92,7 @@
 			<SocialImpact>0.04</SocialImpact>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -101,7 +100,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -146,13 +144,13 @@
 			<ArmorRating_Electric>-0.2</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.07</MoveSpeed>
 			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -160,7 +158,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>EmpireMedium</li>
@@ -218,7 +215,6 @@
 			<ArmorRating_Electric>-0.3</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -227,6 +223,7 @@
 			<SocialImpact>0.05</SocialImpact>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -234,7 +231,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>Norbal</li>
@@ -278,7 +274,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.9</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.9</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -287,6 +282,7 @@
 			<SocialImpact>0.05</SocialImpact>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -294,7 +290,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>Tribal</li>
@@ -346,7 +341,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.5</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.5</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -355,6 +349,7 @@
 			<SocialImpact>0.05</SocialImpact>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -362,7 +357,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>NorbalKingly</li>
@@ -412,7 +406,6 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -421,8 +414,8 @@
 			<SocialImpact>0.07</SocialImpact>
 			<MentalBreakThreshold>-0.07</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
-			<commonality>1</commonality>
 		  <bodyPartGroups>
 			<li>Feet</li>
 		  </bodyPartGroups>
@@ -474,13 +467,13 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>2</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
 			<WorkSpeedGlobal>0.12</WorkSpeedGlobal>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -488,7 +481,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>BrotherhoodScout</li>
@@ -536,7 +528,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>2</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -545,6 +536,7 @@
 			<SocialImpact>0.07</SocialImpact>
 			<MentalBreakThreshold>-0.07</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -552,7 +544,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>SyndicateLight</li>
@@ -605,7 +596,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>2</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -614,6 +604,7 @@
 			<SocialImpact>0.07</SocialImpact>
 			<MentalBreakThreshold>-0.07</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Feet</li>
@@ -621,7 +612,6 @@
 		  <layers>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>SyndicateLight</li>

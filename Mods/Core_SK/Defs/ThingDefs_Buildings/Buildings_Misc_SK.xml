@@ -6,6 +6,7 @@
 			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
 			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
 		</building>
+		<canOverlapZones>false</canOverlapZones>
 		<comps>
 			<li>
 				<compClass>CompReportWorkSpeed</compClass>
@@ -34,7 +35,8 @@
       </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -75,7 +77,8 @@
       </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -147,7 +150,7 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
+    <pathCost>80</pathCost>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>5000</WorkToBuild>
@@ -206,7 +209,8 @@
       </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>40</pathCost>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <fillPercent>0.15</fillPercent>
 		<statBases>
@@ -252,28 +256,29 @@
   </ThingDef>
   
   
-<ThingDef ParentName="BuildingBase">
-    <defName>CaravanSpot</defName>
-	<label>caravan spot</label>
-	<thingClass>SK.CaravanSpot</thingClass>
-	<Description>Designates a spot where caravans will be formed.</Description>
+  <ThingDef ParentName="BuildingBase">
+    <defName>CaravanPackingSpot</defName>
+    <label>caravan packing spot</label>
+    <Description>Designates a spot where caravans will be formed.</Description>
     <graphicData>
-      <texPath>Things/Building/Misc/PartySpot</texPath>
+      <texPath>Things/Building/Misc/CaravanPackingSpot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <AltitudeLayer>FloorEmplacement</AltitudeLayer>
     <statBases>
       <WorkToBuild>0</WorkToBuild>
     </statBases>
+    <useHitPoints>false</useHitPoints>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
-		<useHitPoints>False</useHitPoints>
     <DesignationCategory>Misc</DesignationCategory>
     <Passability>Standable</Passability>
     <building>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
     </building>
-	<tickerType>Normal</tickerType>
+    <designationHotkey>Misc12</designationHotkey>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -318,6 +323,11 @@
         <placeWorkers>
             <li>SK.PlaceWorker_RestrictedCount</li>
         </placeWorkers>
+    <building>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+	  <ai_chillDestination>false</ai_chillDestination>
+    </building>
   </ThingDef>
 
 
@@ -386,8 +396,10 @@
     <staticSunShadowHeight>0.50</staticSunShadowHeight>
     <tickerType>Normal</tickerType>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <fillPercent>1</fillPercent>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+	<canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.6</fillPercent>
 		<statBases>
 			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>4250</WorkToBuild>
@@ -452,7 +464,7 @@
 		<building>
 			<isMealSource>true</isMealSource>
 			<wantsHopperAdjacent>true</wantsHopperAdjacent>
-			<foodCostPerDispense>6</foodCostPerDispense>
+			<nutritionCostPerDispense>0.3</nutritionCostPerDispense>
 			<soundDispense>DispensePaste</soundDispense>
 		</building>
 		<comps>
@@ -475,6 +487,7 @@
 			<Component>5</Component>
 			<Electronics>8</Electronics>
 		</costList>
+		<canOverlapZones>false</canOverlapZones>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
@@ -504,11 +517,13 @@
     <size>(2,2)</size>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>1</fillPercent>
+    <fillPercent>0.4</fillPercent>
     <designationHotKey>Misc4</designationHotKey>
     <designationCategory>Misc</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -554,11 +569,13 @@
     <label>laboratory counter</label>
     <description>A convenient countertop surface.</description>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.4</fillPercent>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <designationCategory>Misc</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>	
     <uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
 	<graphicData>
@@ -617,6 +634,7 @@
     </costList>
     <AltitudeLayer>Building</AltitudeLayer>
     <useHitPoints>True</useHitPoints>
+	<canOverlapZones>false</canOverlapZones>
     <statBases>
       <WorkToMake>12000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
@@ -688,10 +706,11 @@
     </costList>
     <AltitudeLayer>Building</AltitudeLayer>
     <useHitPoints>True</useHitPoints>
+	<canOverlapZones>false</canOverlapZones>
     <statBases>
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
-      <Flammability>1.0</Flammability>
+      <Flammability>0.4</Flammability>
 	  <ResearchSpeedFactor>0.65</ResearchSpeedFactor>
 			<Bulk>55</Bulk>
 			<Mass>30</Mass> 
@@ -740,8 +759,10 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <fillPercent>1.0</fillPercent>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+	<canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.4</fillPercent>
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
       <WorkToBuild>6000</WorkToBuild>
@@ -810,8 +831,10 @@
     </graphicData>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <fillPercent>1.0</fillPercent>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+	<canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.4</fillPercent>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <WorkToBuild>6000</WorkToBuild>
@@ -877,9 +900,11 @@
     </graphicData>
     <size>(1,1)</size>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+	<canOverlapZones>false</canOverlapZones>
     <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>1</fillPercent>
+    <fillPercent>0.35</fillPercent>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <designationCategory>Misc</designationCategory>
     <statBases>
@@ -929,9 +954,11 @@
     </graphicData>
     <size>(1,1)</size>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+	<canOverlapZones>false</canOverlapZones>
     <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.5</fillPercent>
+    <fillPercent>0.4</fillPercent>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <designationCategory>Misc</designationCategory>
     <statBases>
@@ -979,8 +1006,10 @@
       </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <fillPercent>1.0</fillPercent>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
+    <fillPercent>0.3</fillPercent>
+	<canOverlapZones>false</canOverlapZones>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <statBases>
@@ -1030,10 +1059,12 @@
       <color>(96,114,95)</color>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
+	<canOverlapZones>false</canOverlapZones>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <fillPercent>1.0</fillPercent>
+    <fillPercent>0.4</fillPercent>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToBuild>2800</WorkToBuild>
@@ -1081,10 +1112,11 @@
     </graphicData>
 	<rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <fillPercent>1.0</fillPercent>
+    <fillPercent>0.35</fillPercent>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToBuild>1800</WorkToBuild>
@@ -1105,6 +1137,7 @@
 			<Mechanism>3</Mechanism>
     </costList>
     <designationCategory>Misc</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <comps>
       <li Class="CompProperties_Facility">
@@ -1267,10 +1300,9 @@
 		<size>(1,1)</size>
 		<costList>
 			<Component>8</Component>
-			<Rubber>20</Rubber>
-			<Plastic>10</Plastic>
-			<ElectronicComponents>1</ElectronicComponents>
-			<Mechanism>3</Mechanism>
+			<Rubber>30</Rubber>
+			<Plastic>20</Plastic>
+			<Mechanism>4</Mechanism>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>SK_category_terraform</designationCategory>
@@ -1307,7 +1339,8 @@
     <statBases>
       <WorkToBuild>1350</WorkToBuild>
     </statBases>
-    <passability>PassThroughOnly</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>30</pathCost>
     <building>
       <isInert>true</isInert>
       <preventDeterioration>false</preventDeterioration>
@@ -1334,11 +1367,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
-	<comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>
     <designationHotKey>Misc7</designationHotKey>
@@ -1363,7 +1392,6 @@
     </graphicData>
     <description>An ornamental burial receptacle for the honored dead.</description>
     <size>(1,2)</size>
-    <pathCost>70</pathCost>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.5</fillPercent>
     <building>
@@ -1419,7 +1447,8 @@
       </li>
     </comps>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>50</pathCost>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <staticSunShadowHeight>0.3</staticSunShadowHeight>
     <designationCategory>Misc</designationCategory>
@@ -1456,6 +1485,7 @@
     <description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</description>
     <size>(1,2)</size>
     <designationCategory>Misc</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
     <hasInteractionCell>true</hasInteractionCell>
     <interactionCellOffset>(1,0,0)</interactionCellOffset>
 		<stuffCategories>
@@ -1472,7 +1502,6 @@
         <explosiveRadius>2.66</explosiveRadius>
         <explosiveDamageType>Flame</explosiveDamageType>
       </li>
-	  <li Class="CompProperties_Breakdownable"/>
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
@@ -1492,6 +1521,7 @@
     <pathCost>70</pathCost>
 	<blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
+	<canOverlapZones>false</canOverlapZones>
     <fillPercent>0.5</fillPercent>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
@@ -1544,7 +1574,8 @@
 			<Bulk>35</Bulk>
 			<Mass>15</Mass>
 		</statBases>
-		<passability>Impassable</passability>
+		<Passability>PassThroughOnly</Passability>
+		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<tickerType>Normal</tickerType>
@@ -1567,7 +1598,6 @@
 			</li>
 		</comps>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<pathCost>30</pathCost>
 		<designationCategory>Misc</designationCategory>
 		<rotatable>true</rotatable>
 		<researchPrerequisites><li>SK_TrainingFacilitiesII</li></researchPrerequisites>
@@ -1668,9 +1698,54 @@
     <pathCost>25</pathCost>
     <rotatable>false</rotatable>
     <size>(2,2)</size>
-    <researchPrerequisites>
-      <li>GroundPenetratingScanner</li>
-    </researchPrerequisites>
+  </ThingDef>
+  
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>LongRangeMineralScanner</defName>
+    <label>long-range mineral scanner</label>
+    <description>Automatically detects precious minerals like gold or jade in the nearby areas (but not in which it was built). The lumps are found on average once per 30 days within a radius of 30 tiles. Building more than one scanner in the same or nearby areas has little to no effect.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/LongRangeMineralScanner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+      <shadowData>
+        <volume>(1.4, 0.5, 1.4)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <costList>
+      <Steel>200</Steel>
+      <Component>8</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>200</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_LongRangeMineralScanner"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <fillPercent>0.40</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <rotatable>false</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2, 2)</size>
   </ThingDef>
   
   <!--========================== Transport pods ============================-->
@@ -1749,10 +1824,11 @@
     </graphicData>
     <size>(1,1)</size>
     <rotatable>false</rotatable>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>0.5</fillPercent>
+	<canOverlapZones>false</canOverlapZones>
     <designationCategory>Misc</designationCategory>
     <iconDrawScale>1</iconDrawScale>
     <statBases>
@@ -1801,6 +1877,7 @@
       <li>MobileMineralSonar.PlaceWorker_MobileMineralSonar</li>
     </PlaceWorkers>
     <minifiedDef>MinifiedFurniture</minifiedDef>
+	<canOverlapZones>false</canOverlapZones>
 	<stuffCategories>
 	<li>Metallic</li>
 	</stuffCategories>
@@ -1821,7 +1898,8 @@
     <useHitPoints>True</useHitPoints>
     <Size>(1,1)</Size>
 	<DesignationCategory>Production</DesignationCategory>
-    <Passability>Impassable</Passability>
+	<Passability>PassThroughOnly</Passability>
+	<pathCost>80</pathCost>
     <comps>
 			  <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Power">
@@ -1892,6 +1970,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <castEdgeShadows>true</castEdgeShadows>
+	<canOverlapZones>false</canOverlapZones>
     <fillPercent>0.5</fillPercent>
     <statBases>
       <WorkToBuild>14200</WorkToBuild>
@@ -1951,7 +2030,9 @@
 		</graphicData>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<Passability>PassThroughOnly</Passability>
+		<pathCost>70</pathCost>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
@@ -1999,6 +2080,77 @@
 		<DesignationCategory>Misc</DesignationCategory>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<researchPrerequisites><li>SK_AppliedPhysicsIII</li></researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>LightningRod</defName>
+		<label>lightning rod</label>
+		<description>A lightning rod with an ion beam emitter for map-wide protection from lightning strikes.\n\nRequires power, but discharges power for a short while after it gets hit. Can get overwhelmed.\n\nThese rods were called by many Zeon Resistance agents as "Rapiers", due to the structure looking like a sword protruding into the sky, and is also a symbol Zeon's eventual downfall at the mercy of this lightning rod.</description>
+		<thingClass>Building</thingClass>
+		<uiIconPath>Things/Building/LightningRod/lightning-rod_MenuIcon</uiIconPath>
+		<graphicData>
+		  <texPath>Things/Building/LightningRod/lightning-rod</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>(8,8)</drawSize>
+		  <shadowData>
+			<volume>(0.7,1,0.7)</volume>
+		  </shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<statBases>
+		  <MaxHitPoints>500</MaxHitPoints>
+		  <WorkToBuild>12000</WorkToBuild>
+		  <Flammability>1.0</Flammability>
+		  <Beauty>-40</Beauty>
+		  <Bulk>500</Bulk>
+		  <Mass>700</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>240</costStuffCount>
+		<CostList>
+			<Wire>70</Wire>
+			<Component>12</Component>
+			<Electronics>6</Electronics>
+		</CostList>
+		<tickerType>Normal</tickerType>
+		<comps>
+		  <li Class="SK.CompProperties_LightningRod">
+			<compClass>SK.CompLightningRod</compClass>
+			<cooldownSpeed>0.25</cooldownSpeed>
+			<chargeCapacity>2000</chargeCapacity>
+			<fakeZIndex>4</fakeZIndex>
+			<startElectricalFires>false</startElectricalFires>
+			<basePowerConsumption>750</basePowerConsumption>
+			<transmitsPower>true</transmitsPower>
+			<oneInXChanceHitPowerSave>4</oneInXChanceHitPowerSave>
+			<powerGainDischarge>4500</powerGainDischarge>
+			<strikesHitBase>false</strikesHitBase>
+			<cooldownPercentPowerSave>50</cooldownPercentPowerSave>
+		  </li>
+		  <li Class="CompProperties_Flickable"/>
+		  <li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<size>(1,1)</size>
+		<building>
+		  <ai_chillDestination>false</ai_chillDestination>
+		  <ignoreNeedsPower>false</ignoreNeedsPower>
+		</building>
+		<placeWorkers>
+		  <li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<designationCategory>Power</designationCategory>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<researchPrerequisites><li>SolarPanels</li></researchPrerequisites>
 	</ThingDef>
  
 <!--

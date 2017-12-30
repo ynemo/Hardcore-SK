@@ -51,7 +51,10 @@
       <li>Woody</li>
       <li>Stony</li>	  
     </stuffCategories>
-	 <costStuffCount>75</costStuffCount>
+	 <costStuffCount>60</costStuffCount>
+	 <costList>
+		<Component>4</Component>
+     </costList>
     <statBases>
       <WorkToBuild>500</WorkToBuild>
       <MaxHitPoints>150</MaxHitPoints>
@@ -175,7 +178,9 @@
         <rectE>(0,0,0.84375,0.625)</rectE>
         <rectW>(0.15625,0,0.84375,0.625)</rectW>
       </damageData>
+	  
     </graphicData>
+	
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.43</fillPercent>
@@ -193,7 +198,10 @@
 	 <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-	 <costStuffCount>100</costStuffCount>
+	 <costStuffCount>80</costStuffCount>
+	 <costList>
+		<Component>4</Component>
+     </costList>
 	<designationCategory>LeadershipModTab</designationCategory>
     <minifiedDef>MinifiedFurniture</minifiedDef>
 		<building>
@@ -247,6 +255,9 @@
       <li>Stony</li>	  
     </stuffCategories>
 	 <costStuffCount>30</costStuffCount>
+	 <costList>
+		<Component>2</Component>
+     </costList>
     <statBases>
       <WorkToBuild>200</WorkToBuild>
       <MaxHitPoints>150</MaxHitPoints>

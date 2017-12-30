@@ -31,7 +31,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -47,6 +46,7 @@
 			<FoodPoisonChance>-0.5</FoodPoisonChance>
 			<BrewingSpeed>0.2</BrewingSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -55,7 +55,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		  <defaultOutfitTags>
 			<li>Chef</li>
 		  </defaultOutfitTags>
@@ -105,7 +104,6 @@
 			<ArmorRating_Electric>0.9</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -116,6 +114,7 @@
 			<ShootingAccuracy>-0.05</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -124,7 +123,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>PredatorsUnique</li>
 			<li>SectarianScout</li>
@@ -180,7 +178,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -189,10 +186,11 @@
 			<SocialImpact>0.1</SocialImpact>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<MedicalOperationSpeed>0.15</MedicalOperationSpeed>
-			<HealingSpeed>0.15</HealingSpeed>
-			<HealingQuality>0.15</HealingQuality>
-			<SurgerySuccessChance>0.15</SurgerySuccessChance>
+			<MedicalTendSpeed>0.15</MedicalTendSpeed>
+			<MedicalTendQuality>0.15</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -201,7 +199,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianLight</li>
@@ -254,7 +251,6 @@
 			<ArmorRating_Electric>0.95</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -265,6 +261,7 @@
 			<ShootingAccuracy>-0.05</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -273,7 +270,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SectarianLight</li>
 			<li>BrotherhoodLight</li>
@@ -327,7 +323,6 @@
 			<ArmorRating_Electric>0.95</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -338,6 +333,7 @@
 			<ShootingAccuracy>-0.07</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -346,7 +342,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianLight</li>
@@ -400,7 +395,6 @@
 			<ArmorRating_Electric>0.95</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -412,6 +406,7 @@
 			<ShootingAccuracy>-0.05</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -420,7 +415,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodMedium</li>
 			<li>BrotherhoodLight</li>
@@ -473,7 +467,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -485,6 +478,7 @@
 			<MeleeHitChance>0.1</MeleeHitChance>
 			<MeleeWeapon_Cooldown>-0.05</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -493,7 +487,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianScout</li>

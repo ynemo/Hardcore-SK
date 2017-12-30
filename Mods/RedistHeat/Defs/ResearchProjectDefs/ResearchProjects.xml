@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ResearchProjectDefs>
-
 	<ResearchProjectDef>
 	    <defName>RedistHeat_AirCirculation</defName>
 	    <label>Air circulation</label>
@@ -11,6 +10,4 @@
 			<li>Batteries</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
-
 </ResearchProjectDefs>

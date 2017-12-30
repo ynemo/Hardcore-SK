@@ -17,8 +17,8 @@
 				<SK_MachinegunsturretsI.label>Стационарные установки I</SK_MachinegunsturretsI.label> 
 				<SK_MachinegunsturretsI.description>Позволяет строить 14.5мм тяжелую турель.</SK_MachinegunsturretsI.description>
 	
-					<MultibarrelWeapons.label>Стационарные установки II</MultibarrelWeapons.label> 
-					<MultibarrelWeapons.description>Открывает доступ к конструированию миниганов.</MultibarrelWeapons.description>
+	<!-- CE Change	<MultibarrelWeapons.label>Стационарные установки II</MultibarrelWeapons.label> 
+					<MultibarrelWeapons.description>Открывает доступ к конструированию миниганов.</MultibarrelWeapons.description> -->
 	
 						<ChargedShot.label>Стационарные установки III</ChargedShot.label> 
 						<ChargedShot.description>Прорыв в исследовании секретов энергии заряженных импульсов и баллистики позволит Вам конструировать полуавтоматические 30мм пушки.</ChargedShot.description>
@@ -55,5 +55,7 @@
 	<SK_Futuristicturrets.label>Пушки будущего</SK_Futuristicturrets.label> 
 	<SK_Futuristicturrets.description>Позволяет исследовать снайперскую лазерную установку не требующую боеприпасов, но нуждающуюся в большом количестве энергии и бластерную автоматическую установку.</SK_Futuristicturrets.description>
 
- 
+	<Miniguns.label>Многоствольное оружие</Miniguns.label> 
+	<Miniguns.description>Позволяет производить пулеметы и КВП.</Miniguns.description>
+			
 </LanguageData>

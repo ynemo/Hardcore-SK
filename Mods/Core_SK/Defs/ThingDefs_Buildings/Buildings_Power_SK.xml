@@ -8,6 +8,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<surfaceType>Item</surfaceType>
 		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
 		<inspectorTabs>
 			<li>SK.ITab_Fuel</li>
 		</inspectorTabs>
@@ -205,7 +206,7 @@
 		<category>Building</category>
 		<description>Switches power on/off.</description>
 		<graphicData>
-			<texPath>Things/Building/Power/PowerSwitch_On</texPath>
+			<texPath>Things/Building/Power/PowerSwitch</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Transparent</shaderType>
       <damageData>
@@ -218,12 +219,15 @@
 		</building>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
+		<canOverlapZones>false</canOverlapZones>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>200</WorkToBuild>
 			<Flammability>0.4</Flammability>
 			<Beauty>-2</Beauty>
+			<Mass>30</Mass>
 		</statBases>
 		<placingDraggableDimensions>0</placingDraggableDimensions>
 		<costList>
@@ -256,13 +260,14 @@
     <category>Building</category>
     <description>Switches power on/off with autoflicker.</description>
     <graphicData>
-      <texPath>Things/Building/Power/PowerSwitch_On</texPath>
+      <texPath>Things/Building/Power/PowerSwitch</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
+	  <canOverlapZones>false</canOverlapZones>
     <building>
 	  <ai_chillDestination>false</ai_chillDestination>
       <ignoreNeedsPower>true</ignoreNeedsPower>
@@ -272,11 +277,13 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
     <statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>625</WorkToBuild>
 			<Flammability>0.4</Flammability>
 			<Beauty>-2</Beauty>
+			<Mass>30</Mass>
     </statBases>
     <placingDraggableDimensions>0</placingDraggableDimensions>
 		<costList>
@@ -308,7 +315,7 @@
     <category>Building</category>
     <description>Switches power on/off based on the time of day.</description>
     <graphicData>
-      <texPath>Things/Building/Power/PowerSwitch_On</texPath>
+      <texPath>Things/Building/Power/PowerSwitch</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <damageData>
@@ -323,12 +330,15 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>210</WorkToBuild>
       <Flammability>0.4</Flammability>
       <Beauty>-2</Beauty>
+	  <Mass>30</Mass>
     </statBases>
+	<canOverlapZones>false</canOverlapZones>
     <placingDraggableDimensions>0</placingDraggableDimensions>
 		<costList>
 			<Plastic>10</Plastic>
@@ -372,6 +382,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
+	<canOverlapZones>false</canOverlapZones>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
     <tickerType>Normal</tickerType>
@@ -380,6 +391,7 @@
 			<WorkToBuild>2550</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-15</Beauty>
+			<Mass>150</Mass>
     </statBases>
     <description>Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when heated or wet. Holds up to 1,000 W.</description>
     <size>(1,2)</size>
@@ -431,6 +443,7 @@
 			<WorkToBuild>9500</WorkToBuild>
 			<Flammability>2.0</Flammability>
 			<Beauty>-6</Beauty>
+			<Mass>250</Mass>
 		</statBases>
 		<description>Stores electricity and recycles charge using fission processes. Slightly more efficient than standard batteries. Warning - charged batteries tend to explode when heated or wet. Holds up to 4,000 W.</description>
 		<size>(1,2)</size>
@@ -464,6 +477,7 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<staticSunShadowHeight>0.5</staticSunShadowHeight>
@@ -485,10 +499,12 @@
     <pathCost>70</pathCost>
     <fillPercent>0.5</fillPercent>
     <castEdgeShadows>true</castEdgeShadows>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>4800</WorkToBuild>
       <Flammability>1.0</Flammability>
+	  <Mass>700</Mass>
     </statBases>
     <tickerType>Normal</tickerType>
     <description>Produces electricity from sunlight. Does not work in the dark.</description>
@@ -521,6 +537,7 @@
       </li>
 	  <li Class="CompProperties_Breakdownable"/>
     </comps>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
@@ -548,10 +565,12 @@
     <pathCost>70</pathCost>
     <fillPercent>0.5</fillPercent>
     <castEdgeShadows>false</castEdgeShadows>
+	<minifiedDef>MinifiedFurniture</minifiedDef>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <WorkToBuild>4800</WorkToBuild>
       <Flammability>1.0</Flammability>
+	  <Mass>2000</Mass>
     </statBases>
     <tickerType>Normal</tickerType>
     <description>Produces electricity from sunlight. Does not work in the dark.</description>
@@ -584,6 +603,7 @@
       </li>
 	  <li Class="CompProperties_Breakdownable"/>
     </comps>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0</staticSunShadowHeight>
@@ -622,9 +642,11 @@
 		<selectable>true</selectable>
     	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<rotatable>true</rotatable>
+		<canOverlapZones>false</canOverlapZones>
 		<designationCategory>Power</designationCategory>
 		<building>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
+			<allowAutoroof>false</allowAutoroof>
 		</building>
 		<stuffCategories>
 		<li>Metallic</li>
@@ -678,11 +700,13 @@
 		<tickerType>Normal</tickerType>
 		<size>(5,2)</size>
 		<selectable>true</selectable>
+		<canOverlapZones>false</canOverlapZones>
     	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<rotatable>true</rotatable>
 		<designationCategory>Power</designationCategory>
 		<building>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
+			<allowAutoroof>false</allowAutoroof>
 		</building>
 		<stuffCategories>
 		<li>Metallic</li>
@@ -766,7 +790,7 @@
 	-->
 
 	<ThingDef ParentName="PowerFueled">
-		<defName>SteamGenerator</defName>
+		<defName>FueledGenerator</defName>
 		<label>steam generator</label>
 		<thingClass>SK.Building_SteamGenerator</thingClass>
 		<graphicData>
@@ -829,6 +853,7 @@ Power output: around 750 W.</description>
 				</fuelFilter>
 			</li>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<researchPrerequisites><li>SK_ConvectionalI</li></researchPrerequisites>
@@ -836,7 +861,7 @@ Power output: around 750 W.</description>
 	
 
 	<ThingDef ParentName="PowerFueled">
-		<defName>FueledGenerator</defName>
+		<defName>BioGenerator</defName>
 		<label>bio-generator</label>
 		<thingClass>SK.Building_BioGenerator</thingClass>
 		<graphicData>
@@ -848,10 +873,12 @@ Power output: around 750 W.</description>
 		<passability>Impassable</passability>
 		<fillPercent>1</fillPercent>
 		<castEdgeShadows>true</castEdgeShadows>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>330</MaxHitPoints>
 			<WorkToBuild>6500</WorkToBuild>
 			<Flammability>1.0</Flammability>
+			<Mass>500</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>A bio-generator that produces electricity. Requires Biodiesel for a fuel source.
@@ -901,6 +928,7 @@ Power output: 1000 W.</description>
 					</fuelFilter>
 			</li>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
@@ -974,6 +1002,7 @@ Power output: 2,000 W.</description>
 				</fuelFilter>
 			</li>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<researchPrerequisites><li>SK_ConvectionalII</li></researchPrerequisites>
@@ -1047,6 +1076,7 @@ Power output: 3,500 W.</description>
 				</fuelFilter>
 			</li>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
     	<staticSunShadowHeight>1.0</staticSunShadowHeight>
@@ -1115,6 +1145,7 @@ Power output: 2,500 W.</description>
       <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
       <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
+	<canOverlapZones>false</canOverlapZones>
     <designationHotKey>Misc5</designationHotKey>
 	<researchPrerequisites><li>GeothermalPower</li></researchPrerequisites>
   </ThingDef>
@@ -1174,6 +1205,7 @@ Power output: 2,500 W.</description>
 	  <canPlaceOverWall>true</canPlaceOverWall>
 	  <isEdifice>false</isEdifice>
     </building>
+	<canOverlapZones>false</canOverlapZones>
 	<researchPrerequisites><li>SK_RenewableV</li></researchPrerequisites>
   </ThingDef>
 
@@ -1253,6 +1285,7 @@ Power output: 2,500 W.</description>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
+	<canOverlapZones>false</canOverlapZones>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>Power</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
@@ -1297,6 +1330,7 @@ Power output: 2,500 W.</description>
       <Beauty>-720</Beauty>
     </statBases>	
     <tickerType>Normal</tickerType>
+	<canOverlapZones>false</canOverlapZones>
     <description>Radioactive debris of a Nuclear Power Plant. Build walls around it to contain the radiation!</description>
     <size>(6,6)</size>
     <specialDisplayRadius>40</specialDisplayRadius>
@@ -1343,9 +1377,11 @@ Power output: 2,500 W.</description>
 		<size>(5,5)</size>
 		<selectable>true</selectable>
 		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
 		<designationCategory>Power</designationCategory>
 		<building>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
+			<allowAutoroof>false</allowAutoroof>
 		</building>
 		<blockWind>false</blockWind>
 		<stuffCategories>
@@ -1427,6 +1463,7 @@ Power output: 2,500 W.</description>
 			  <li Class="CompProperties_Flickable" />
     </comps>
     <rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <DesignationCategory>Power</DesignationCategory>
      <building>
@@ -1506,6 +1543,7 @@ Power output: 2,500 W.</description>
 			</li>
     </comps>
     <rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <DesignationCategory>Power</DesignationCategory>
 	<placeWorkers>
@@ -1570,6 +1608,7 @@ Power output: 2,500 W.</description>
 			   <li Class="CompProperties_Flickable" />
     </comps>
     <rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <DesignationCategory>Power</DesignationCategory>
      <building>
@@ -1643,6 +1682,7 @@ Power output: 2,500 W.</description>
 		<li>SK.PlaceWorker_OnlyOnThing</li>
 	</placeWorkers>
 		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
@@ -1716,6 +1756,7 @@ Power output: 2,500 W.</description>
 			<explosiveDamageType>Flame</explosiveDamageType>
 			</li>
 		</comps>
+		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<building>

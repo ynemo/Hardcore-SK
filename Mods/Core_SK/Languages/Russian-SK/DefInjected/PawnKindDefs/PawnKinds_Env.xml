@@ -33,10 +33,6 @@
 
 	<Fly.label>муха-мутант</Fly.label>
 
-	<Tarantula.label>тарантул</Tarantula.label>
-
-	<Spindlecrib.label>большой паук</Spindlecrib.label>
-
 	<Abomination.label>нечто</Abomination.label>	
 	<Barghest.label>баргест</Barghest.label>
 	<Behir.label>бехир</Behir.label>
@@ -83,7 +79,7 @@
 	<PawnKindDefFishSduiggles.label>свигл</PawnKindDefFishSduiggles.label>
 	<PawnKindDefFishSeasnake.label>морской змей</PawnKindDefFishSeasnake.label>
 	<PawnKindDefFishMashgon.label>машгон</PawnKindDefFishMashgon.label>
-	<PawnKindDefFishTailteeth.label>хвостатый зубец</PawnKindDefFishTailteeth.label>
+	<PawnKindDefFishTailteeth.label>хвостатый шилозуб</PawnKindDefFishTailteeth.label>
 
 	<Mammoth.label>мамонт</Mammoth.label>
 	

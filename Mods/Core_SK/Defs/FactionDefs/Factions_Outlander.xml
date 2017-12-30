@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>Outlander</defName>
 		<label>Bandits</label>
     <description>Members of the criminal underworld who came to the Zone for different reasons: to make money by selling artifacts, hide from the law or trade in weapons. The Zone is full of bandits, ranging from common thugs to serious criminals, most of whom are members of one gang or another. Although the Zone gangs frequently fight among themselves, the criminal element still poses a serious problem for normal stalkers.</description>
     <pawnsPlural>bandits</pawnsPlural>
-    <factionBaseSelectionWeight>2</factionBaseSelectionWeight>
+    <baseSelectionWeight>2</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -14,7 +14,7 @@
     <canSiege>false</canSiege>
 	<autoFlee>true</autoFlee>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Mayor</leaderTitle>
+    <leaderTitle>Prime councilor</leaderTitle>
     <expandingIconTexture>UI/Icons/Factions/Outlander</expandingIconTexture>
     <colorSpectrum>
       <li>(0.64, 0.42, 0.36)</li>
@@ -25,7 +25,7 @@
       <max>40</max>
     </startingGoodwill>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBaseOutlander</baseNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<hairTags>
@@ -44,9 +44,9 @@
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Outlander_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-45</min>
       <max>45</max>
@@ -58,27 +58,26 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
         <li>CopperBar</li>
 		<li>Bronze</li>
         <li>SteelBar</li>
-        <li>SilverBar</li>
     </thingDefs>
     </apparelStuffFilter>
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
         <options>
-          <Villager>50</Villager>
-          <TownGuard>250</TownGuard>
-          <TownCouncilman>250</TownCouncilman>
-          <GrenadierDestructive>50</GrenadierDestructive>
-          <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <Villager>40</Villager>
+          <TownGuard>60</TownGuard>
+          <MercenarySlasher>55</MercenarySlasher>
+          <GrenadierDestructive>40</GrenadierDestructive>
+          <MercenaryGunner>65</MercenaryGunner>
+          <TownCouncilman>110</TownCouncilman>
         </options>
       </li>
       <li>
@@ -102,25 +101,24 @@
 		  <Mammoth>1</Mammoth>
         </carriers>
         <guards>
-          <TownGuard>250</TownGuard>
-          <GrenadierDestructive>50</GrenadierDestructive>
-          <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <GrenadierDestructive>30</GrenadierDestructive>
+          <MercenarySlasher>60</MercenarySlasher>
+          <MercenaryGunner>80</MercenaryGunner>
         </guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <Villager>50</Villager>
-          <TownGuard>250</TownGuard>
-          <TownCouncilman>250</TownCouncilman>
-          <GrenadierDestructive>50</GrenadierDestructive>
-          <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <Villager>80</Villager>
+          <TownGuard>70</TownGuard>
+          <MercenarySlasher>55</MercenarySlasher>
+          <GrenadierDestructive>45</GrenadierDestructive>
+          <MercenaryGunner>40</MercenaryGunner>
+          <TownCouncilman>110</TownCouncilman>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

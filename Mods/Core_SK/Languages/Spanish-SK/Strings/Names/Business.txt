@@ -12,19 +12,19 @@ Starlight
 Sunlight
 Greengrow
 Grassland
-Planetario
-Cortijo
+Planetary
+Homestead
 Zarimax
 Albium
 General
-Meteoro
+Meteor
 Terroid
 Terra
 Old School
 Nouveau
-Nuevo
+New
 The Best
-Profesional
+Professional
 Emporium
 Wynham
 Cranktown
@@ -34,7 +34,7 @@ Sylvester
 Lartmech
 Arnprior
 Wulan
-Mayúsculo
+Capital
 Sinleth
 Volova
 Subdrive
@@ -46,7 +46,7 @@ Yrath
 Kaluyu
 Yulten
 Dorth
-Agradable
+Pleasant
 Treal
 Lordium
 Novunis
@@ -58,15 +58,15 @@ Meush
 Cool
 Luminus
 Luxitor
-Conductor
+Driver
 Mass Driver
-Borde
+Edge
 Supersharp
 Multica
 Sundrium
 Lorne
 Klipmensch
-Mayor
+Major
 Ultrafine
 Unbreak
 Siliconium
@@ -74,17 +74,17 @@ General Woof
 Graff
 General
 Dealer
-Conveniente
+Convenient
 Kwik-O
 Lasoid
 Dime
 Nevermold
 Keranum
-Líder
-Borrador
+Leader
+Draft
 Linus
 Nonlinear
-Avanzado
+Advanced
 Starshot
 Tukus
 Linstorm
@@ -93,8 +93,8 @@ Lutian
 Fiberium
 Lumen
 Stratospheric
-Fuste
-Corriente
+Shaft
+Current
 Pleather
 Meatus
 Porcine

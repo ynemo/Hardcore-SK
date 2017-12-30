@@ -5,7 +5,7 @@
     <defName>PlantAlgae</defName>
     <label>Algae</label>
     <description>Algae.</description>
-	<thingClass>BiomeOcean.Plant_Ocean</thingClass>
+	<thingClass>SK.Plant_Algae</thingClass>
 	<selectable>True</selectable>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -19,14 +19,15 @@
     <ingestible>
       <preferability>NeverForNutrition</preferability>
       <foodType>Plant</foodType>
-      <nutrition>0.20</nutrition>
+      <nutrition>0.35</nutrition>
     </ingestible>
     <plant>
       <leaflessGraphicPath>Things/Plant/Algae_Leafless</leaflessGraphicPath>
 	  <maxMeshCount>9</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawAlgae</harvestedThingDef>
-      <harvestDestroys>false</harvestDestroys>
+	  <harvestMinGrowth>0.4</harvestMinGrowth>
+	  <harvestFailable>false</harvestFailable>
       <harvestYield>5</harvestYield>
 	  <fertilityMin>0.02</fertilityMin>
       <reproduceMtbDays>3.5</reproduceMtbDays>

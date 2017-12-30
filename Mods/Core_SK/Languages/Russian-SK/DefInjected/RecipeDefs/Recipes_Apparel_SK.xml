@@ -14,10 +14,6 @@
 	<Make_USCM_CamoPants.description>Сделать защитные штаны</Make_USCM_CamoPants.description>
 	<Make_USCM_CamoPants.jobString>Делает защитные штаны</Make_USCM_CamoPants.jobString>
 
-	<Make_Marine_MilitaryPants.label>Сделать штаны морской пехоты</Make_Marine_MilitaryPants.label>
-	<Make_Marine_MilitaryPants.description>Сделать штаны морской пехоты</Make_Marine_MilitaryPants.description>
-	<Make_Marine_MilitaryPants.jobString>Делает штаны морской пехоты</Make_Marine_MilitaryPants.jobString>
-
 	<Make_Apparello_Spants.label>Сделать набедренники космического десанта</Make_Apparello_Spants.label>
 	<Make_Apparello_Spants.description>Сделать набедренники космического десанта.</Make_Apparello_Spants.description>
 	<Make_Apparello_Spants.jobString>Делает набедренники космического десанта</Make_Apparello_Spants.jobString>
@@ -106,10 +102,6 @@
 	<Make_Rimarsenal_VestPlate.description>Сделать тактический бронежилет.</Make_Rimarsenal_VestPlate.description>
 	<Make_Rimarsenal_VestPlate.jobString>Делает тактический бронежилет</Make_Rimarsenal_VestPlate.jobString>
 
-	<Make_SpeacialForces_VestPlate.label>Сделать бронежилет морской пехоты</Make_SpeacialForces_VestPlate.label>
-	<Make_SpeacialForces_VestPlate.description>Сделать бронежилет морской пехоты.</Make_SpeacialForces_VestPlate.description>
-	<Make_SpeacialForces_VestPlate.jobString>Делает бронежилет морской пехоты</Make_SpeacialForces_VestPlate.jobString>
-
 	<Make_Apparello_Gspot.label>Сделать бронежилет из лёгкого сплава</Make_Apparello_Gspot.label>
 	<Make_Apparello_Gspot.description>Сделать бронежилет из лёгкого сплава.</Make_Apparello_Gspot.description>
 	<Make_Apparello_Gspot.jobString>Делает бронежилет из лёгкого сплава</Make_Apparello_Gspot.jobString>
@@ -162,10 +154,6 @@
 	<Make_Apparello_Meditux.description>Сделать медицинский жилет</Make_Apparello_Meditux.description>
 	<Make_Apparello_Meditux.jobString>Делает медицинский жилет</Make_Apparello_Meditux.jobString>
 
-	<Make_Scout_LeatherRobe.label>Сделать броню разведчика</Make_Scout_LeatherRobe.label>
-	<Make_Scout_LeatherRobe.description>Сделать броню разведчика.</Make_Scout_LeatherRobe.description>
-	<Make_Scout_LeatherRobe.jobString>Делает броню разведчика</Make_Scout_LeatherRobe.jobString>
-
 	<Make_Apparello_GShellII.label>Сделать среднюю силовую броню</Make_Apparello_GShellII.label>
 	<Make_Apparello_GShellII.description>Сделать среднюю силовую броню.</Make_Apparello_GShellII.description>
 	<Make_Apparello_GShellII.jobString>Делает среднюю силовую броню</Make_Apparello_GShellII.jobString>
@@ -177,10 +165,6 @@
 	<Make_MedievalArmor_PlateArmor.label>Сделать латный доспех</Make_MedievalArmor_PlateArmor.label>
 	<Make_MedievalArmor_PlateArmor.description>Сделать латный доспех.</Make_MedievalArmor_PlateArmor.description>
 	<Make_MedievalArmor_PlateArmor.jobString>Делает латный доспех</Make_MedievalArmor_PlateArmor.jobString>
-
-	<Make_GhillieOverall.label>Сделать комбинезон "Хамелеон"</Make_GhillieOverall.label>
-	<Make_GhillieOverall.description>Сделать комбинезон "Хамелеон"</Make_GhillieOverall.description>
-	<Make_GhillieOverall.jobString>Делает комбинезон "Хамелеон"</Make_GhillieOverall.jobString>
 
 	<Make_Marine_Armor.label>Сделать доспех морской пехоты</Make_Marine_Armor.label>
 	<Make_Marine_Armor.description>Сделать доспех морской пехоты</Make_Marine_Armor.description>
@@ -230,21 +214,17 @@
 	<Make_Winter_Cap.description>Сделать зимнюю шапку.</Make_Winter_Cap.description>
 	<Make_Winter_Cap.jobString>Делает зимнюю шапку</Make_Winter_Cap.jobString>
 
-	<Make_Apparel_MilitaryHelmet.label>Сделать военный шлем</Make_Apparel_MilitaryHelmet.label>
-	<Make_Apparel_MilitaryHelmet.description>Сделать военный шлем.</Make_Apparel_MilitaryHelmet.description>
-	<Make_Apparel_MilitaryHelmet.jobString>Делает военный шлем</Make_Apparel_MilitaryHelmet.jobString>
+	<Make_Apparel_SimpleHelmet.label>Сделать военный шлем</Make_Apparel_SimpleHelmet.label>
+	<Make_Apparel_SimpleHelmet.description>Сделать военный шлем.</Make_Apparel_SimpleHelmet.description>
+	<Make_Apparel_SimpleHelmet.jobString>Делает военный шлем</Make_Apparel_SimpleHelmet.jobString>
 
-	<Make_Apparel_KevlarHelmet.label>Сделать кевларовый шлем</Make_Apparel_KevlarHelmet.label>
-	<Make_Apparel_KevlarHelmet.description>Сделать кевларовый шлем.</Make_Apparel_KevlarHelmet.description>
-	<Make_Apparel_KevlarHelmet.jobString>Делает кевларовый шлем</Make_Apparel_KevlarHelmet.jobString>
+	<Make_Apparel_AdvancedHelmet.label>Сделать кевларовый шлем</Make_Apparel_AdvancedHelmet.label>
+	<Make_Apparel_AdvancedHelmet.description>Сделать кевларовый шлем.</Make_Apparel_AdvancedHelmet.description>
+	<Make_Apparel_AdvancedHelmet.jobString>Делает кевларовый шлем</Make_Apparel_AdvancedHelmet.jobString>
 
 	<Make_Marine_Helmet.label>Сделать шлем морской пехоты</Make_Marine_Helmet.label>
 	<Make_Marine_Helmet.description>Сделать шлем морской пехоты</Make_Marine_Helmet.description>
 	<Make_Marine_Helmet.jobString>Делает шлем морской пехоты</Make_Marine_Helmet.jobString>
-
-	<Make_Ghillie_Hood.label>Сделать капюшон "Хамелеон"</Make_Ghillie_Hood.label>
-	<Make_Ghillie_Hood.description>Сделать капюшон "Хамелеон"</Make_Ghillie_Hood.description>
-	<Make_Ghillie_Hood.jobString>Делает капюшон "Хамелеон"</Make_Ghillie_Hood.jobString>
 
 	<Make_Jaffa_BasicHelmet.label>Сделать шлем разведчика</Make_Jaffa_BasicHelmet.label>
 	<Make_Jaffa_BasicHelmet.description>Сделать шлем разведчика.</Make_Jaffa_BasicHelmet.description>
@@ -466,9 +446,9 @@
 	<Make_BanditMask.description>Сделать маску бандита.</Make_BanditMask.description>
 	<Make_BanditMask.jobString>Делает маску бандита</Make_BanditMask.jobString>
 
-	<Make_Apparel_FSChefJacket.label>Сделать пиджак шеф-повара</Make_Apparel_FSChefJacket.label>
-	<Make_Apparel_FSChefJacket.description>Сделать пиджак шеф-повара.</Make_Apparel_FSChefJacket.description>
-	<Make_Apparel_FSChefJacket.jobString>Делает пиджак шеф-повара</Make_Apparel_FSChefJacket.jobString>
+	<Make_Apparel_FSChefJacket.label>Сделать костюм шеф-повара</Make_Apparel_FSChefJacket.label>
+	<Make_Apparel_FSChefJacket.description>Сделать костюм шеф-повара.</Make_Apparel_FSChefJacket.description>
+	<Make_Apparel_FSChefJacket.jobString>Делает костюм шеф-повара</Make_Apparel_FSChefJacket.jobString>
 
 	<Make_MedievalTimes_Boots_Combat.label>Сделать боевые сапоги</Make_MedievalTimes_Boots_Combat.label>
 	<Make_MedievalTimes_Boots_Combat.description>Сделать боевые сапоги.</Make_MedievalTimes_Boots_Combat.description>
@@ -578,16 +558,16 @@
 	<Make_MedievalTimes_Gloves_Combat.description>Сделать боевые перчатки.</Make_MedievalTimes_Gloves_Combat.description>
 	<Make_MedievalTimes_Gloves_Combat.jobString>Делает боевые перчатки</Make_MedievalTimes_Gloves_Combat.jobString>
 	
-	<Make_InterstellarArmor.label>Сделать межзвездная броня</Make_InterstellarArmor.label>
-	<Make_InterstellarArmor.description>Сделать межзвездная броня</Make_InterstellarArmor.description>
-	<Make_InterstellarArmor.jobString>Делает межзвездная броня</Make_InterstellarArmor.jobString>
+	<Make_InterstellarArmor.label>Сделать межзвездную броню</Make_InterstellarArmor.label>
+	<Make_InterstellarArmor.description>Сделать межзвездную броню</Make_InterstellarArmor.description>
+	<Make_InterstellarArmor.jobString>Делает межзвездную броню</Make_InterstellarArmor.jobString>
+
+	<Make_ValkyrieHelmet.label>Сделать шлем "Валькирия"</Make_ValkyrieHelmet.label>
+	<Make_ValkyrieHelmet.description>Сделать шлем "Валькирия"</Make_ValkyrieHelmet.description>
+	<Make_ValkyrieHelmet.jobString>Делает шлем "Валькирия"</Make_ValkyrieHelmet.jobString>
 	
-	<Make_Apparel_ZealotPowerArmorHelmet.label>Сделать зеалотт силовой шлем</Make_Apparel_ZealotPowerArmorHelmet.label>
-	<Make_Apparel_ZealotPowerArmorHelmet.description>Сделать зеалотт силовой шлем</Make_Apparel_ZealotPowerArmorHelmet.description>
-	<Make_Apparel_ZealotPowerArmorHelmet.jobString>Делает залотт силовой шлем</Make_Apparel_ZealotPowerArmorHelmet.jobString>
-	
-	<Make_Apparel_ZealotPowerArmor.label>Сделать зеалотт силовая броня</Make_Apparel_ZealotPowerArmor.label>
-	<Make_Apparel_ZealotPowerArmor.description>Сделать зеалотт силовая броня</Make_Apparel_ZealotPowerArmor.description>
-	<Make_Apparel_ZealotPowerArmor.jobString>Делает зеалотт силовая броня</Make_Apparel_ZealotPowerArmor.jobString>
+	<Make_ValkyrieArmor.label>Сделать броню "Валькирия"</Make_ValkyrieArmor.label>
+	<Make_ValkyrieArmor.description>Сделать броню "Валькирия"</Make_ValkyrieArmor.description>
+	<Make_ValkyrieArmor.jobString>Делает броню "Валькирия"</Make_ValkyrieArmor.jobString>
 	
 </LanguageData>

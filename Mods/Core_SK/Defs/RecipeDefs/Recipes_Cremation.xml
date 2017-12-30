@@ -3,9 +3,9 @@
 
 	<RecipeDef>
 		<defName>CremateCorpse</defName>
-		<label>Cremate Corpse</label>
+		<label>Cremate corpse</label>
 		<description>Cremate a corpse into ashes. Produces 4.</description>
-		<jobString>Cremating.</jobString>
+		<jobString>Cremating a corpse.</jobString>
 		<workAmount>200</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -42,12 +42,14 @@
 				<li>AllowCorpsesStranger</li>
 			</specialFiltersToAllow>
 		</defaultIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>BurnApparel</defName>
-		<label>Burn Apparel</label>
+		<label>Burn apparel</label>
 		<description>Burn apparel into ashes. Produces 2.</description>
 		<jobString>Burning apparel.</jobString>
 		<workAmount>100</workAmount>
@@ -71,14 +73,16 @@
 				<li>Apparel</li>
 			</categories>
 		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>BurnThings</defName>
-		<label>Burn Materials</label>
+		<label>Burn materials</label>
 		<description>Burn wood, textiles and leathers into ashes. Produces 3.</description>
-		<jobString>Burning apparel.</jobString>
+		<jobString>Burning materials.</jobString>
 		<workAmount>150</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -107,14 +111,16 @@
 				<li>Leathers</li>
 			</categories>
 		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>CremateCorpseCampfire</defName>
-		<label>Cremate Corpse</label>
+		<label>Cremate corpse</label>
 		<description>Cremate a corpse into ashes. Produces 4.</description>
-		<jobString>Cremating.</jobString>
+		<jobString>Cremating a corpse.</jobString>
 		<workAmount>600</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -151,12 +157,14 @@
 				<li>AllowCorpsesStranger</li>
 			</specialFiltersToAllow>
 		</defaultIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>BurnApparelCampfire</defName>
-		<label>Burn Apparel</label>
+		<label>Burn apparel</label>
 		<description>Burn apparel into ashes. Produces 2.</description>
 		<jobString>Burning apparel.</jobString>
 		<workAmount>300</workAmount>
@@ -180,14 +188,16 @@
 				<li>Apparel</li>
 			</categories>
 		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 	
 	
 	<RecipeDef>
 		<defName>BurnThingsCampfire</defName>
-		<label>Burn Materials</label>
+		<label>Burn materials</label>
 		<description>Burn wood, textiles and leather into ashes. Produces 3.</description>
-		<jobString>Burning apparel.</jobString>
+		<jobString>Burning materials.</jobString>
 		<workAmount>450</workAmount>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -215,5 +225,7 @@
 				<li>Leathers</li>
 			</categories>
 		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 </RecipeDefs>

@@ -94,7 +94,8 @@
 			<li>Forgetful</li>
 		</conflictingTraits>
 	</TraitDef>
-
+	
+	<!--error!-->
 	<TraitDef>
 		<defName>Slacker</defName>
 		<commonality>0.15</commonality>
@@ -172,7 +173,7 @@
 				</statOffsets>
 				<skillGains>
 					<li>
-						<key>Research</key>
+						<key>Intellectual</key>
 						<value>-3</value>
 					</li>
 				</skillGains>	
@@ -225,7 +226,7 @@
 						<value>-4</value>
 					</li>
 					<li>
-						<key>Research</key>
+						<key>Intellectual</key>
 						<value>-4</value>
 					</li>
 				</skillGains>
@@ -780,7 +781,7 @@
 	
 	<TraitDef>
 		<defName>Leader</defName>
-		<commonality>0.2</commonality>
+		<commonality>0.15</commonality>
 		<degreeDatas>
 			<li>
 				<label>Natural leader</label>
@@ -788,7 +789,7 @@
 				<skillGains>
 					<li>
 						<key>Social</key>
-						<value>2</value>
+						<value>8</value>
 					</li>
 				</skillGains>
 			</li>
@@ -821,7 +822,8 @@
   <!--=================== /Personality Traits ===================-->    
   
   <!--=================== Special Traits ===================-->   
-  
+	
+	<!--error!-->
 	<TraitDef>
 		<defName>AnimalLover</defName>
 		<commonality>0.4</commonality>
@@ -872,6 +874,7 @@
 		</degreeDatas>
 	</TraitDef>
 	
+	<!--error!-->
 	<TraitDef>
 		<defName>Agoraphobia</defName>
 		<commonality>0.15</commonality>

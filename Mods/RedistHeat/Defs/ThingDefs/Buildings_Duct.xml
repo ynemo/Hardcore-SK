@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Buildings>
-
-    <ThingDef Abstract="True" Name="BuildingBaseDuckwork">
+	<!-- Base -->
+    <ThingDef Abstract="True" Name="DuctBase">
         <category>Building</category>
         <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
         <selectable>true</selectable>
@@ -66,9 +66,8 @@
 			</li>
 		</damageMultipliers>
     </ThingDef>
-
-<!-- Duct pipes -->
-    <ThingDef Abstract="True" Name="PipeBase" ParentName="BuildingBaseDuckwork">
+	<!-- Duct pipes -->
+    <ThingDef Abstract="True" Name="PipeBase" ParentName="DuctBase">
         <thingClass>RedistHeat.Building_DuctPipe</thingClass>
         <description>A pipe for moving air around.</description>
         <category>Building</category>
@@ -84,10 +83,10 @@
             <MaxHitPoints>80</MaxHitPoints>
             <WorkToBuild>50</WorkToBuild>
         </statBases>
-				<costList>
-						<Rubber>2</Rubber>
-						<Component>2</Component>
-				</costList>
+		<costList>
+			<Rubber>2</Rubber>
+			<Component>2</Component>
+		</costList>
         <constructEffect>ConstructMetal</constructEffect>
         <altitudeLayer>FloorEmplacement</altitudeLayer>
         <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -100,8 +99,8 @@
         </placeWorkers>
 		<researchPrerequisites><li>RedistHeat_AirCirculation</li></researchPrerequisites>
     </ThingDef>
-
-    <ThingDef ParentName="PipeBase">
+	<!-- Pipe Upper -->
+	<ThingDef ParentName="PipeBase">
         <defName>RedistHeat_DuctPipeUpper</defName>
         <label>Duct pipe (upper)</label>
         <graphicData>
@@ -118,8 +117,8 @@
             </li>
         </comps>
     </ThingDef>
-
-    <ThingDef ParentName="PipeBase">
+	<!-- Pipe Lower -->
+	<ThingDef ParentName="PipeBase">
         <defName>RedistHeat_DuctPipeLower</defName>
         <label>Duct pipe (lower)</label>
         <graphicData>
@@ -136,16 +135,15 @@
             </li>
         </comps>
     </ThingDef>
-
-<!-- Duct Components -->
-    <ThingDef Abstract="True" Name="DuctCompBase" ParentName="BuildingBaseDuckwork">
+	<!-- Duct Components -->
+    <ThingDef Abstract="True" Name="DuctCompBase" ParentName="DuctBase">
         <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
         <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
         <size>(1,1)</size>
         <tickerType>Normal</tickerType>
     </ThingDef>
-
-    <ThingDef Abstract="True" Name="DuctBuildingBaseDuckwork" ParentName="DuctCompBase">
+	<!-- Duct Comp Building -->
+    <ThingDef Abstract="True" Name="DuctBuildingBase" ParentName="DuctCompBase">
         <building>
             <isEdifice>false</isEdifice>
         </building>
@@ -156,25 +154,31 @@
         <comps>
             <li Class="SK.CompProperties_RestrictedPlacement">
                 <compClass>SK.CompRestrictedPlacement</compClass>
-                <thingDefs>
+				<thingDefs>
                     <li>Wall</li>
+					<li>ClutterSilverWall</li>
+					<li>ClutterUWallLight</li>
+					<!--
 					<li>BWall</li>
 					<li>ClutterUtilityWall</li>
 					<li>WallLog</li>
-					<li>ClutterSilverWall</li>
-					<li>ClutterUWallLight</li>
+					-->
                 </thingDefs>
             </li>
+			<li Class="RedistHeat.CompWallObjectProperties">
+				<checkTickInterval>120</checkTickInterval>
+			</li>
         </comps>
         <placeWorkers>
             <li>SK.PlaceWorker_OnlyOnThing</li>
+			<li>RedistHeat.PlaceWorker_WallObject</li>
             <li>RedistHeat.PlaceWorker_WallChecker</li>
         </placeWorkers>
         <altitudeLayer>PawnUnused</altitudeLayer>
         <blockLight>false</blockLight>
     </ThingDef>
-
-    <ThingDef ParentName="DuctBuildingBaseDuckwork">
+	<!-- Duct Outlet -->
+	<ThingDef ParentName="DuctBuildingBase">
         <defName>RedistHeat_DuctOutlet</defName>
         <thingClass>RedistHeat.Building_DuctComp</thingClass>
         <label>Duct outlet</label>
@@ -186,11 +190,11 @@
         <statBases>
             <WorkToBuild>400</WorkToBuild>
         </statBases>
-				<costList>
-      					<Plastic>25</Plastic>
-						<Component>4</Component>
-				</costList>
-				        <constructEffect>ConstructMetal</constructEffect>
+		<costList>
+      		<Plastic>25</Plastic>
+			<Component>4</Component>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
         <building>
             <ignoreNeedsPower>true</ignoreNeedsPower>
         </building>
@@ -202,9 +206,10 @@
                 <soundPowerOn>PowerOnSmall</soundPowerOn>
                 <soundPowerOff>PowerOffSmall</soundPowerOff>
             </li>
-            <li Class="RedistHeat.CompAirTraderProperties">
+			<li Class="RedistHeat.CompAirTraderProperties">
                 <compClass>RedistHeat.CompAirTrader</compClass>
                 <transferRate>0.1</transferRate>
+                <units>-4</units>
             </li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -214,8 +219,8 @@
         </placeWorkers>
 		<researchPrerequisites><li>RedistHeat_AirCirculation</li></researchPrerequisites>
     </ThingDef>
-
-    <ThingDef ParentName="DuctBuildingBaseDuckwork">
+	<!-- Smart Duct Outlet -->
+	<ThingDef ParentName="DuctBuildingBase">
         <defName>RedistHeat_SmartDuctOutlet</defName>
         <thingClass>RedistHeat.Building_SmartDuctOutlet</thingClass>
         <label>Smart duct outlet</label>
@@ -227,22 +232,24 @@
         <statBases>
             <WorkToBuild>600</WorkToBuild>
         </statBases>
-				<costList>
-						<Component>6</Component>
-						<Electronics>1</Electronics>
-				</costList>
-				        <constructEffect>ConstructMetal</constructEffect>
+		<costList>
+			<Component>6</Component>
+			<Electronics>1</Electronics>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
         <comps>
             <li Class="CompProperties_Power">
-                <compClass>CompPowerTrader</compClass>
+                <compClass>CompPowerTrader</compClass>                
+				<basePowerConsumption>20</basePowerConsumption>
                 <shortCircuitInRain>false</shortCircuitInRain>
                 <soundPowerOn>PowerOnSmall</soundPowerOn>
                 <soundPowerOff>PowerOffSmall</soundPowerOff>
-                <basePowerConsumption>20</basePowerConsumption>
+
             </li>
-            <li Class="RedistHeat.CompAirTraderProperties">
+			<li Class="RedistHeat.CompAirTraderProperties">
                 <compClass>RedistHeat.CompAirTrader</compClass>
                 <transferRate>0.15</transferRate>
+                <units>-4</units>
             </li>
             <li Class="CompProperties_TempControl">
                 <compClass>CompTempControl</compClass>
@@ -255,8 +262,8 @@
         </placeWorkers>
 		<researchPrerequisites><li>RedistHeat_AirCirculation</li></researchPrerequisites>
     </ThingDef>
-
-    <ThingDef ParentName="DuctBuildingBaseDuckwork">
+	<!-- Duct Intake -->
+	    <ThingDef ParentName="DuctBuildingBase">
         <defName>RedistHeat_DuctIntake</defName>
         <thingClass>RedistHeat.Building_DuctComp</thingClass>
         <label>Duct intake</label>
@@ -272,11 +279,11 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>60</costStuffCount>
-				<costList>
-      					<Plastic>35</Plastic>
-						<Component>5</Component>
-						<Electronics>1</Electronics>
-				</costList>
+		<costList>
+      		<Plastic>35</Plastic>
+			<Component>5</Component>
+			<Electronics>1</Electronics>
+		</costList>
         <comps>
             <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
@@ -286,9 +293,10 @@
                 <soundPowerOn>PowerOnSmall</soundPowerOn>
                 <soundPowerOff>PowerOffSmall</soundPowerOff>
             </li>
-            <li Class="RedistHeat.CompAirTraderProperties">
+			<li Class="RedistHeat.CompAirTraderProperties">
                 <compClass>RedistHeat.CompAirTrader</compClass>
                 <transferRate>0.9</transferRate>
+                <units>16</units>
             </li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -298,11 +306,11 @@
         </placeWorkers>
 		<researchPrerequisites><li>RedistHeat_AirCirculation</li></researchPrerequisites>
     </ThingDef>
-
-    <ThingDef ParentName="DuctCompBase">
-        <defName>RedistHeat_DuctCooler</defName>
-        <thingClass>RedistHeat.Building_DuctCooler</thingClass>
-        <label>Duct cooler</label>
+	<!-- Multi-purpose Duct Cooler -->
+	<ThingDef ParentName="DuctCompBase">
+        <defName>RedistHeat_MultipurposeCooler</defName>
+        <thingClass>RedistHeat.Building_MultipurposeCooler</thingClass>
+        <label>Multi-purpose Cooler</label>
         <description>A duct building that cools air within its network. Generates a lot of heat.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
@@ -317,18 +325,22 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>70</costStuffCount>
-				<costList>
-      					<Plastic>35</Plastic>
-						<Component>6</Component>
-						<Electronics>2</Electronics>
-				</costList>
+		<costList>
+      		<Plastic>35</Plastic>
+			<Component>6</Component>
+			<Electronics>2</Electronics>
+		</costList>
         <comps>
             <li Class="RedistHeat.CompAirTraderProperties">
                 <compClass>RedistHeat.CompAirTrader</compClass>
             </li>
-            <li Class="CompProperties_Power">
+			<li Class="RedistHeat.CompDuctSwitchableProperties">
+                <compClass>RedistHeat.CompDuctSwitchable</compClass>
+            </li>
+			<li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
-                <startElectricalFires>true</startElectricalFires>
+                <soundPowerOn>PowerOnSmall</soundPowerOn>
+                <soundPowerOff>PowerOffSmall</soundPowerOff>
                 <basePowerConsumption>200</basePowerConsumption>
             </li>
             <li Class="CompProperties_TempControl">
@@ -338,8 +350,8 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
         </comps>
-        <placeWorkers>
-            <li>RedistHeat.PlaceWorker_DuctCooler</li>
+		<placeWorkers>
+            <li>RedistHeat.PlaceWorker_MultipurposeCooler</li>
         </placeWorkers>
         <altitudeLayer>Building</altitudeLayer>
         <blockLight>true</blockLight>
@@ -351,5 +363,4 @@
         <rotatable>false</rotatable>
 		<researchPrerequisites><li>RedistHeat_AirCirculation</li></researchPrerequisites>
     </ThingDef>
-
 </Buildings>

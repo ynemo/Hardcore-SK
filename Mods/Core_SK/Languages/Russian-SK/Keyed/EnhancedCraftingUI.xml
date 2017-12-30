@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Anybody>Любой</Anybody>
-	<BillGainsName>Название рецепта изменено.</BillGainsName>
-	<MinStock>Мин. стак</MinStock>
-	<MinStockLabel>Задача снимается с паузы, когда кол-во на складе будет меньше или равно, указанному здесь значению.</MinStockLabel>
-	<Paused>ПАУЗА</Paused>
+  <Anybody>Любой</Anybody>
+  <MinStock>Мин. колич.</MinStock>
+  <MinStockLabel>Если меньше X - возобновить производство.</MinStockLabel>
+  <BillGainsName>Задание переименовано в \"{0}\".</BillGainsName>
+  <ShiftLabel>Shift+клик : уменьшить/увеличить на 5x\nCtrl+клик : уменьшить/увеличить на 10x\nAlt+клик : уменьшить/увеличить мин. колич.</ShiftLabel>
 
 </LanguageData>

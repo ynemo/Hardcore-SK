@@ -2,31 +2,41 @@
 <LanguageData>
 
 	<WorkSpeedGlobal.label>общая скорость работы</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>Множитель скорости, с которой персонаж выполняет любую задачу.</WorkSpeedGlobal.description>
+	<WorkSpeedGlobal.description>множитель скорости, с которой персонаж выполняет любую задачу.</WorkSpeedGlobal.description>
 
 	<MiningSpeed.label>скорость горных работ</MiningSpeed.label>
-	<MiningSpeed.description>Множитель скорости, с которой персонаж разрабатывает горные породы.</MiningSpeed.description>
+	<MiningSpeed.description>множитель скорости, с которой персонаж разрабатывает горные породы.</MiningSpeed.description>
 
+	<MiningYield.label>успех горной добычи</MiningYield.label>
+	<MiningYield.description>вероятность успешного получения шахтёром полезных ископаемых. Это относится и к обычному раскапыванию жил, и к бурению на месторождениях. Характеристика не влияет на вероятность получения обломков горной породы.</MiningYield.description>
+		
 	<SmoothingSpeed.label>скорость выравнивания пола</SmoothingSpeed.label>
-	<SmoothingSpeed.description>Множитель скорости, с которой этот персонаж выравнивает полы.</SmoothingSpeed.description>
+	<SmoothingSpeed.description>множитель скорости, с которой этот персонаж выравнивает полы.</SmoothingSpeed.description>
 
 	<ResearchSpeed.label>скорость исследований</ResearchSpeed.label>
-	<ResearchSpeed.description>Скорость, с которой персонаж проводит исследования.</ResearchSpeed.description>
+	<ResearchSpeed.description>скорость, с которой персонаж проводит исследования.</ResearchSpeed.description>
 
+	<AnimalGatherSpeed.label>скорость добычи животной продукции</AnimalGatherSpeed.label>
+	<AnimalGatherSpeed.description>скорость, с которой персонаж доит, стрижёт и иными способами ухаживает за прирученными животными, получая ресурсы.</AnimalGatherSpeed.description>
+	
+	<AnimalGatherYield.label>шанс добычи животной продукции</AnimalGatherYield.label>
+	<AnimalGatherYield.description>показывает шанс получения ресурсов, когда персонаж заботится о прирученных животных (стрижёт, доит и др.). Высокие показатели этой характеристики снижают вероятность неудачного сбора продукции.</AnimalGatherYield.description>
+		
 	<ConstructionSpeed.label>скорость строительства</ConstructionSpeed.label>
-	<ConstructionSpeed.description>Скорость, с которой персонаж строит и ремонтирует здания.</ConstructionSpeed.description>
+	<ConstructionSpeed.description>скорость, с которой персонаж строит и ремонтирует здания.</ConstructionSpeed.description>
 
 	<PlantWorkSpeed.label>скорость работы с растениями</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>Скорость, с которой персонаж сеет и собирает растения.</PlantWorkSpeed.description>
+	<PlantWorkSpeed.description>скорость, с которой персонаж сеет и собирает растения.</PlantWorkSpeed.description>
 
-	<HarvestFailChance.label>шанс неудачного сбора растения</HarvestFailChance.label>
-	<HarvestFailChance.description>Вероятность того, что этот персонаж случайно уничтожит урожай, а не соберёт его.</HarvestFailChance.description>
+	<PlantHarvestYield.label>шанс неудачного сбора растения</PlantHarvestYield.label>
+	<PlantHarvestYield.description>вероятность того, что этот персонаж случайно уничтожит урожай, а не соберёт его.</PlantHarvestYield.description>
 
-	<ConstructFailChance.label>шанс неудачного строительства</ConstructFailChance.label>
-	<ConstructFailChance.description>Вероятность того, что этот персонаж случайно уничтожит то, что он строит, потеряв на это время и ресурсы.</ConstructFailChance.description>
+	<ConstructSuccessChance.label>шанс неудачного строительства</ConstructSuccessChance.label>
+	<ConstructSuccessChance.description>вероятность того, что этот персонаж случайно уничтожит то, что он строит, в пустую потратив время и ресурсы.</ConstructSuccessChance.description>
 
-	<FixBrokenDownBuildingFailChance.label>шанс неудачного ремонта</FixBrokenDownBuildingFailChance.label>
-	<FixBrokenDownBuildingFailChance.description>Вероятность того, что этот персонаж не справится с ремонтом поломанной постройки.</FixBrokenDownBuildingFailChance.description>
-
+	<FixBrokenDownBuildingSuccessChance.label>шанс неудачного ремонта</FixBrokenDownBuildingSuccessChance.label>
+	<FixBrokenDownBuildingSuccessChance.description>вероятность того, что этот персонаж не справится с ремонтом повреждённой постройки.</FixBrokenDownBuildingSuccessChance.description>
+	
 </LanguageData>
-<!-- edited by Hardcore-SK team -->
+<!-- edited by Hardcore-SK -->
+

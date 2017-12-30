@@ -15,6 +15,9 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>
+		<ingestible>
+			<chairSearchRadius>60</chairSearchRadius>
+    </ingestible>
 		<alwaysHaulable>true</alwaysHaulable>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<rotatable>false</rotatable>
@@ -65,6 +68,7 @@
       <foodType>Meal</foodType>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <optimalityOffset>16</optimalityOffset>
+	  <chairSearchRadius>60</chairSearchRadius>
     </ingestible>
 		<thingCategories>
 			<li>FoodMeals</li>
@@ -80,13 +84,74 @@
 		</comps>
 	</ThingDef>
 
+	<ThingDef Name="SweetMealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+		  <MaxHitPoints>50</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <Beauty>-6</Beauty>
+		  <Bulk>0.25</Bulk>
+		  <Mass>0.35</Mass>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffset>16</optimalityOffset>
+			<chairSearchRadius>60</chairSearchRadius>
+    </ingestible>
+		<thingCategories>
+			<li>SweetMeals</li>
+		</thingCategories>
+  </ThingDef>
 
-	<ThingDef ParentName="MealBase" Name="MealBeverage" Abstract="True">
-		<statBases>
-			<Bulk>1.0</Bulk>
-			<Mass>0.70</Mass>
-		</statBases>
-	</ThingDef>
+	<ThingDef Name="MealBeverage" Abstract="True">
+	<thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+		  <MaxHitPoints>50</MaxHitPoints>
+		  <Flammability>1.0</Flammability>
+		  <Beauty>-6</Beauty>
+		  <Bulk>1.0</Bulk>
+		  <Mass>0.70</Mass>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffset>16</optimalityOffset>
+			<chairSearchRadius>60</chairSearchRadius>
+    </ingestible>
+    </ThingDef>
 
 
 	<ThingDef ParentName="OrganicProductBase">
@@ -100,22 +165,26 @@
  		<graphicData>
 			<texPath>Things/Item/Resource/Kibble</texPath>
 		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MarketValue>1.6</MarketValue>
 			<Mass>0.02</Mass>
 			<Bulk>0.05</Bulk>
+			<DeteriorationRate>2</DeteriorationRate>
 		</statBases>
 		<ingestible>
 		  <foodType>Kibble</foodType>
 		  <preferability>RawBad</preferability>
-				<tasteThought>AteKibble</tasteThought>
-				<optimalityOffset>-30</optimalityOffset>
+		  <tasteThought>AteKibble</tasteThought>
+		  <optimalityOffset>6</optimalityOffset>
 		  <nutrition>0.05</nutrition>
 		  <ingestEffect>EatVegetarian</ingestEffect>
 		  <ingestSound>RawVegetable_Eat</ingestSound>
 		</ingestible>
 		<comps>
-			<li Class="CompProperties_FoodPoisoningChance" />
+			<li Class="CompProperties_FoodPoisoningChance">
+				<humanlikeOnly>true</humanlikeOnly>
+			</li>
 		</comps>
 		<stackLimit>150</stackLimit>
 	</ThingDef>
@@ -172,7 +241,7 @@
 			<Mass>1.00</Mass>
 		</statBases>
 		<ingestible>
-		  <preferability>MealFine</preferability>
+		  <preferability>MealSimple</preferability>
 		  <tasteThought>AteFineMeal</tasteThought>
 		  <nutrition>0.90</nutrition>
 		  <ingestEffect>EatVegetarian</ingestEffect>
@@ -272,7 +341,7 @@
 		<ingestible>
 			<preferability>MealLavish</preferability>
 			<nutrition>1.00</nutrition>
-			<tasteThought>AteLavishMeal</tasteThought>
+			<tasteThought>AteLuxuryMeal</tasteThought>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
@@ -307,35 +376,37 @@
 	<ThingDef ParentName="MealBase">
 		<defName>MealJerky</defName>
 		<label>Jerky</label>
-		<description>Jerky made from raw meat.</description>
+		<description>Jerky made from raw meat.Max 5 eaten at a time.</description>
 		<graphicData>
 			<texPath>Things/Item/Meal/Meal_Jerky</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<DeteriorationRate>10</DeteriorationRate>
-			<MarketValue>15</MarketValue>
+			<MarketValue>8</MarketValue>
 			<WorkToMake>300</WorkToMake>
-			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Bulk>0.25</Bulk>
+			<Mass>0.15</Mass>
 		</statBases>
-		<stackLimit>10</stackLimit>
+		<stackLimit>25</stackLimit>
 		<ingestible>
 			<preferability>MealSimple</preferability>
-			<nutrition>0.60</nutrition>
+			<nutrition>0.15</nutrition>
+			<maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<tasteThought>AteAwfulMeal</tasteThought>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>30</daysToRotStart>
+				<daysToRotStart>40</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
 	</ThingDef>
 
 
-	<ThingDef ParentName="MealBase">
+	<ThingDef ParentName="MealRottable">
 		<defName>RoastedMeat</defName>
 		<label>Roasted Meat</label>
 		<description>Freshly roasted meat.</description>
@@ -360,7 +431,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 
-				<daysToRotStart>3</daysToRotStart>
+				<daysToRotStart>5</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
@@ -391,7 +462,7 @@
 		</ingestible>
 	</ThingDef>
 
-	<ThingDef ParentName="MealBase">
+	<ThingDef ParentName="MealRottable">
 		<defName>BakedPotato</defName>
 		<label>Baked Potato</label>
 		<description>Baked Potato.</description>
@@ -416,7 +487,7 @@
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>10</daysToRotStart>
+				<daysToRotStart>15</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>

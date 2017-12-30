@@ -7,6 +7,7 @@
 	<TraderKindDef>
 		<defName>ManufacturedGoodsTrader</defName>
 		<label>Manufactured Resource Trader</label>
+		<commonality>1.4</commonality>
 		<orbital>true</orbital>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
@@ -220,6 +221,8 @@
 					<max>600</max>
 				</countRange>
 			</li>
+			
+			<!-- выдает ошибку, в списке товаров не появляется.
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Compost</thingDef>
 				<price>Expensive</price>
@@ -228,6 +231,7 @@
 					<max>500</max>
 				</countRange>
 			</li>
+			-->
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ConcreteResource</thingDef>
 				<price>Expensive</price>

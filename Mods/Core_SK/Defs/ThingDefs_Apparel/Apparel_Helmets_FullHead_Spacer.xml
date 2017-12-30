@@ -33,7 +33,6 @@
 			<ArmorRating_Electric>0.6</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -44,7 +43,9 @@
 			<ShootingAccuracy>-0.07</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<MeleeHitChance>0.2</MeleeHitChance>
+			<Suppressability>-0.14</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		<bodyPartGroups>
 			<li>FullHead</li>
@@ -53,7 +54,6 @@
 		<layers>
 			<li>Overhead</li>
 		</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>OrionMedium</li>
 		</tags>
@@ -111,8 +111,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>17000</WorkToMake>
-			<PersonalShieldRechargeRate>0.1</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.35</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.35</EnergyShieldEnergyMax>
 			<MaxHitPoints>65</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -123,7 +123,6 @@
 			<ArmorRating_Electric>0.7</ArmorRating_Electric>
 			<Mass>1.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -135,7 +134,9 @@
 			<ShootingAccuracy>-0.14</ShootingAccuracy>
 			<MeleeHitChance>0.15</MeleeHitChance>
 			<MeleeWeapon_Cooldown>-0.08</MeleeWeapon_Cooldown>
+			<Suppressability>-0.14</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -144,7 +145,6 @@
       <layers>
         <li>Overhead</li>
       </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMelee</li>
 			<li>OrionMelee</li>
@@ -198,8 +198,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>14500</WorkToMake>
-			<PersonalShieldRechargeRate>0.03</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.4</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Flammability>4</Flammability>
 			<Insulation_Heat>6</Insulation_Heat>
@@ -210,7 +210,6 @@
 			<ArmorRating_Electric>0.45</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -223,7 +222,9 @@
 			<AimingDelayFactor>-0.1</AimingDelayFactor>
 			<GlobalLearningFactor>0.05</GlobalLearningFactor>
 			<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -232,7 +233,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateLight</li>
 		</tags>
@@ -277,8 +277,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<PersonalShieldRechargeRate>0.03</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.4</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
 			<MaxHitPoints>53</MaxHitPoints>
 			<Flammability>4</Flammability>
 			<Insulation_Heat>6</Insulation_Heat>
@@ -289,7 +289,6 @@
 			<ArmorRating_Electric>0.45</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -302,7 +301,9 @@
 			<AimingDelayFactor>-0.12</AimingDelayFactor>
 			<GlobalLearningFactor>0.06</GlobalLearningFactor>
 			<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			<Suppressability>-0.11</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -311,7 +312,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>OrionLight</li>
 		</tags>
@@ -356,8 +356,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<PersonalShieldRechargeRate>0.03</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.4</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
 			<MaxHitPoints>57</MaxHitPoints>
 			<Flammability>4</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -368,7 +368,6 @@
 			<ArmorRating_Electric>0.65</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -381,7 +380,9 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<GlobalLearningFactor>0.09</GlobalLearningFactor>
 			<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			<Suppressability>-0.12</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -390,7 +391,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 		</tags>
@@ -440,8 +440,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<PersonalShieldRechargeRate>0.03</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.4</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
 			<MaxHitPoints>59</MaxHitPoints>
 			<Flammability>3</Flammability>
 			<Insulation_Heat>4</Insulation_Heat>
@@ -452,7 +452,6 @@
 			<ArmorRating_Electric>0.6</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -465,7 +464,9 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<GlobalLearningFactor>0.08</GlobalLearningFactor>
 			<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			<Suppressability>-0.12</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -474,7 +475,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>OrionMedium</li>
 		</tags>
@@ -526,7 +526,6 @@
 			<ArmorRating_Electric>0.8</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -538,7 +537,9 @@
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<MeleeHitChance>-0.05</MeleeHitChance>
 			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.11</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -547,7 +548,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 		</tags>
@@ -606,7 +606,6 @@
 			<ArmorRating_Electric>0.8</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -617,7 +616,9 @@
 			<ShootingAccuracy>0.1</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<MeleeHitChance>-0.05</MeleeHitChance>
+			<Suppressability>-0.11</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -626,7 +627,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>OrionMedium</li>
 		</tags>
@@ -677,8 +677,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<PersonalShieldRechargeRate>0.05</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.5</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.5</EnergyShieldEnergyMax>
 			<MaxHitPoints>53</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -689,7 +689,6 @@
 			<ArmorRating_Electric>0.65</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -700,7 +699,9 @@
 			<ShootingAccuracy>0.1</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.1</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -709,7 +710,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateLight</li>
 			<li>OrionScout</li>
@@ -781,8 +781,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
-			<PersonalShieldRechargeRate>0.03</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.35</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.35</EnergyShieldEnergyMax>
 			<MaxHitPoints>60</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -793,7 +793,6 @@
 			<ArmorRating_Electric>0.78</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -804,7 +803,9 @@
 			<ShootingAccuracy>0.05</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			<Suppressability>-0.1</Suppressability>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -813,7 +814,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>OrionMedium</li>
@@ -859,8 +859,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
-			<PersonalShieldRechargeRate>0.05</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.6</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
 			<MaxHitPoints>64</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>5</Insulation_Heat>
@@ -871,7 +871,6 @@
 			<ArmorRating_Electric>0.85</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>4</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -882,7 +881,9 @@
 			<ShootingAccuracy>0.1</ShootingAccuracy>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.12</Suppressability>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -891,7 +892,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>OrionMedium</li>
@@ -908,76 +908,6 @@
 			</li>
 		  </options>
 		</colorGenerator>
-		<thingCategories>
-			<li>HeavyHelmetsCat</li>
-			<li>Setpowerarmor</li>
-		</thingCategories>
-	</ThingDef>
-
-	<ThingDef ParentName="ArmorSpacerBase">
-		<defName>Apparel_ZealotPowerArmorHelmet</defName>
-		<label>Zealot Helmet</label>
-		<description>Zealot power armor is a power armor set.</description>
-		<graphicData>
-			<texPath>Things/Apparel/Zealot/PowerArmorHelmetT45b</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<thingClass>SK.Apparel_PowerHelmet</thingClass>
-		<tickerType>Normal</tickerType>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>60</costStuffCount>
-		<CostList>
-			<Carbon>20</Carbon>
-			<Compaste>25</Compaste>
-			<SyntheticFibers>12</SyntheticFibers>
-			<MagneticMaterial>4</MagneticMaterial>
-			<Hexcell>6</Hexcell>
-		</CostList>
-		<statBases>
-			<WorkToMake>21000</WorkToMake>
-			<PersonalShieldRechargeRate>0.05</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.6</PersonalShieldEnergyMax>
-			<MaxHitPoints>69</MaxHitPoints>
-			<Flammability>1</Flammability>
-			<Insulation_Heat>6</Insulation_Heat>
-			<Insulation_Cold>-15</Insulation_Cold>
-			<ArmorRating_Blunt>0.72</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.78</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.9</ArmorRating_Heat>
-			<ArmorRating_Electric>0.95</ArmorRating_Electric>
-			<Mass>1</Mass>
-			<Bulk>4</Bulk>
-			<WornWeight>1</WornWeight>
-			<WornBulk>1</WornBulk>
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.21</MoveSpeed>
-			<WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
-			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-			<PsychicSensitivity>-0.1</PsychicSensitivity>
-			<ShootingAccuracy>0.1</ShootingAccuracy>
-			<AimingDelayFactor>0.07</AimingDelayFactor>
-			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<worngraphicPath>Things/Apparel/Zealot/PowerArmorHelmetT45b</worngraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<commonality>1</commonality>
-		<tags>
-			<li>SyndicateMedium</li>
-			<li>OrionMedium</li>
-		</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>	
 		<thingCategories>
 			<li>HeavyHelmetsCat</li>
 			<li>Setpowerarmor</li>
@@ -1008,8 +938,8 @@
 		</CostList>
 		<statBases>
 			<WorkToMake>21000</WorkToMake>
-			<PersonalShieldRechargeRate>0.05</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>0.7</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.7</EnergyShieldEnergyMax>
 			<MaxHitPoints>67</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Insulation_Heat>6</Insulation_Heat>
@@ -1020,7 +950,6 @@
 			<ArmorRating_Electric>0.90</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>4</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -1031,7 +960,9 @@
 			<ShootingAccuracy>0.1</ShootingAccuracy>
 			<AimingDelayFactor>0.07</AimingDelayFactor>
 			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.14</Suppressability>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -1040,7 +971,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>

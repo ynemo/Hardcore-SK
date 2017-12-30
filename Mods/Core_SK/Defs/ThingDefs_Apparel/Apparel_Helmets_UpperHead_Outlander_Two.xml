@@ -29,7 +29,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -42,6 +41,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -50,7 +50,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireLight</li>
@@ -96,7 +95,6 @@
 			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -107,6 +105,7 @@
 			<GiftImpact>0.02</GiftImpact>
 			<TradePriceImprovement>0.02</TradePriceImprovement>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
         		<li>UpperHead</li>
@@ -115,7 +114,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -169,7 +167,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -182,6 +179,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -190,7 +188,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireMedium</li>
@@ -214,7 +211,7 @@
 	
 	
 	<ThingDef ParentName="ApparelIndustrialBase">
-		<defName>Apparello_Hardhat</defName>
+		<defName>Apparel_BowlerHat</defName>
 		<label>Hard Hat</label>
 		<description>Favoured by the construction workers all across the galaxy. These are known to have saved lives of many who fell prey to the infamous falling lunchbox, hammer or brick.</description>
 		<graphicData>
@@ -241,7 +238,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -254,6 +250,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -262,7 +259,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesMedium</li>
@@ -312,7 +308,6 @@
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -328,6 +323,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -336,7 +332,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		  <defaultOutfitTags>
 			<li>Worker</li>
 			<li>Chef</li>
@@ -375,7 +370,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -389,6 +383,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -397,7 +392,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireLight</li>
@@ -447,7 +441,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -461,6 +454,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -469,7 +463,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -520,7 +513,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -534,6 +526,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -542,7 +535,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -594,7 +586,6 @@
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -607,6 +598,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -615,7 +607,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesMedium</li>
@@ -666,7 +657,6 @@
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 			<Mass>0.5</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.5</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -679,6 +669,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -687,7 +678,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -737,7 +727,6 @@
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 			<Mass>0.5</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.5</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -750,6 +739,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -758,7 +748,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesMedium</li>

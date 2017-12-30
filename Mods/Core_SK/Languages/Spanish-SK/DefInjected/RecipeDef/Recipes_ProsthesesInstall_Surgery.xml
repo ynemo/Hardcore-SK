@@ -1,112 +1,178 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<CureInjuryShredded.label>Curar corte de despedazamiento</CureInjuryShredded.label>
-	<CureInjuryShredded.description>Curar despedazamiento.</CureInjuryShredded.description>
-	<CureInjuryShredded.jobString>Curarndo despedazamiento.</CureInjuryShredded.jobString>
+  <!-- Cosmetic: Ear -->
 
-	<CureInjuryBruise.label>Curar cicatriz de contusión</CureInjuryBruise.label>
-	<CureInjuryBruise.description>Curar magulladura.</CureInjuryBruise.description>
-	<CureInjuryBruise.jobString>Curando magulladuras.</CureInjuryBruise.jobString>
+  <RepairCosmeticEar.label>Reparar oreja</RepairCosmeticEar.label>
+  <RepairCosmeticEar.description>Reparar Oreja</RepairCosmeticEar.description>
+  <RepairCosmeticEar.jobString>Reparando oreja</RepairCosmeticEar.jobString>
 
-	<CureInjuryCut.label>Curar cicatriz de corte</CureInjuryCut.label>
-	<CureInjuryCut.description>Curar corte.</CureInjuryCut.description>
-	<CureInjuryCut.jobString>Curando corte.</CureInjuryCut.jobString>
 
-	<CureInjuryGunshot.label>Curar corte de balazo</CureInjuryGunshot.label>
-	<CureInjuryGunshot.description>Curar balazo.</CureInjuryGunshot.description>
-	<CureInjuryGunshot.jobString>Curando balazo.</CureInjuryGunshot.jobString>
+  <!-- Cosmetic: Nose -->
 
-	<CureInjurySurgicalCut.label>Curar cicatriz quirúrgica</CureInjurySurgicalCut.label>
-	<CureInjurySurgicalCut.description>Curar corte quirúrgico.</CureInjurySurgicalCut.description>
-	<CureInjurySurgicalCut.jobString>Curando corte quirúrgico.</CureInjurySurgicalCut.jobString>
+  <RepairCosmeticNose.label>Reparar nariz</RepairCosmeticNose.label>
+  <RepairCosmeticNose.description>Reparar Nariz</RepairCosmeticNose.description>
+  <RepairCosmeticNose.jobString>Reparando Nariz</RepairCosmeticNose.jobString>
 
-	<CureChronicAlzheimers.label>Curar alzheimer</CureChronicAlzheimers.label>
-	<CureChronicAlzheimers.description>Curar alzheimer.</CureChronicAlzheimers.description>
-	<CureChronicAlzheimers.jobString>Curando alzheimer.</CureChronicAlzheimers.jobString>
+  <RepairFinger.label>Reparar mandíbula</RepairFinger.label>
+  <RepairFinger.description>Reparar Mandíbula</RepairFinger.description>
+  <RepairFinger.jobString>Reparando mandibula</RepairFinger.jobString>
 
-	<RepairToe.label>Reparar dedo del pie</RepairToe.label>
-	<RepairToe.description>Reparar dedo del pie</RepairToe.description>
-	<RepairToe.jobString>Reparando dedo del pie</RepairToe.jobString>
+  <RepairToe.label>Reparar dedo del pie</RepairToe.label>
+  <RepairToe.description>Reparar Dedo del Pie</RepairToe.description>
+  <RepairToe.jobString>Reparando dedo del pie</RepairToe.jobString>
 
-	<CureInjuryBite.label>Curar corte de mordedura</CureInjuryBite.label>
-	<CureInjuryBite.description>Curar mordedura.</CureInjuryBite.description>
-	<CureInjuryBite.jobString>Curando mordedura.</CureInjuryBite.jobString>
 
-	<CureInjuryFrostbite.label>Curar Corte de Congelación</CureInjuryFrostbite.label>
-	<CureInjuryFrostbite.description>Curar Congelación.</CureInjuryFrostbite.description>
-	<CureInjuryFrostbite.jobString>Curando Congelación.</CureInjuryFrostbite.jobString>
+  <!-- Chronic: BadBack -->
 
-	<CureInjuryStab.label>Curar corte de puñalada</CureInjuryStab.label>
-	<CureInjuryStab.description>Curar puñalada.</CureInjuryStab.description>
-	<CureInjuryStab.jobString>Curando puñalada.</CureInjuryStab.jobString>
+  <CureChronicBadBack.label>Curar dolor de espalda</CureChronicBadBack.label>
+  <CureChronicBadBack.description>Curar Dolor de Espalda.</CureChronicBadBack.description>
+  <CureChronicBadBack.jobString>Curando dolor de espalda.</CureChronicBadBack.jobString>
 
-	<CureInjuryScratch.label>Curar corte de rasguño</CureInjuryScratch.label>
-	<CureInjuryScratch.description>Curar rasguño.</CureInjuryScratch.description>
-	<CureInjuryScratch.jobString>Curando rasguño.</CureInjuryScratch.jobString>
 
-	<CureChronicCataract.label>Curar catarata</CureChronicCataract.label>
-	<CureChronicCataract.description>Curar catarata.</CureChronicCataract.description>
-	<CureChronicCataract.jobString>Curando catarata.</CureChronicCataract.jobString>
+  <!-- Chronic: Frail -->
 
-	<CureChronicHeartArteryBlockage.label>Curar bloqueo arterial</CureChronicHeartArteryBlockage.label>
-	<CureChronicHeartArteryBlockage.description>Curar bloqueo arterial.</CureChronicHeartArteryBlockage.description>
-	<CureChronicHeartArteryBlockage.jobString>Curando bloqueo arterial.</CureChronicHeartArteryBlockage.jobString>
+  <CureChronicFrail.label>Curar fragilidad</CureChronicFrail.label>
+  <CureChronicFrail.description>Curar Fragilidad.</CureChronicFrail.description>
+  <CureChronicFrail.jobString>Curando fragilidad.</CureChronicFrail.jobString>
 
-	<CureInjuryBurn.label>Curar cicatriz de quemadura</CureInjuryBurn.label>
-	<CureInjuryBurn.description>Curar quemadura.</CureInjuryBurn.description>
-	<CureInjuryBurn.jobString>Curando quemadura.</CureInjuryBurn.jobString>
 
-	<InjectMedicine.label>Inyectar anestesia</InjectMedicine.label>
-	<InjectMedicine.description>Inyectar medicina anestésica.</InjectMedicine.description>
-	<InjectMedicine.jobString>Inyectando medicina anestésica.</InjectMedicine.jobString>
+  <!-- Chronic: Cataract -->
 
-	<CureMuscleParasites.label>Curar parásitos musculares</CureMuscleParasites.label>
-	<CureMuscleParasites.description>Curar parásitos musculares.</CureMuscleParasites.description>
-	<CureMuscleParasites.jobString>Curando parásitos musculares.</CureMuscleParasites.jobString>
+  <CureChronicCataract.label>Curar cataratas</CureChronicCataract.label>
+  <CureChronicCataract.description>Curar Catarata.</CureChronicCataract.description>
+  <CureChronicCataract.jobString>Curando cataratas.</CureChronicCataract.jobString>
 
-	<CureGutWorms.label>Curar parásitos intestinales</CureGutWorms.label>
-	<CureGutWorms.description>Curar parásitos intestinales.</CureGutWorms.description>
-	<CureGutWorms.jobString>Curando parásitos intestinales.</CureGutWorms.jobString>
 
-	<CureInjuryCrack.label>Curar grieta de cicatriz</CureInjuryCrack.label>
-	<CureInjuryCrack.description>Curar grieta.</CureInjuryCrack.description>
-	<CureInjuryCrack.jobString>Curando grieta.</CureInjuryCrack.jobString>
+  <!-- Chronic: HearingLoss -->
 
-	<CureChronicAsthma.label>Curar asma</CureChronicAsthma.label>
-	<CureChronicAsthma.description>Curar asma.</CureChronicAsthma.description>
-	<CureChronicAsthma.jobString>Curando asma.</CureChronicAsthma.jobString>
+  <CureChronicHearingLoss.label>Curar peridida de audicion</CureChronicHearingLoss.label>
+  <CureChronicHearingLoss.description>Curar Peridida de Audicion.</CureChronicHearingLoss.description>
+  <CureChronicHearingLoss.jobString>Curando peridida de audicion.</CureChronicHearingLoss.jobString>
 
-	<RepairCosmeticEar.label>Reparar oreja</RepairCosmeticEar.label>
-	<RepairCosmeticEar.description>Reparar oreja</RepairCosmeticEar.description>
-	<RepairCosmeticEar.jobString>Reparando oreja</RepairCosmeticEar.jobString>
 
-	<RepairFinger.label>Reparar mandíbula</RepairFinger.label>
-	<RepairFinger.description>Reparar mandíbula</RepairFinger.description>
-	<RepairFinger.jobString>Reparando mandibula</RepairFinger.jobString>
+  <!-- Chronic: Dementia -->
 
-	<CureChronicHearingLoss.label>Curar perdida de audicion</CureChronicHearingLoss.label>
-	<CureChronicHearingLoss.description>Curar peridida de audicion.</CureChronicHearingLoss.description>
-	<CureChronicHearingLoss.jobString>Curando peridida de audicion.</CureChronicHearingLoss.jobString>
+  <CureChronicDementia.label>curar demencia</CureChronicDementia.label>
+  <CureChronicDementia.description>Curar Demencia.</CureChronicDementia.description>
+  <CureChronicDementia.jobString>Curando demencia.</CureChronicDementia.jobString>
 
-	<CureChronicBadBack.label>Curar dolor de espalda</CureChronicBadBack.label>
-	<CureChronicBadBack.description>Curar dolor de espalda.</CureChronicBadBack.description>
-	<CureChronicBadBack.jobString>Curando dolor de espalda.</CureChronicBadBack.jobString>
+  <CureMuscleParasites.label>Curar parásitos musculares</CureMuscleParasites.label>
+  <CureMuscleParasites.description>Curar Parásitos Musculares.</CureMuscleParasites.description>
+  <CureMuscleParasites.jobString>Curando parásitos musculares.</CureMuscleParasites.jobString>
 
-	<CureChronicFrail.label>Curar fragilidad</CureChronicFrail.label>
-	<CureChronicFrail.description>Curar fragilidad.</CureChronicFrail.description>
-	<CureChronicFrail.jobString>Curando fragilidad.</CureChronicFrail.jobString>
+  <CureGutWorms.label>Curar parásitos intestinales</CureGutWorms.label>
+  <CureGutWorms.description>Curar Parásitos Intestinales.</CureGutWorms.description>
+  <CureGutWorms.jobString>Curando parásitos intestinales.</CureGutWorms.jobString>
 
-	<CureInjuryCrush.label>Curar cicatriz por aplastamiento</CureInjuryCrush.label>
-	<CureInjuryCrush.description>Curar cicatriz.</CureInjuryCrush.description>
-	<CureInjuryCrush.jobString>Curando cicatriz.</CureInjuryCrush.jobString>
 
-	<CureChronicDementia.label>Curar demencia</CureChronicDementia.label>
-	<CureChronicDementia.description>Curar demencia.</CureChronicDementia.description>
-	<CureChronicDementia.jobString>Curando demencia.</CureChronicDementia.jobString>
+  <!-- Chronic: Alzheimers -->
 
-	<RepairCosmeticNose.label>Reparar nariz</RepairCosmeticNose.label>
-	<RepairCosmeticNose.description>Reparar nariz</RepairCosmeticNose.description>
-	<RepairCosmeticNose.jobString>Reparando nariz</RepairCosmeticNose.jobString>
+  <CureChronicAlzheimers.label>Curar alzheimer</CureChronicAlzheimers.label>
+  <CureChronicAlzheimers.description>Curar Alzheimer.</CureChronicAlzheimers.description>
+  <CureChronicAlzheimers.jobString>Curando alzheimer.</CureChronicAlzheimers.jobString>
+
+
+  <!-- Chronic: Asthma -->
+
+  <CureChronicAsthma.label>Curar asma</CureChronicAsthma.label>
+  <CureChronicAsthma.description>Curar Asma.</CureChronicAsthma.description>
+  <CureChronicAsthma.jobString>Curando asma.</CureChronicAsthma.jobString>
+
+
+  <!-- Chronic: HeartArteryBlockage -->
+
+  <CureChronicHeartArteryBlockage.label>Curar bloqueo arterial</CureChronicHeartArteryBlockage.label>
+  <CureChronicHeartArteryBlockage.description>Curar Bloqueo Arterial.</CureChronicHeartArteryBlockage.description>
+  <CureChronicHeartArteryBlockage.jobString>Curando bloqueo arterial.</CureChronicHeartArteryBlockage.jobString>
+
+
+  <!-- Injury: Burn -->
+
+  <CureInjuryBurn.label>Curar cicatriz de quemadura</CureInjuryBurn.label>
+  <CureInjuryBurn.description>Curar quemadura.</CureInjuryBurn.description>
+  <CureInjuryBurn.jobString>Curando quemadura.</CureInjuryBurn.jobString>
+
+
+  <!-- Injury: Crush -->
+
+  <CureInjuryCrush.label>Curar cicatriz por aplastamiento</CureInjuryCrush.label>
+  <CureInjuryCrush.description>Curar Cicatriz.</CureInjuryCrush.description>
+  <CureInjuryCrush.jobString>Curando cicatriz.</CureInjuryCrush.jobString>
+
+
+  <!-- Injury: Crack -->
+
+  <CureInjuryCrack.label>Curar grieta de cicatriz</CureInjuryCrack.label>
+  <CureInjuryCrack.description>Curar grieta.</CureInjuryCrack.description>
+  <CureInjuryCrack.jobString>Curando grieta.</CureInjuryCrack.jobString>
+
+
+  <!-- Injury: Cut -->
+
+  <CureInjuryCut.label>Curar cicatriz de corte</CureInjuryCut.label>
+  <CureInjuryCut.description>Curar Corte.</CureInjuryCut.description>
+  <CureInjuryCut.jobString>Curando corte.</CureInjuryCut.jobString>
+
+
+  <!-- Injury: SurgicalCut -->
+
+  <CureInjurySurgicalCut.label>Curar cicatriz quirúrgica</CureInjurySurgicalCut.label>
+  <CureInjurySurgicalCut.description>Curar corte quirúrgico.</CureInjurySurgicalCut.description>
+  <CureInjurySurgicalCut.jobString>Curando corte quirúrgico.</CureInjurySurgicalCut.jobString>
+
+
+  <!-- Injury: Scratch -->
+
+  <CureInjuryScratch.label>Curar corte de rasguño</CureInjuryScratch.label>
+  <CureInjuryScratch.description>Curar Rasguño.</CureInjuryScratch.description>
+  <CureInjuryScratch.jobString>Curando rasguño.</CureInjuryScratch.jobString>
+
+
+  <!-- Injury: Bite -->
+
+  <CureInjuryBite.label>Curar corte de mordedura</CureInjuryBite.label>
+  <CureInjuryBite.description>Curar Mordedura.</CureInjuryBite.description>
+  <CureInjuryBite.jobString>Curando mordedura.</CureInjuryBite.jobString>
+
+
+  <!-- Injury: Stab -->
+
+  <CureInjuryStab.label>Curar corte de puñalada</CureInjuryStab.label>
+  <CureInjuryStab.description>Curar Puñalada.</CureInjuryStab.description>
+  <CureInjuryStab.jobString>Curando puñalada.</CureInjuryStab.jobString>
+
+
+  <!-- Injury: Gunshot -->
+
+  <CureInjuryGunshot.label>Curar corte de balazo</CureInjuryGunshot.label>
+  <CureInjuryGunshot.description>Curar Balazo.</CureInjuryGunshot.description>
+  <CureInjuryGunshot.jobString>Curando balazo.</CureInjuryGunshot.jobString>
+
+
+  <!-- Injury: Shredded -->
+
+  <CureInjuryShredded.label>Curar corte de despedazamiento</CureInjuryShredded.label>
+  <CureInjuryShredded.description>Curar Despedazamiento.</CureInjuryShredded.description>
+  <CureInjuryShredded.jobString>Curarndo despedazamiento.</CureInjuryShredded.jobString>
+
+
+  <!-- Injury: Bruise -->
+
+  <CureInjuryBruise.label>Curar cicatriz de contusión</CureInjuryBruise.label>
+  <CureInjuryBruise.description>Curar magulladura.</CureInjuryBruise.description>
+  <CureInjuryBruise.jobString>Curando magulladuras.</CureInjuryBruise.jobString>
+
+
+  <!-- Injury: Frostbite -->
+
+  <CureInjuryFrostbite.label>Curar corte de congelación</CureInjuryFrostbite.label>
+  <CureInjuryFrostbite.description>Curar Congelación.</CureInjuryFrostbite.description>
+  <CureInjuryFrostbite.jobString>Curando congelación.</CureInjuryFrostbite.jobString>
+
+  <InjectMedicine.label>Inyectar anestesia</InjectMedicine.label>
+  <InjectMedicine.description>Inyectar medicina anestésica.</InjectMedicine.description>
+  <InjectMedicine.jobString>Inyectando medicina anestésica.</InjectMedicine.jobString>
+
 
 </LanguageData>

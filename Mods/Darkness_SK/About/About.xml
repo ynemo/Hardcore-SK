@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Darkness SK</name>
+  <name>Darkness +SK patch</name>
   <author>Skyarkhangel</author>
   <url></url>
-  <targetVersion>0.16.1392</targetVersion>
-  <description>
-[English]
-Makes nights darker and creepier.
-
-[Russian]
-Делает ночи темнее и жутче.
-</description>
+  <targetVersion>0.17.1539</targetVersion>
+  <description>Makes nights darker and creepier.</description>
 </ModMetaData>

@@ -6,12 +6,13 @@
 	<RecipeDef>
 		<defName>MakePizza</defName>
 		<label>bake pizza</label>
-		<description>Bakes a pizza from Flour, Cheese and Tomatoes. Scrumptious! Produces 1.</description>
-		<jobString>Baking Pizza.</jobString>
+		<description>Bakes a pizza from flour, cheese and tomatoes. Scrumptious! Produces 1.</description>
+		<jobString>Baking pizza.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -19,7 +20,7 @@
 						<li>Flour</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -27,7 +28,7 @@
 						<li>Cheese</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>0.1</count>
 			</li>
 			<li>
 				<filter>
@@ -35,7 +36,7 @@
 						<li>RawTomatoes</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>0.2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -60,13 +61,14 @@
 	
 	<RecipeDef>
 		<defName>MakeCheeseGrilled</defName>
-		<label>cook grilled cheese</label>
-		<description>Cooks a sandwich from bread and cheese. Produces 1.</description>
-		<jobString>Cooking Grilled Cheese.</jobString>
+		<label>Grill cheese sandwich</label>
+		<description>Grills a sandwich from bread and cheese. Produces 1.</description>
+		<jobString>Grilling cheese sandwich.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -74,7 +76,7 @@
 						<li>Cheese</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -82,7 +84,7 @@
 						<li>bread</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>0.1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -106,12 +108,13 @@
 	<RecipeDef>
 		<defName>MakeBurgerCheese</defName>
 		<label>cook cheese burger</label>
-		<description>Cooks a burger made from bread, meat and Cheese. Delicious. Produces 1.</description>
-		<jobString>Cooking Cheese Burger.</jobString>
+		<description>Cooks a burger made from bread, meat and cheese. Delicious! Produces 1.</description>
+		<jobString>Cooking cheese burger.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -120,7 +123,7 @@
 						<li>AnimalProductRaw</li>	
 					</categories>
 				</filter>
-				<count>4</count>
+				<count>0.2</count>
 			</li>
 			<li>
 				<filter>
@@ -128,7 +131,7 @@
 						<li>bread</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>0.1</count>
 			</li>
 			<li>
 				<filter>
@@ -136,7 +139,7 @@
 						<li>Cheese</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>0.1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -180,14 +183,15 @@
 
 	<RecipeDef>
 		<defName>MakePieBlueberry</defName>
-		<label>bake blueberry pies</label>
-		<description>Bake tasty blueberry pies. Produces 5.</description>
-		<jobString>Baking Blueberry Pies.</jobString>
+		<label>bake berry pies</label>
+		<description>Bake tasty berry pies. Produces 3.</description>
+		<jobString>Baking berry pies.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>1500</workAmount>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -195,15 +199,19 @@
 						<li>Flour</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>Rawblueberry</li>
+						<li>RawBerries</li>
+						<li>Rawgrape</li>
+						<li>Rawgooseberry</li>
+						<li>Rawcloudberry</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>0.5</count>
 			</li>
 			<li>
 				<filter>
@@ -211,13 +219,18 @@
 						<li>Sugar</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>0.3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Sugar</li>
 				<li>Rawblueberry</li>
+				<li>Rawblueberry</li>
+				<li>RawBerries</li>
+				<li>Rawgrape</li>
+				<li>Rawgooseberry</li>
+				<li>Rawcloudberry</li>
+				<li>Sugar</li>
 				<li>Flour</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -225,7 +238,7 @@
 			</specialFiltersToDisallow>
 		</fixedIngredientFilter>
 		<products>
-			<PieBlueberry>5</PieBlueberry>
+			<PieBlueberry>3</PieBlueberry>
 		</products>
 		<skillRequirements>
 			<li>
@@ -240,13 +253,14 @@
 	<RecipeDef>
 		<defName>MakePiePumpkin</defName>
 		<label>bake pumpkin pies</label>
-		<description>Stuff the intestines of Pumpkins into dough to make sweet aromatic pies. Produces 5.</description>
-		<jobString>Baking Pumpkin Pies.</jobString>
+		<description>Stuff the intestines of pumpkins into dough to make sweet aromatic pies. Produces 5.</description>
+		<jobString>Baking pumpkin pies.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>1500</workAmount>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -254,7 +268,7 @@
 						<li>Flour</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>1.0</count>
 			</li>
 			<li>
 				<filter>
@@ -262,7 +276,7 @@
 						<li>Sugar</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -270,7 +284,7 @@
 						<li>Rawpumpkin</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>0.4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -301,14 +315,15 @@
 
 	<RecipeDef>
 		<defName>MakeTaffy</defName>
-		<label>make taffy candies</label>
+		<label>cook taffy candies</label>
 		<description>Turns sugar into taffy. Taffy is a type of sweet, chewable candy. Produces 4.</description>
-		<jobString>Making taffy candies.</jobString>
+		<jobString>Cooking taffy candies.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>900</workAmount>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -316,7 +331,7 @@
 						<li>Sugar</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>1.0</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -346,13 +361,14 @@
 	<RecipeDef>
 		<defName>MakeCookies</defName>
 		<label>bake chocolate cookies</label>
-		<description>Bakes cookies from Flour, Sugar and Chocolate. Produces 5.</description>
-		<jobString>Baking Chocolate Cookies.</jobString>
+		<description>Bakes cookies from flour, sugar and chocolate; using grandma's recipe. Produces 5.</description>
+		<jobString>Baking chocolate cookies.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>800</workAmount>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -360,7 +376,7 @@
 						<li>Chocolate</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -368,7 +384,7 @@
 						<li>Sugar</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>0.4</count>
 			</li>
 			<li>
 				<filter>
@@ -376,7 +392,7 @@
 						<li>Flour</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>1.0</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -405,13 +421,14 @@
 	<RecipeDef>
 		<defName>MakeSweetBun</defName>
 		<label>bake sweet rolls</label>
-		<description>Bakes Sweet Rolls covered in sugary icying. Produces 5.</description>
-		<jobString>Baking Sweet Rolls.</jobString>
+		<description>Bakes sweet rolls covered in sugary icying. Produces 5.</description>
+		<jobString>Baking sweet rolls.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>800</workAmount>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
@@ -419,7 +436,7 @@
 						<li>Sugar</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>0.4</count>
 			</li>
 			<li>
 				<filter>
@@ -427,7 +444,7 @@
 						<li>Flour</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>1.0</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -450,4 +467,91 @@
 		</skillRequirements>
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
+	
+	
+	<RecipeDef>
+	<defName>BakeCornbread</defName>
+	<label>bake cornbread (2x)</label>
+	<description>Bake a tasty cornbread loaf. Produces 2.</description>
+	<jobString>Baking cornbread.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<workAmount>1000</workAmount>
+     <soundWorking>Recipe_CookMeal</soundWorking>          
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>Flour</li>
+	      </thingDefs>
+	    </filter>
+	    <count>4</count>
+	  </li>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+	    </filter>
+	    <count>8</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Flour</li>
+	    <li>Cornmeal</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Cornbread>2</Cornbread>
+	</products>
+	<workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+   <RecipeDef>
+	<defName>BakeCornbreadmuffin</defName>
+	<label>bake cornbread muffins (3x)</label>
+	<description>Bake some tasty cornbread muffins. Produces 3.</description>
+	<jobString>Baking cornbread muffins.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<workAmount>1500</workAmount>
+     <soundWorking>Recipe_CookMeal</soundWorking>          
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>Flour</li>
+	      </thingDefs>
+	    </filter>
+	    <count>8</count>
+	  </li>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+	    </filter>
+	    <count>6</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Flour</li>
+	    <li>Cornmeal</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Cornbreadmuffin>3</Cornbreadmuffin>
+	</products>
+	<workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+
 </RecipeDefs>

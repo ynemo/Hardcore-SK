@@ -15,7 +15,6 @@
 			<Flammability>1</Flammability>
 			<Mass>12</Mass>
 			<Bulk>8</Bulk>
-			<WornWeight>12</WornWeight>
 			<WornBulk>12</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -36,6 +35,7 @@
 			<Carbon>5</Carbon>
 			<Microchips>1</Microchips>
 		</CostList>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -45,7 +45,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>1</commonality>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -56,11 +55,10 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Class="Combat_Realism.Apparel_VisibleAccessoryDef" ParentName="ApparelIndustrialBase">
+	<ThingDef ParentName="ApparelIndustrialBase">
 		<defName>Apparel_TacVest</defName>
 		<label>Loadbearing Kit</label>
-		<ThingClass>Combat_Realism.Apparel_VisibleAccessory</ThingClass>
-		<order>1</order>
+		<ThingClass>CombatExtended.Apparel_VisibleAccessory</ThingClass>
 		<description>A loadbearing vest with a number of pouches to store magazines and other equipment.\n\nSpeeds up reloading but is quite bulky to wear.</description>
 		<graphicData>
 			<texPath>Things/Apparel/TacRigging/TacRigging</texPath>
@@ -71,7 +69,6 @@
 			<WorkToMake>8000</WorkToMake>
 			<Mass>2</Mass>
 			<Bulk>10</Bulk>
-			<WornWeight>2</WornWeight>
 			<WornBulk>8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -89,14 +86,14 @@
 		<costList>
 			<Component>3</Component>
 		</costList>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Accessory</li>
+				<li>Belt</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>Outlander</li>
 				<li>Military</li>
@@ -131,13 +128,17 @@
 		<thingCategories>
 			<li>SpecialApparelCat</li>
 		</thingCategories>
+        <modExtensions>
+          <li Class="CombatExtended.VisibleAccessoryDefExtension">
+            <order>1</order>
+          </li>
+        </modExtensions>
 	</ThingDef>
 
-	<ThingDef Class="Combat_Realism.Apparel_VisibleAccessoryDef" ParentName="ApparelIndustrialBase">
+	<ThingDef ParentName="ApparelIndustrialBase">
 		<defName>Apparel_Backpack</defName>
 		<label>Backpack</label>
-		<ThingClass>Combat_Realism.Apparel_VisibleAccessory</ThingClass>
-		<order>2</order>
+		<ThingClass>CombatExtended.Apparel_VisibleAccessory</ThingClass>
 		<description>A comfortable and spacious backpack for storing all kinds of items.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Backpack/Milpack</texPath>
@@ -148,7 +149,6 @@
 			<WorkToMake>5000</WorkToMake>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0</WornWeight>
 		</statBases>
 		<equippedStatOffsets>
 			<CarryBulk>30</CarryBulk>
@@ -161,14 +161,14 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
+			<generateCommonality>2</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Accessory</li>
+				<li>Belt</li>
 			</layers>
-			<commonality>2</commonality>
 			<tags>
 				<li>Outlander</li>
 				<li>Military</li>
@@ -208,5 +208,10 @@
 		<thingCategories>
 			<li>SpecialApparelCat</li>
 		</thingCategories>
+        <modExtensions>
+          <li Class="CombatExtended.VisibleAccessoryDefExtension">
+            <order>2</order>
+          </li>
+        </modExtensions>
 	</ThingDef>
 </ThingDefs>

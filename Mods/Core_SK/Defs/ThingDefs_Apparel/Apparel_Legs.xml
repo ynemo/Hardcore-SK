@@ -28,7 +28,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.5</Mass>
 			<Bulk>0.7</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -37,6 +36,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -45,7 +45,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -90,7 +89,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -99,6 +97,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>4</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Norbal/TribalA</worngraphicPath>
 		<bodyPartGroups>
@@ -107,7 +106,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>4</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>NorbalWarrior</li>
@@ -148,7 +146,6 @@
 			<ArmorRating_Sharp>0.11</ArmorRating_Sharp>
 			<Mass>0.35</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.35</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -157,6 +154,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.03</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>2</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Suspenders/MedievalTimes_Suspenders</worngraphicPath>
 		<bodyPartGroups>
@@ -165,7 +163,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>2</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>NorbalWarrior</li>
@@ -207,7 +204,6 @@
 			<ArmorRating_Sharp>0.11</ArmorRating_Sharp>
 			<Mass>0.35</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.35</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -216,6 +212,7 @@
 			<TrainAnimalChance>0.11</TrainAnimalChance>
 			<TameAnimalChance>0.02</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>2</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Suspenders_Striped/MedievalTimes_Suspenders_Striped</worngraphicPath>
 		<bodyPartGroups>
@@ -224,7 +221,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>2</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>NorbalWarrior</li>
@@ -271,7 +267,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>0.6</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -279,6 +274,7 @@
 			<MoveSpeed>-0.02</MoveSpeed>
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -287,7 +283,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -334,7 +329,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.6</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.6</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -343,6 +337,7 @@
 			<ConstructionSpeed>0.1</ConstructionSpeed>
 			<MiningSpeed>0.1</MiningSpeed>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Legs</li>
@@ -351,7 +346,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>NorbalKingly</li>
 			<li>Outlander</li>
@@ -420,15 +414,15 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.6</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.6</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<CarryBulk>5</CarryBulk>
 			<MoveSpeed>-0.025</MoveSpeed>
 			<MedicalOperationSpeed>0.03</MedicalOperationSpeed>
-			<HealingSpeed>0.03</HealingSpeed>
+			<MedicalTendSpeed>0.03</MedicalTendSpeed>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Legs</li>
@@ -437,7 +431,6 @@
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -484,7 +477,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.9</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -496,6 +488,7 @@
 			<MeleeHitChance>-0.07</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.07</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -504,7 +497,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesMedium</li>
@@ -550,7 +542,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>0.3</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -562,6 +553,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -570,7 +562,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireLight</li>
@@ -623,7 +614,6 @@
 			<ArmorRating_Electric>0.11</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -634,6 +624,7 @@
 			<MeleeHitChance>-0.02</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -642,7 +633,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>SectarianLight</li>
@@ -687,7 +677,6 @@
 			<ArmorRating_Electric>0.11</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>0.3</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0.3</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -700,6 +689,7 @@
 			<TrainAnimalChance>0.15</TrainAnimalChance>
 			<TameAnimalChance>0.11</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Legs</li>
@@ -707,7 +697,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>

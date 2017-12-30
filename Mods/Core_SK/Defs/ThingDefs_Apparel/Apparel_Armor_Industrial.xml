@@ -30,7 +30,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>15</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>7</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -42,7 +41,9 @@
 			<AimingDelayFactor>0.06</AimingDelayFactor>
 			<MeleeHitChance>-0.06</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.11</MeleeWeapon_Cooldown>
+			<Suppressability>-0.15</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>3</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -53,7 +54,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianLight</li>
@@ -126,7 +126,6 @@
 			<ArmorRating_Electric>0.25</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>14</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>8</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -139,10 +138,11 @@
 			<MeleeHitChance>-0.06</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
 			<MedicalOperationSpeed>0.2</MedicalOperationSpeed>
-			<HealingSpeed>0.2</HealingSpeed>
-			<HealingQuality>0.1</HealingQuality>
-			<SurgerySuccessChance>0.1</SurgerySuccessChance>
+			<MedicalTendSpeed>0.2</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
+					<generateCommonality>1.2</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -154,7 +154,6 @@
 			<li>Middle</li>
 			<li>Shell</li>
 		  </layers>
-			<commonality>1.2</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianLight</li>
@@ -177,78 +176,6 @@
 		</thingCategories>
 	</ThingDef>
 
-	
-	<ThingDef ParentName="ApparelIndustrialBase">
-		<defName>Scout_LeatherRobe</defName>
-    <label>Scout Armor</label>
-    <description>A set of light armor used by military scouts. Intended to provide some protection without hindering movement.</description>
-    <graphicData>
-      <texPath>Things/Apparel/LeatherRobe/LeatherRobe</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>		
-		<stuffCategories>
-			<li>HF</li>
-			<li>Fabric</li>
-		</stuffCategories>
-		<costStuffCount>65</costStuffCount>
-		<CostList>
-			<Component>7</Component>
-			<Compaste>15</Compaste>
-			<SyntheticFibers>10</SyntheticFibers>
-			<Kevlar>15</Kevlar>
-		</CostList>
-		<statBases>
-			<WorkToMake>13000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>4</Flammability>
-			<Insulation_Heat>6</Insulation_Heat>
-			<Insulation_Cold>-13</Insulation_Cold>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.3</ArmorRating_Heat>
-			<ArmorRating_Electric>0.3</ArmorRating_Electric>
-			<Mass>1.5</Mass>
-			<Bulk>15</Bulk>
-			<WornWeight>1.5</WornWeight>
-			<WornBulk>8</WornBulk>
-			</statBases>
-		<equippedStatOffsets>
-			<CarryBulk>12</CarryBulk>
-			<MoveSpeed>-0.6</MoveSpeed>
-			<WorkSpeedGlobal>-0.14</WorkSpeedGlobal>
-			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
-			<ShootingAccuracy>-0.05</ShootingAccuracy>
-			<AimingDelayFactor>0.04</AimingDelayFactor>
-			<MeleeHitChance>-0.03</MeleeHitChance>
-			<MeleeWeapon_Cooldown>0.07</MeleeWeapon_Cooldown>
-		</equippedStatOffsets>
-		<apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-      </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/LeatherRobe/LeatherRobe</worngraphicPath>
-      <layers>
-        <li>Shell</li>
-      </layers>
-			<commonality>2</commonality>
-		<tags>
-			<li>SectarianScout</li>
-			<li>BrotherhoodLight</li>
-			<li>BrotherhoodScout</li>
-			<li>SectarianScout</li>
-		</tags>
-		  <defaultOutfitTags>
-					<li>Soldier</li>
-		  </defaultOutfitTags>
-		</apparel>
-		<thingCategories>
-			<li>MediumUpperArmorCat</li>
-			<li>SetScout</li>
-		</thingCategories>
-	</ThingDef>
-	
 	<ThingDef ParentName="ApparelIndustrialBase">
 		<defName>Apparel_FSChefJacket</defName>
 		<label>Chef jacket</label>
@@ -277,7 +204,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.1</Mass>
 			<Bulk>7</Bulk>
-			<WornWeight>0.1</WornWeight>
 			<WornBulk>3</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -287,6 +213,7 @@
 			<BrewingSpeed>0.3</BrewingSpeed>
 			<ButcheryFleshSpeed>0.3</ButcheryFleshSpeed>		
 		</equippedStatOffsets>
+					<generateCommonality>0.1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -297,7 +224,6 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>0.1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>

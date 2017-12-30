@@ -1,18 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>MJ - MiniMap (A16)</name>
+	<name>MJ - MiniMap (A17)</name>
 	<author>Mauro Junior</author>
-	<targetVersion>0.16.1393</targetVersion>
+	<targetVersion>0.17.1546</targetVersion>
 	<description>
-Version: 1.6 (Full) [Completo]
+	
+Version A16 -> https://www.dropbox.com/s/r4yj1nspf7efgyl/MiniMap%5BA16%5D.zip?dl=0
+	
+Version: 1.9.0
 
-Future: Suggestions ?
+Requires: HugsLib -> http://steamcommunity.com/sharedfiles/filedetails/?id=818773962
 
-Requires: None
+Compatibility:
+Craftable Robots -> A17 = http://steamcommunity.com/sharedfiles/filedetails/?id=937333226
+Craftable Robots -> base robots - A17 = http://steamcommunity.com/sharedfiles/filedetails/?id=937008529
+Embrasures -> http://steamcommunity.com/sharedfiles/filedetails/?id=736582456
+
+Notes:
+Settings for update time and radius of the circles in the minimap. (Configurações para tempo de atualização e radio dos circulos no minimapa.)
+Options menu appears when item is active: green square, off: red square. (Menu de opções aparece quando item estiver ativado: quadrado verde, desativado: quadrado vermelho.)
+MOD news (included tutorial) -> Janela com informações (inclusive tutorial)
+Save position and size with individual values for each save. (Salva posição e tamanho com valores individuais para cada save.)
+The F8 key hides or displays the Mini Map. (A tecla F8 esconde ou mostra o Minimapa.)
 
 [English]
 
-First of all, I would like to thank Fluffy for suggesting that I use CCL for this minimap, and this allowed me to advance a lot in a short time. Again, my many thanks Fluffy.
+First of all, I would like to thank Fluffy, who suggested that I look at the CCL and this allowed me to move forward very quickly. Again, my many thanks Fluffy.
 
 The minimap has undergone numerous changes (for the better):
 
@@ -35,12 +48,12 @@ Camera
 
 In the image above, you have a MiniMap preview in a game.
 
-NOTE: When you click on a Menu option, A (enabled) or D (disabled) is displayed. Just click to switch between options.
+NOTE: When you click on a Menu option, green square (enabled) or red square (disabled) is displayed. Just click to switch between options.
 NOTE: Clicks are always with RMB (Right Mouse Button) and LMB (Left Mouse Button) to select item menu.
 
 [Brazilian]
 
-Primeiramente, gostaria de agradecer ao Fluffy, pois me sugeriu utilizar o CCL para este minimap e isso permitiu avançar muito em pouco tempo. Novamente, meu muito obrigado Fluffy.
+Primeiramente, gostaria de agradecer ao Fluffy, pois me sugeriu analisar o CCL e isso permitiu avançar muito em pouco tempo. Novamente, meu muito obrigado Fluffy.
 
 O minimapa sofreu inúmeras mudanças (para melhor):
 
@@ -63,36 +76,8 @@ Camera
 
 Na imagem acima, tem uma prévia do MiniMapa em um jogo.
 
-NOTA: Quando clicar em uma opção do Menu, aparece A (ativado) ou D (desativado). Basta clicar para mudar entre as opções.
+NOTA: Quando clicar em uma opção do Menu, aparece um quadrado verde (ativado) ou quadrado vermelho (desativado). Basta clicar para mudar entre as opções.
 NOTA: Os cliques sempre são com o RMB (Botão Direito do Mouse) e LMB (Botão Esquerdo do Mouse) para selecionar um item do menu.
 
-[Russian]
-
-Прежде всего, я хотел бы поблагодарить Fluffy за то, что я предложил использовать CCL для этой мини-карты, и это позволило мне значительно продвинуться вперед за короткое время. Еще раз большое спасибо Fluffy.
-
-Миникарта претерпела многочисленные изменения (к лучшему):
-
-1 - Области, которые можно просмотреть:
-Колонисты
-Враги
-Животные
-Постройки
-Электрические сети
-Область раскопки
-Горы
-Тип почвы
-Область видимости
-
-2 - Вы можете перетащить карту и изменить размер карты (после активации этого параметра щелкните ЛКМ и перетащите его внутрь Карты).
-
-3 - Позволяет визуализировать области, созданные в игре
-
-4 - Нажмите на мини-карту и переместите камеру в мир
-
-На изображении выше у вас есть предварительный просмотр MiniMap в игре.
-
-ПРИМЕЧАНИЕ. Когда вы нажимаете кнопку «Меню», отображается A (включено) или D (отключено). Просто нажмите, чтобы переключаться между параметрами.
-ПРИМЕЧАНИЕ. Для выбора элементов меню всегда используются щелчки ПКМ (правая кнопка мыши) и ЛКМ (левая кнопка мыши).
-		
 	</description>
 </ModMetaData>

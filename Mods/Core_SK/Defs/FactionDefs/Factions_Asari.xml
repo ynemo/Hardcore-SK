@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
 	<FactionDef>
 		<defName>AsariHunters</defName>
 		<label>United Asari Republic</label>
     <description>A fleet of asari ships.\n\nAfter finding themselves in this galaxy without any memorie from where they came from, the asaris are searching the galaxy for who they are and where they came from. Traveling like nomads, they usually dont settle down on planets. They are untrusting of humans, since their technology seems to be far superior.</description>
     <pawnsPlural>asaris</pawnsPlural>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -30,7 +30,7 @@
     </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-    <factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBasePirate</baseNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategory>Asaris</backstoryCategory>
 	<hairTags>
@@ -43,9 +43,9 @@
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Outlander_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-60</min>
       <max>50</max>
@@ -57,15 +57,13 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
-        <li>CopperBar</li>
 		<li>Bronze</li>
         <li>SteelBar</li>
-        <li>SilverBar</li>
         <li>DevilstrandCloth</li>
 		<li>Kevlar</li>
         <li>Synthread</li>
@@ -82,44 +80,36 @@
       <li>
         <kindDef>Normal</kindDef>
         <commonality>100</commonality>
-		<disallowedStrategies>
-          <li>ImmediateAttackSappers</li>
-          <li>Siege</li>		  
-        </disallowedStrategies>
         <options>
-          <AsariEnslaver>220</AsariEnslaver>
-          <AsariHunter>180</AsariHunter>
-          <AsariOvermaster>20</AsariOvermaster>
+          <AsariEnslaver>80</AsariEnslaver>
+          <AsariHunter>50</AsariHunter>
+          <AsariOvermaster>30</AsariOvermaster>
         </options>
       </li>
       <li>
         <kindDef>Normal</kindDef>
-        <commonality>20</commonality>
-		<disallowedStrategies>
-          <li>ImmediateAttackSappers</li>
-          <li>Siege</li>		  
-        </disallowedStrategies>
+        <commonality>65</commonality>
         <options>
-          <AsariCrewMember>100</AsariCrewMember>
-          <AsariSupremeAdmiral>20</AsariSupremeAdmiral>
-          <AsariCommando>15</AsariCommando>
-          <AsariInfiltrator>45</AsariInfiltrator>
+          <AsariCrewMember>80</AsariCrewMember>
+          <AsariCommando>50</AsariCommando>
+          <AsariInfiltrator>30</AsariInfiltrator>
+          <AsariSupremeAdmiral>110</AsariSupremeAdmiral>
         </options>
       </li>
        <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <AsariEnslaver>260</AsariEnslaver>
-          <AsariHunter>220</AsariHunter>
-          <AsariOvermaster>60</AsariOvermaster>
-          <AsariCrewMember>30</AsariCrewMember>
-          <AsariSupremeAdmiral>15</AsariSupremeAdmiral>
-          <AsariCommando>5</AsariCommando>
-          <AsariInfiltrator>25</AsariInfiltrator>
+          <AsariCrewMember>80</AsariCrewMember>
+          <AsariHunter>70</AsariHunter>
+          <AsariEnslaver>60</AsariEnslaver>
+          <AsariOvermaster>50</AsariOvermaster>
+          <AsariCommando>40</AsariCommando>
+          <AsariInfiltrator>30</AsariInfiltrator>
+          <AsariSupremeAdmiral>110</AsariSupremeAdmiral>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

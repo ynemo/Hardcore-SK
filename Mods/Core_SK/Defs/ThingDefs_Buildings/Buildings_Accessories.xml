@@ -2,14 +2,15 @@
 <Buildings>
 	<ThingDef Name="AccessoriesBase" ParentName="BuildingBase" Abstract="True">
 		<altitudeLayer>Building</altitudeLayer>
-		<PathCost>50</PathCost>
 		<fillPercent>0.6</fillPercent>
 		<Passability>PassThroughOnly</Passability>
+		<pathCost>50</pathCost>
 		<DrawGUIOverlay>True</DrawGUIOverlay>
 		<statBases>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -21,38 +22,39 @@
 	<ThingDef Name="LampBase" ParentName="BuildingBase" Abstract="True">
 		<altitudeLayer>Building</altitudeLayer>
 		<Passability>PassThroughOnly</Passability>
+		<pathCost>0</pathCost>
 		<DrawGUIOverlay>True</DrawGUIOverlay>
 		<statBases>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<designationCategory>Accessories</designationCategory>
-		<PathCost>0</PathCost>
 		<fillPercent>0.15</fillPercent>
 	</ThingDef>
 
 	<ThingDef Name="LampBaseNoCat" ParentName="BuildingBase" Abstract="True">
 		<altitudeLayer>Building</altitudeLayer>
 		<Passability>PassThroughOnly</Passability>
+		<pathCost>0</pathCost>
 		<DrawGUIOverlay>True</DrawGUIOverlay>
 		<statBases>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
-		<PathCost>0</PathCost>
 		<fillPercent>0.15</fillPercent>
 	</ThingDef>
 
 	<ThingDef Name="ContainerBase" ParentName="BuildingBase" Abstract="True">
 		<thingClass>SK.Container</thingClass>
 		<AltitudeLayer>ItemImportant</AltitudeLayer>
-		<PathCost>50</PathCost>
 		<fillPercent>0.6</fillPercent>
 		<Passability>PassThroughOnly</Passability>
+		<pathCost>5</pathCost>
 		<drawerType>RealtimeOnly</drawerType>
 		<surfaceType>Item</surfaceType>
 		<hasTooltip>true</hasTooltip>
 		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
 		<graphicData>
 			<shadowData>
 				<volume>(0.3, 0.6, 0.3)</volume>
@@ -102,6 +104,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<canOverlapZones>false</canOverlapZones>
 		<surfaceType>Item</surfaceType>
 	</ThingDef>
 
@@ -130,6 +133,7 @@
 			</damageData>
 		</graphicData>
 		<fillPercent>0.20</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>600</WorkToBuild>
@@ -138,7 +142,7 @@
 			<Mass>5</Mass>
 		</statBases>
 		<costList>
-			<Compost>5</Compost>
+			<Fertilizer>5</Fertilizer>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -174,6 +178,7 @@
 			</damageData>
 		</graphicData>
 		<fillPercent>0.20</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>700</WorkToBuild>
@@ -182,7 +187,7 @@
 			<Mass>4</Mass>
 		</statBases>
 		<costList>
-			<Compost>5</Compost>
+			<Fertilizer>5</Fertilizer>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -222,15 +227,16 @@
 		</graphicData>
 		<size>(2,1)</size>
 		<fillPercent>0.20</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>700</WorkToBuild>
 			<Beauty>4</Beauty>
 			<Bulk>25</Bulk>
-			<Mass>9</Mass>
+			<Mass>30</Mass>
 		</statBases>
 		<costList>
-			<Compost>10</Compost>
+			<Fertilizer>10</Fertilizer>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -269,6 +275,7 @@
 			</damageData>
 		</graphicData>
 		<fillPercent>0.20</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
@@ -277,7 +284,7 @@
 			<Mass>7</Mass>
 		</statBases>
 		<costList>
-			<Compost>7</Compost>
+			<Fertilizer>7</Fertilizer>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -301,13 +308,13 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!--============================== EquipmentRack ==============================-->
+	<!--============================== EquipmentRack ==============================
 
 	<ThingDef ParentName="StorageBase">
 		<defName>EquipmentRack</defName>
 		<label>equipment rack</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/EquipmentRack</texPath>
+			<texPath>Things/Building/Furniture/Shelf</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.8,1.8)</drawSize>
 		</graphicData>
@@ -346,8 +353,6 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-
-	<!--================ Aparello Equipment shelf ================-->
 
 	<ThingDef ParentName="StorageBase">
 		<defName>Item_shelf</defName>
@@ -395,7 +400,7 @@
 			<li>SK_StorageII</li>
 		</researchPrerequisites>
 	</ThingDef>
-
+-->
 
 	<ThingDef ParentName="BuildingBase" Class="SK.ESdef">
 		<defName>Storage_WoodenPalletSmall</defName>
@@ -409,7 +414,7 @@
 		<maxStorage>1000</maxStorage>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>20</pathCost>
+		<pathCost>30</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
@@ -454,7 +459,6 @@
 				<priority>Important</priority>
 				<filter>
 					<categories>
-						<li>Apparel</li>
 					</categories>
 				</filter>
 			</defaultStorageSettings>
@@ -489,7 +493,7 @@
 		<maxStorage>1500</maxStorage>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>20</pathCost>
+		<pathCost>30</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
@@ -497,7 +501,7 @@
 			<Flammability>5.0</Flammability>
 			<Beauty>5</Beauty>
 			<Bulk>28</Bulk>
-			<Mass>11</Mass>
+			<Mass>12</Mass>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -534,7 +538,6 @@
 				<priority>Important</priority>
 				<filter>
 					<categories>
-						<li>Apparel</li>
 					</categories>
 				</filter>
 			</defaultStorageSettings>
@@ -596,7 +599,6 @@
 		<comps>
 			<li Class="SK.CompContainer_Properties">
 				<itemsCap>4</itemsCap>
-				<rotModifier>0.60</rotModifier>
 			</li>
 		</comps>
 	</ThingDef>
@@ -922,6 +924,7 @@
 				<filter>
 					<categories>
 						<li>FoodMeals</li>
+						<li>SweetMeals</li>
 						<li>Medicine</li>
 					</categories>
 					<thingDefs>
@@ -940,7 +943,6 @@
 			<li Class="SK.CompContainer_Properties">
 				<itemsCap>5</itemsCap>
 				<texfull>false</texfull>
-				<rotModifier>0.5</rotModifier>
 			</li>
 		</comps>
 		<researchPrerequisites>
@@ -984,7 +986,6 @@
 		<comps>
 			<li Class="SK.CompContainer_Properties">
 				<itemsCap>5</itemsCap>
-				<rotModifier>0.5</rotModifier>
 				<texfull>false</texfull>
 			</li>
 		</comps>
@@ -994,6 +995,7 @@
 				<filter>
 					<categories>
 						<li>Medicine</li>
+						<li>Drugs</li>
 					</categories>
 					<thingDefs>
 						<li>Biomatter</li>
@@ -1146,6 +1148,7 @@
 			</damageData>
 		</graphicData>
 		<fillPercent>0.20</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>850</WorkToBuild>
@@ -1194,6 +1197,7 @@
 				<offset>(0,0,-0.1)</offset>
 			</shadowData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>450</WorkToBuild>
@@ -1241,6 +1245,7 @@
 				<offset>(0,0,-0.1)</offset>
 			</shadowData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>450</WorkToBuild>
@@ -1287,6 +1292,7 @@
 				<offset>(0,0,-0.1)</offset>
 			</shadowData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>450</WorkToBuild>
@@ -1334,6 +1340,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
@@ -1391,6 +1398,7 @@
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 		<passability>Standable</passability>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>35</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
@@ -1456,6 +1464,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>200</WorkToBuild>
@@ -1522,6 +1531,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>200</WorkToBuild>
@@ -1596,6 +1606,7 @@
 		<fillPercent>0.15</fillPercent>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<WorkToBuild>80</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -1668,6 +1679,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.05</fillPercent>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>200</WorkToBuild>
@@ -1750,6 +1762,7 @@
 		<CostList>
 			<Glowstone>12</Glowstone>
 		</CostList>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<Beauty>9</Beauty>
 			<WorkToBuild>400</WorkToBuild>
@@ -1780,6 +1793,7 @@
 			<texPath>Things/Building/Furniture/Lights/OutdoorGroundLamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>650</WorkToBuild>
@@ -1822,6 +1836,7 @@
 			<texPath>Things/Building/Lamps/PL</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
@@ -1862,6 +1877,7 @@
 			<texPath>Things/Building/Furniture/Lights/WallLamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>65</MaxHitPoints>
 			<WorkToBuild>600</WorkToBuild>
@@ -1917,6 +1933,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/Lights/WallLightUI</uiIconPath>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>600</WorkToBuild>

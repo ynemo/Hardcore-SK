@@ -4,11 +4,11 @@
 
 	
 	<ThingDef ParentName="ArmorIndustrialBase">
-		<defName>Apparel_MilitaryHelmet</defName>
-		<label>Military Helmet</label>
-		<description>An old-looking, heavy, but effective military helmet. Protects against low-velocity projectiles, shrapnel, falling debris and cuts to the head.</description>
+		<defName>Apparel_SimpleHelmet</defName>
+       <label>simple helmet</label>
+       <description>A simple helmet which gives moderate protection against sharp attacks. Not effective against blunt weapons.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>				
 		<stuffCategories>
@@ -32,7 +32,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -40,15 +39,15 @@
 			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</worngraphicPath>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</worngraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Military</li>
 			<li>BrotherhoodMedium</li>
@@ -65,7 +64,7 @@
 	
 	
 	<ThingDef ParentName="ArmorIndustrialBase">
-		<defName>Apparel_KevlarHelmet</defName>
+		<defName>Apparel_AdvancedHelmet</defName>
 		<label>Kevlar Helmet</label>
 		<description>A lightweight armored combat helmet that protects your head and ears.</description>
 		<graphicData>
@@ -93,13 +92,13 @@
 			<ArmorRating_Electric>0.25</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -108,7 +107,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodMedium</li>
 			<li>SectarianMedium</li>
@@ -152,7 +150,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.9</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.9</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -160,6 +157,7 @@
 			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -168,7 +166,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SectarianMedium</li>
 		</tags>
@@ -181,74 +178,6 @@
 			<li>Setmarinearmor</li>
 		</thingCategories>
 	</ThingDef>
-	
-	
-	<ThingDef ParentName="ApparelIndustrialBase">
-		<defName>Ghillie_Hood</defName>
-		<label>Ghillie Hood</label>
-		<description>A camouflaged hood worn by members of the special forces. It pairs up with the ghillie suit.</description>
-		<graphicData>
-		<texPath>Things/Apparel/Marines/Helmet/GhillieHood</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<stuffCategories>
-			<li>HF</li>
-			<li>Fabric</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
-		<CostList>
-			<Compaste>15</Compaste>
-			<Component>3</Component>
-			<Kevlar>15</Kevlar>
-			<SyntheticFibers>5</SyntheticFibers>
-		</CostList>
-		<statBases>
-			<WorkToMake>11000</WorkToMake>
-			<MaxHitPoints>50</MaxHitPoints>
-			<Flammability>4</Flammability>
-			<Insulation_Heat>2</Insulation_Heat>
-			<Insulation_Cold>-8</Insulation_Cold>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.12</ArmorRating_Heat>
-			<ArmorRating_Electric>0.1</ArmorRating_Electric>
-			<Mass>0.2</Mass>
-			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
-			<WornBulk>0</WornBulk>
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.03</MoveSpeed>
-			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
-			<GlobalLearningFactor>0.02</GlobalLearningFactor>
-			<RecruitPrisonerChance>0.05</RecruitPrisonerChance>
-			<GiftImpact>0.05</GiftImpact>
-			<TradePriceImprovement>0.05</TradePriceImprovement>
-		</equippedStatOffsets>
-		<apparel>
-		  <bodyPartGroups>
-			<li>UpperHead</li>
-		  </bodyPartGroups>
-		  <worngraphicPath>Things/Apparel/Marines/Helmet/GhillieHood</worngraphicPath>
-		  <layers>
-			<li>Overhead</li>
-		  </layers>
-			<commonality>2</commonality>
-		<tags>
-			<li>BrotherhoodScout</li>
-			<li>SectarianScout</li>
-		</tags>
-		  <defaultOutfitTags>
-			<li>Soldier</li>
-		  </defaultOutfitTags>
-		</apparel>
-		<thingCategories>
-			<li>LightHelmetsCat</li>
-			<li>SetSniper</li>
-		</thingCategories>
-	</ThingDef>
-	
 	
 	<ThingDef ParentName="ArmorIndustrialBase">
 		<defName>Jaffa_BasicHelmet</defName>
@@ -279,7 +208,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -287,6 +215,7 @@
 			<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -295,7 +224,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodScout</li>
 			<li>SectarianScout</li>
@@ -349,7 +277,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -357,6 +284,7 @@
 			<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -365,7 +293,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SectarianMedium</li>
 		</tags>
@@ -411,7 +338,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -423,6 +349,7 @@
 			<AimingDelayFactor>-0.07</AimingDelayFactor>
 			<MeleeHitChance>0.1</MeleeHitChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -431,7 +358,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodMedium</li>
 		</tags>
@@ -477,7 +403,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -488,6 +413,7 @@
 			<ShootingAccuracy>0.07</ShootingAccuracy>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -496,7 +422,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodMedium</li>
 		</tags>
@@ -540,7 +465,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -548,6 +472,7 @@
 			<WorkSpeedGlobal>-0.025</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -556,7 +481,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SectarianLight</li>
 			<li>OrionLight</li>

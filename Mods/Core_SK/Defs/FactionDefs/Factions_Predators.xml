@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>Predators</defName>
 		<label>Predators band</label>
     <description></description>
     <pawnsPlural>predators band</pawnsPlural>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>70</raidCommonality>
+    <raidCommonality>74</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
 	<canSiege>false</canSiege>
 	<appreciative>false</appreciative>
-	<earliestRaidDays>33</earliestRaidDays>
+	<earliestRaidDays>15</earliestRaidDays>
     <mustStartOneEnemy>true</mustStartOneEnemy>
     <expandingIconTexture>UI/Icons/Factions/Predators</expandingIconTexture>
     <colorSpectrum>
@@ -26,7 +26,7 @@
       <max>-40</max>
     </startingGoodwill>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <factionBaseNameMaker>NamerFactionBaseTribal</factionBaseNameMaker>
+    <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
 	<techLevel>Industrial</techLevel>
 	<backstoryCategory>Raider</backstoryCategory>
@@ -41,15 +41,15 @@
     </naturalColonyGoodwill>
     <caravanTraderKinds>
       <li>Caravan_Neolithic_BulkGoods</li>
-      <li>Caravan_Neolithic_CombatSupplier</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
       <li>Caravan_Neolithic_Slaver</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Neolithic_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Neolithic_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-40</min>
       <max>45</max>
@@ -61,33 +61,27 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
         <li>CopperBar</li>
 		<li>Bronze</li>
         <li>SteelBar</li>
-        <li>SilverBar</li>
     </thingDefs>
     </apparelStuffFilter>
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
-	    <commonality>100</commonality>
-		<disallowedStrategies>
-          <li>StageThenAttack</li>		
-          <li>Siege</li>		  
-        </disallowedStrategies>
         <options>
-          <PredatorsRaven>250</PredatorsRaven>
-          <PredatorsLynx>250</PredatorsLynx>
-          <PredatorsWolf>100</PredatorsWolf>
-          <PredatorsHawkeye>100</PredatorsHawkeye>
-          <PredatorsBomber>80</PredatorsBomber>
-          <PredatorsShaman>35</PredatorsShaman>
-          <PredatorsSlasher>130</PredatorsSlasher>
+          <PredatorsRaven>85</PredatorsRaven>
+          <PredatorsLynx>70</PredatorsLynx>
+          <PredatorsSlasher>55</PredatorsSlasher>
+          <PredatorsWolf>35</PredatorsWolf>
+          <PredatorsHawkeye>45</PredatorsHawkeye>
+          <PredatorsBomber>40</PredatorsBomber>
+          <PredatorsShaman>110</PredatorsShaman>
         </options>
       </li>
       <li>
@@ -111,26 +105,26 @@
 		  <Mammoth>1</Mammoth>
         </carriers>
         <guards>
-			  <PredatorsRaven>100</PredatorsRaven>
+			  <PredatorsRaven>80</PredatorsRaven>
+			  <PredatorsSlasher>25</PredatorsSlasher>
 			  <PredatorsLynx>60</PredatorsLynx>
-			  <PredatorsWolf>40</PredatorsWolf>
-			  <PredatorsSlasher>20</PredatorsSlasher>
+			  <PredatorsWolf>50</PredatorsWolf>
         </guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <PredatorsRaven>250</PredatorsRaven>
-          <PredatorsLynx>250</PredatorsLynx>
-          <PredatorsWolf>100</PredatorsWolf>
-          <PredatorsHawkeye>100</PredatorsHawkeye>
-          <PredatorsBomber>80</PredatorsBomber>
-          <PredatorsShaman>35</PredatorsShaman>
-          <PredatorsSlasher>130</PredatorsSlasher>
+          <PredatorsRaven>85</PredatorsRaven>
+          <PredatorsLynx>70</PredatorsLynx>
+          <PredatorsSlasher>55</PredatorsSlasher>
+          <PredatorsWolf>35</PredatorsWolf>
+          <PredatorsHawkeye>45</PredatorsHawkeye>
+          <PredatorsBomber>40</PredatorsBomber>
+          <PredatorsShaman>110</PredatorsShaman>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

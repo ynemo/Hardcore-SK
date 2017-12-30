@@ -75,30 +75,7 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-
-	<ThingDef ParentName="ResourceBase">
-		<defName>CrushedStone</defName>
-		<label>rubble</label>
-		<description>Rough Rubble stones are created by smashing stone chunks or blocks. It can be gathered from gravel on the ground. It is a useful ingredient for concrete. It can also be smashed further to produce Sand.</description>
-		<graphicData>
-			<texPath>Things/Item/CrushedStone</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>900</stackLimit>
-		<statBases>
-			<MarketValue>0.3</MarketValue>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-		</statBases>
-		<tickerType>Rare</tickerType>
-		<thingCategories>
-			<li>ResourcesRaw</li>
-		</thingCategories>
-	</ThingDef>
-
-
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>Ash</defName>
 		<label>ash</label>
@@ -417,28 +394,28 @@
 		</tradeTags>
 	</ThingDef>
 
-
-	<ThingDef ParentName="ResourceBase">
-		<defName>RepairKit</defName>
-		<label>repair kit</label>
-		<description>A kit of resources to repair an item. Each kit can restore 5 hit points, and must be taken to a mending station in order to use them. An item can only be repaired fully, not partially, so be sure to stock enough kits.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/RepairKit</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>Standard_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>75</stackLimit>
-		<thingCategories>
-			<li>Manufactured</li>
-		</thingCategories>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>30</MarketValue>
-			<Flammability>1.0</Flammability>
-			<DeteriorationRate>1</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+    <ThingDef ParentName="ResourceBase">
+      <defName>MendingKit</defName>
+      <label>mending kit</label>
+      <description>Miscellaneous cloth, bits and parts. Necessary for repairing weapons and mending apparel.</description>
+      <graphicData>
+        <texPath>Things/Item/Resource/MendingKit</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Standard_Drop</soundInteract>
+      <soundDrop>Standard_Drop</soundDrop>
+      <stackLimit>25</stackLimit>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <MarketValue>30</MarketValue>
+        <Flammability>1.0</Flammability>
+        <DeteriorationRate>1</DeteriorationRate>
+      </statBases>
+      <intricate>true</intricate>
+      <thingCategories>
+        <li>Manufactured</li>
+      </thingCategories>
+    </ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>DepletedUraniumCore</defName>

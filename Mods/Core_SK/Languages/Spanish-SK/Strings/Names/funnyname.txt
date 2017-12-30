@@ -4,7 +4,7 @@ Fallville
 Rimville
 Rimtown
 Jamestown
-Salvación
+Salvation
 Sleepville
 Microton
 Hurra
@@ -19,7 +19,7 @@ Shemston
 Craterton
 Wesselton
 Stonkley
-Sílex
+Flint
 Troit
 Planeton
 We Landed
@@ -31,7 +31,7 @@ Flowerville
 Sun Village
 Congers
 Colome
-Chispas
+Sparks
 Bedias
 Rhine
 Hialeah

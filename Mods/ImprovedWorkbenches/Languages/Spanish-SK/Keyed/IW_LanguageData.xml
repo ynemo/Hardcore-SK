@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<IW.ClickToDropTip>Actualmente toma como salida el almacen. Haga clic para colocar en el piso.</IW.ClickToDropTip>
+	<IW.ClickToTakeToStockpileTip>Actualmente deja el producto en el piso. Haga clic para llevar al almacen.</IW.ClickToTakeToStockpileTip>
+	<IW.CopyJustBillsTip>Copia solo este proyecto</IW.CopyJustBillsTip>
+	<IW.BreakLinkToOtherBillsTip>Romper enlace para otros proyectos</IW.BreakLinkToOtherBillsTip>
+	<IW.TakeToLabel>Tomar de</IW.TakeToLabel>
+	<IW.BestLabel>Mejor</IW.BestLabel>
+	<IW.NullLabel>nulo</IW.NullLabel>
+	<IW.RenameBillTip>Renombrar proyecto (usar cadena vacía para restablecer)</IW.RenameBillTip>
+	
+	<IW.BillsLabel>Proyectos</IW.BillsLabel>
+	
+	<IW.NoColRestrictionLabel>Colonos sin restricción</IW.NoColRestrictionLabel>
+  
+	<IW.RestrictToLabel>Restringir a</IW.RestrictToLabel>
+	
+	<IW.RestrictJobToSpecificColonistTip>Rentringe el trabajo a colonos especificos</IW.RestrictJobToSpecificColonistTip>
+
+	<IW.CrafterWillToSpecificStockpileTip>Manufacturador llevará el producto final a la reserva especificada</IW.CrafterWillToSpecificStockpileTip>
+	<IW.CopyFilterButton>Copiar filtro</IW.CopyFilterButton>
+
+	<IW.CopyFilterTip>Copie la configuración del filtro de ingredientes, para pegar en un filtro correspondiente</IW.CopyFilterTip>
+	<IW.PasteFilterButton>Pegar filtro</IW.PasteFilterButton>
+
+	<IW.RenameTip>Haga clic para ingresar un valor usando el teclado</IW.RenameTip>
+	<IW.CountOnStockpilesText>Cuenta en todas los almacenes</IW.CountOnStockpilesText>
+
+	<IW.CountInText>Contar en</IW.CountInText>
+	<IW.WillCountTowardsTargetTip>Solo los elementos en la pila especificada contarán para el objetivo.</IW.WillCountTowardsTargetTip>
+
+	<IW.CountedItemsFilter>Filtro de artículos contados:</IW.CountedItemsFilter>
+	<IW.HitPointsTip>Solo los elementos con rango de puntos de habilidad dados contarán para el objetivo.</IW.HitPointsTip>
+
+	<IW.QualityTip>Solo los elementos de un rango de calidad determinado contarán para el objetivo</IW.QualityTip>
+	
+	<IW.MatchInputIngredientsText>Parida de ingredientes de entrada</IW.MatchInputIngredientsText>
+
+	<IW.IngredientsTip>Solo los artículos hechos con ingredientes en el filtro de ingredientes de entrada (en la columna de la derecha) contarán para el objetivo</IW.IngredientsTip>
+	
+	<IW.CountCorpseClothesLabel>Contar la ropa de cadáveres</IW.CountCorpseClothesLabel>
+	<IW.CountCorpseClothesDesc>Incluye en el conteo de artículos, ropa usada por cadáveres</IW.CountCorpseClothesDesc>
+	
+	<IW.CountEquippedClothesLabel>Contar ropa equipada</IW.CountEquippedClothesLabel>
+	<IW.CountEquippedClothesDesc>También cuenta la ropa que usan actualmente los colonos</IW.CountEquippedClothesDesc>
+
+	<IW.OpenPreviousBillTip>Abrir proyecto anterior en banco de trabajo</IW.OpenPreviousBillTip>
+	
+	<IW.OpenNextBillTip>Abrir proyecto siguiente en banco de trabajo</IW.OpenNextBillTip>
+	<IW.DoUntilXText>Hacer hasta X</IW.DoUntilXText>
+
+	<IW.ChangeLinkedBillModeText>Usa Detalles para cambiar el modo de proyecto enlazado</IW.ChangeLinkedBillModeText>
+
+	<IW.CopyAllLabel>Copiar todo</IW.CopyAllLabel>
+	<IW.CopyAllTip>Copie todos los proyectos de este banco de trabajo</IW.CopyAllTip>
+
+	<IW.PasteAllLabel>Pegar todo</IW.PasteAllLabel>
+	<IW.Paste>Pegar</IW.Paste>
+	<IW.PasteAllTip>Pegue el(los) proyecto(s) copiado(s) como nuevo(s) proyecto(s) aquí.</IW.PasteAllTip>
+	
+	<IW.PasteLinkLabel>Pegar link</IW.PasteLinkLabel>
+	<IW.PasteLinkTip>Pegue el(los) proyecto(s) copiado(s) y vuelva a vincularlos con el(los) original(es). Los cambios se reflejarán en todos los proyectos conectados.</IW.PasteLinkTip>
+	
+	<IW.FoundOldBillText>Encontrar proyecto viejo</IW.FoundOldBillText>
+	<IW.MigratingToNewFormat>Migrando al formato nuevo</IW.MigratingToNewFormat>
+	
+	<IW.AutoOpenBillTabLabel>Abrir automáticamente la pestaña de proyectos</IW.AutoOpenBillTabLabel>
+	<IW.AutoOpenBillTabDesc>Cuando se selecciona un banco de trabajo, su pestaña Cuentas se abrirá de inmediato</IW.AutoOpenBillTabDesc>
+	
+	<IW.ShowItemCountInFilterLabel>Mostrar recuento de elementos en el filtro</IW.ShowItemCountInFilterLabel>
+	<IW.ShowItemCountInFilterDesc>Muestra el recuento de elementos en la pestaña de ingredientes en los detalles del proyecto</IW.ShowItemCountInFilterDesc>
+
+</LanguageData>

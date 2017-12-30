@@ -9,8 +9,13 @@ The main idea of the Rimworld to overcome difficulties that you'll encounter whe
 
 Main focus based on the growing complexity of the gameplay. Trying to achieve greater..Maximally immerse the player into gameplay and stay there for a long time. More than 100 research are waiting. When you start playing, you immediately understand everything... Campfire welcomes you.
 
-This project support English and Russian language.   
+This project support English, Russian Spanish and Korean language.
 Using additional mods (not included in the project) is not recommended.
+
+Cheat Sheet
+https://goo.gl/ng4FWA
+Known Compatible Optional Mods
+https://goo.gl/yvjYDV
 
 Feel free to join us on our Discord Server!
 https://discord.gg/FMPRSKr
@@ -41,54 +46,25 @@ And copy "ColonistBar_KF.xml, ColonistBar_PSIKF.xml, and ModsConfig.xml", which 
 5. Have fun <i class="fa fa-smile-o"></i>   
 
 ____
-Mod Pack Developer:
-<br>Skyarkhangel
+A big thank you to the Patreons! ( https://www.patreon.com/skyarkhangel )
+<br>Andrew Hanlon, ismeal, GuiltyHollow
 ____
 <br>
-HCSK 5.0 Jewel Team:
+HCSK 6.0 SK Team:
+<br>Main dev. - Skyarkhangel
+<br>Co-ordinator - Rhyssia
+<br>Artists - Abhay, Qwe, EtherDreamer, Arai, Owlchemist
+<br>Coders - NotFood, FelGoblin
+<br>XML modders - Sidfu, Owlchemist, Freijie
+<br>Guide Writers - Murdantiks, Adenia, Soyaman
+<br>Translators - Rey, Ivanzyfer, FaHT1k, mora145, totobrother
 <br>
-(In no particular order)
 <br>
-<br>EtherDreamer - Artist
-<br>Freijie - Coder and Russian translations
-<br>Owlchemist - Coding Lead (EN team) and Survival Add-on
-<br>Sidfu - Coder
-<br>Adenia - Coder/Guide Writer (EN)
-<br>Soyaman - Guide Writer (EN)
-<br>Rhyssia - Coder and Co-ordinator
-<br>FelGoblin - Coder
-<br>Abhay - Artist
-<br>Arai - Artist
-<br>Murdantiks - Guide Writer (RU)
-<br>FaHT1k - Russian translations
-<br>Rey - Russian translations & site administrator
-<br>Ivanzyfer - Russian translations & site moderator
-<br>Dzeniba - site moderator
-
-
 Special Thanks to:
-<br>
-<br>NotFood
-<br>SpoonShortage
-<br>Mrofa
-<br>Fluffy
-<br>Zhentar
-<br>Fotos
-<br>Greeny
-<br>Hunt3rKill3r
-<br>Lambert2191
-<br>Vursteen
-<br>Tuvia
-<br>Dunkhan
-<br>jnkyacc
-<br>Jalordon
-<br>Varmonger
-<br>funs777
-<br>olizit
+<br>SpoonShortage, Mrofa, Fluffy, Zhentar, Brrainz, Dubwise, Erdelf, Fotos, Greeny, Hunt3rKill3r, Lambert2191, Vursteen, Tuvia, Dunkhan, jnkyacc,  Jalordon, Varmonger, funs777, olizit, Quelling, pongvin, zachary-foster, funs777, lex1975, evgeny-k, Moon, Leiarr.
 <br>And to anyone else we might have missed!
 <br>
 <br>
 ____
-
 
 The content of all individual mods is licensed under their respective licenses.

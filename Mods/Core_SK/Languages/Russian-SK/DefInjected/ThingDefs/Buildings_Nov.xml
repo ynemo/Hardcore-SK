@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-	<BWall.label>Каменная кладка</BWall.label>
-	<BWall.description>Тип стены в постройке которой используется кирпич.</BWall.description>
-
-	<GDoor.label>Прозрачная дверь</GDoor.label>
-	<GDoor.description>Стеклянная дверь, которая пропускает свет.</GDoor.description>
-
+	<!--
 	<SK_landbridge.label>Сухопутный мост</SK_landbridge.label>
 	<SK_landbridge.description>Этот мост может быть размещен только на базе с фундаментом.</SK_landbridge.description>
 	
@@ -15,7 +9,7 @@
 
 	<SK_seabridge.label>Морской мост</SK_seabridge.label>
 	<SK_seabridge.description>Этот мост может быть размещен только на базе с фундаментом.</SK_seabridge.description>
-
+	-->
 	<Medieval_single_bed.label>Кровать норбалов</Medieval_single_bed.label>
 	<Medieval_single_bed.description>Выглядит так, будто на ней уже спал норбал, но это не делает её менее комфортной.</Medieval_single_bed.description>
 
@@ -105,9 +99,12 @@
 	<MuffaloArt.label>Скульптура муффало</MuffaloArt.label>
 	<MuffaloArt.description>Святой муффало является существом, которому поклоняются некоторые племена аборигенов Римворлда.</MuffaloArt.description>
 	
-	<QueenArt.label>Скультура принцессы</QueenArt.label>
+	<QueenArt.label>Скульптура принцессы</QueenArt.label>
 	<QueenArt.description>Эта потрясающая статуя является подобием грациознной Анны из матриархата племени Грей в Римворлде, которая как известно ослепительно красива.</QueenArt.description>
 
+	<DragonArt.label>Скульптура бехира</DragonArt.label>
+	<DragonArt.description>Эта потрясающе огромная статуя изображает изящное драконоподобное существо с головой крокодила.</DragonArt.description>
+	
 	<WolfArt.label>Скульптура волка</WolfArt.label>
 	<WolfArt.description>Эта статуя изображает волчьего бога "Лорди", почитаемого в одном из племен Римворлда.</WolfArt.description>
 
@@ -134,14 +131,8 @@
 
 	<Senex_Implant.label>Сенексиум имплант</Senex_Implant.label>
 	<Senex_Implant.description>Позволяет ускорить процесс старения в 100 раз.</Senex_Implant.description>
-	
+
 	<InterstellarArmor.label>Межзвездная броня</InterstellarArmor.label>
-	<InterstellarArmor.description></InterstellarArmor.description>
+	<InterstellarArmor.description>Специальная броня предназначенная для межзвездных путешествий и высадок на неизведанные планеты.</InterstellarArmor.description>
 
-	<Apparel_ZealotPowerArmorHelmet.label>Зеалотт силовой шлем</Apparel_ZealotPowerArmorHelmet.label>
-	<Apparel_ZealotPowerArmorHelmet.description></Apparel_ZealotPowerArmorHelmet.description>
-
-	<Apparel_ZealotPowerArmor.label>Зеалотт силовая броня</Apparel_ZealotPowerArmor.label>
-	<Apparel_ZealotPowerArmor.description></Apparel_ZealotPowerArmor.description>
-	
 </LanguageData>

@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
 <LanguageData>
 
 	<MealLuxury.label>Роскошное блюдо</MealLuxury.label>
@@ -8,8 +7,8 @@
 	<MealSalad.label>простой салат</MealSalad.label>
 	<MealSalad.description>Простой салат из овощей.</MealSalad.description>
 
-	<MealJerky.label>копчёное мясо</MealJerky.label>
-	<MealJerky.description>копчёное мясо, изготовленное из сырого.</MealJerky.description>
+	<MealJerky.label>вяленное мясо</MealJerky.label>
+	<MealJerky.description>Вяленное мясо, высушенное в специальной сушилке.</MealJerky.description>
 
 	<driedfruit.label>Сухофрукт</driedfruit.label>
 	<driedfruit.description>Высушенные фрукты.</driedfruit.description>
@@ -21,13 +20,13 @@
 	<Cheese.description>Головка сыра.</Cheese.description>
 
 	<CheeseBurger.label>Чизбургер</CheeseBurger.label>
-	<CheeseBurger.description>Гамбургер сделанный из хлеба, сыра и мяса.</CheeseBurger.description>
+	<CheeseBurger.description>Мягкая булочка с начинкой из мяса, приправ и щедро сдобренная сыром. Ммм... Вот, что я люблю.</CheeseBurger.description>
 
-	<GrilledCheese.label>Бутерброд с запеченным сыром</GrilledCheese.label>
-	<GrilledCheese.description>Два ломтика хлеба, приготовленные на гриле с расплавленным сыром.</GrilledCheese.description>
+	<GrilledCheese.label>Бутерброд с плавленным сыром</GrilledCheese.label>
+	<GrilledCheese.description>Два ломтика хлеба с плавленным сыром, поджаренные на гриле.</GrilledCheese.description>
 
 	<Pizza.label>Пицца</Pizza.label>
-	<Pizza.description>Пицца в 30 минут или меньше!</Pizza.description>
+	<Pizza.description>Пицца за 30 минут или меньше!</Pizza.description>
 
 	<FruitYogurt.label>Фруктовый йогурт</FruitYogurt.label>
 	<FruitYogurt.description>Сладкое удовольствие из молока и фруктов.</FruitYogurt.description>
@@ -87,13 +86,13 @@
 	<cookie.description>Свежие испеченные печенья!</cookie.description>
 
 	<PieBlueberry.label>Черничный пирог</PieBlueberry.label>
-	<PieBlueberry.description>Ломтик пирога из тыквы.</PieBlueberry.description>
+	<PieBlueberry.description>Аппетитный ломтик ягодного пирога.</PieBlueberry.description>
 
 	<PiePumpkin.label>Тыквенный пирог</PiePumpkin.label>
 	<PiePumpkin.description>Ломтик пирога из тыквы.</PiePumpkin.description>
 
 	<SweetBun.label>Сладкие булочки</SweetBun.label>
-	<SweetBun.description>Сладкий ролл покрытый сладкой глазурью.</SweetBun.description>
+	<SweetBun.description>Нежный ролл покрытый сладкой глазурью.</SweetBun.description>
 
 	<Cigarillos.label>Сигареты</Cigarillos.label>
 	<Cigarillos.description>Двадцать маленьких сигар с различными ароматизаторами.</Cigarillos.description>
@@ -109,8 +108,11 @@
 	<BasicCannedFood.label>Питательные консервы с овощами</BasicCannedFood.label>
 	<BasicCannedFood.description>Консервы из обычных плодов в металлической банке. Консервирование это процесс значительно удлиняющий сохранность продуктов в пригодном для употребления в пищу виде. Стерилизация или кипячение при температуре выше температуры кипения воды  уничтожает все микроорганизмы в плотно запечатанных консервах, что позволяет продуктам  хранится дольше, если не нарушать герметичность консервов. Чтобы вода не испарялась, стерилизацию необходимо проводить при избыточном давлении.</BasicCannedFood.description>
 
-	<MetalCannedMeat.label>Консервы с мясом</MetalCannedMeat.label>
-	<MetalCannedMeat.description>Консервы в металлической банке. Консервирование это процесс значительно удлиняющий сохранность продуктов в пригодном для употребления в пищу виде. Стерилизация или кипячение при температуре выше температуры кипения воды  уничтожает все микроорганизмы в плотно запечатанных консервах, что позволяет продуктам  хранится дольше, если не нарушать герметичность консервов. Чтобы вода не испарялась, стерилизацию необходимо проводить при избыточном давлении.</MetalCannedMeat.description>
+	<MetalCannedMeat_raw.label>Консервы с обычным мясом</MetalCannedMeat_raw.label>
+	<MetalCannedMeat_raw.description>Консервы в металлической банке. Консервирование это процесс значительно удлиняющий сохранность продуктов в пригодном для употребления в пищу виде. Стерилизация или кипячение при температуре выше температуры кипения воды  уничтожает все микроорганизмы в плотно запечатанных консервах, что позволяет продуктам  хранится дольше, если не нарушать герметичность консервов. Чтобы вода не испарялась, стерилизацию необходимо проводить при избыточном давлении.</MetalCannedMeat_raw.description>
+
+	<MetalCannedMeat_prime.label>Консервы с первосортным мясом</MetalCannedMeat_prime.label>
+	<MetalCannedMeat_prime.description>Консервы в металлической банке. Консервирование это процесс значительно удлиняющий сохранность продуктов в пригодном для употребления в пищу виде. Стерилизация или кипячение при температуре выше температуры кипения воды  уничтожает все микроорганизмы в плотно запечатанных консервах, что позволяет продуктам  хранится дольше, если не нарушать герметичность консервов. Чтобы вода не испарялась, стерилизацию необходимо проводить при избыточном давлении.</MetalCannedMeat_prime.description>
 
 	<rum.label>Бутылка рома</rum.label>
 	<rum.description>Общеизвестный, довольно крепкий и распространенный алкогольный напиток из сахарного тростника.</rum.description>
@@ -184,5 +186,14 @@
 
 	<tequila_Crate.label>Ящик текилы</tequila_Crate.label>
 	<tequila_Crate.description>75 бутылок вкуснейшей текилы, бережно упакованных в ящик. Можно распаковать в пивоварне.</tequila_Crate.description>
+
+	<Cornbread.label>Кукурузный хлеб</Cornbread.label>
+	<Cornbread.description>Буханка хлеба, приготовленная из кукурузной муки.</Cornbread.description>
+
+	<Cornbreadmuffin.label>Кукурузная булочка</Cornbreadmuffin.label>
+	<Cornbreadmuffin.description>Хрустящая булочка из кукурузной муки.</Cornbreadmuffin.description>
+	
+	<VegetableBroth.label>Овощной бульон</VegetableBroth.label>
+	<VegetableBroth.description>Хороший овощной бульон. Ежедневное его употребление может облегчить некоторые заболевания.</VegetableBroth.description>
 
 </LanguageData>

@@ -1,64 +1,65 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<CreateGTLiver.label>Hacer higado cibernético</CreateGTLiver.label>
-	<CreateGTLiver.description>Un poderoso aumento vascular que reemplaza el higado humano estándar. Aumenta la eficiencia de la filtracion y la eficiencia metabólica. Produce 1.</CreateGTLiver.description>
-	<CreateGTLiver.jobString>Haciendo higado cibernético.</CreateGTLiver.jobString>
+  <CreateGTBionicEye.label>Ojo bionico cibernetico</CreateGTBionicEye.label>
+  <CreateGTBionicEye.description>La version avanzada de el ojo bionico. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicEye.description>
+  <CreateGTBionicEye.jobString>Creando ojo bionico cibernetico.</CreateGTBionicEye.jobString>
 
-	<CreateGTBionicJaw.label>Hacer mandibula bionica cibernetica</CreateGTBionicJaw.label>
-	<CreateGTBionicJaw.description>La segunda generación de actualizaciones biónicas, utilizando nano maquinaria para descomponer la comida al instante con un mínimo esfuerzo. Produce 1.</CreateGTBionicJaw.description>
-	<CreateGTBionicJaw.jobString>Haciendo mandibula bionica cibernetica.</CreateGTBionicJaw.jobString>
+  <CreateGTBionicArm.label>Brazo bionico cibernetico</CreateGTBionicArm.label>
+  <CreateGTBionicArm.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. Le da al dueño una increible fuerza. No se recomienda para los guardias que quieren mantener a los prisioneros en una sola pieza. Produce 1.</CreateGTBionicArm.description>
+  <CreateGTBionicArm.jobString>Creando brazo biónico cibernético.</CreateGTBionicArm.jobString>
 
-	<CreateGTBionicFoot.label>Hacer pie bionico cibernetico</CreateGTBionicFoot.label>
-	<CreateGTBionicFoot.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. La mas limitada version de actualizacion de piernas, solo reemplazando el pie. Produce 1.</CreateGTBionicFoot.description>
-	<CreateGTBionicFoot.jobString>Haciendo pie bionico cibernetico.</CreateGTBionicFoot.jobString>
+  <CreateCyberneticPowerArm.label>Actualizar brazo poderoso</CreateCyberneticPowerArm.label>
+  <CreateCyberneticPowerArm.description>Actualiza un Brazo de Poder con músculos artificiales. Produce 1.</CreateCyberneticPowerArm.description>
+  <CreateCyberneticPowerArm.jobString>Actualizando brazo poderoso.</CreateCyberneticPowerArm.jobString>
 
-	<CreateGTKidney.label>Hacer riñon cibernético</CreateGTKidney.label>
-	<CreateGTKidney.description>Un poderoso aumento vascular que reemplaza el riñon humano estándar. Aumenta la eficiencia de la filtracion y la eficiencia metabólica. Produce 1.</CreateGTKidney.description>
-	<CreateGTKidney.jobString>Haciendo riñon cibernético.</CreateGTKidney.jobString>
+  <CreateGTBionicHand.label>Mano bionica cibernetica</CreateGTBionicHand.label>
+  <CreateGTBionicHand.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. La mas limitada version de actualizacion de brazos, solo reemplazando la mano. Produce 1.</CreateGTBionicHand.description>
+  <CreateGTBionicHand.jobString>Creando mano bionica cibernetica.</CreateGTBionicHand.jobString>
 
-	<CreateGTBionicArm.label>Hacer brazo bionico cibernetico</CreateGTBionicArm.label>
-	<CreateGTBionicArm.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. Le da al dueño una increible fuerza. No se recomienda para los guardias que quieren mantener a los prisioneros en una sola pieza. Produce 1.</CreateGTBionicArm.description>
-	<CreateGTBionicArm.jobString>Haciendo Brazo Biónico Cibernético.</CreateGTBionicArm.jobString>
+  <CreateGTBionicFoot.label>Oie bionico cibernetico</CreateGTBionicFoot.label>
+  <CreateGTBionicFoot.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. La mas limitada version de actualizacion de piernas, solo reemplazando el pie. Produce 1.</CreateGTBionicFoot.description>
+  <CreateGTBionicFoot.jobString>Creando pie bionico cibernetico.</CreateGTBionicFoot.jobString>
 
-	<CreateGTBionicLeg.label>Hacer pierna bionica cibernetica</CreateGTBionicLeg.label>
-	<CreateGTBionicLeg.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. Le da al dueño una increible velocidad. Produce 1.</CreateGTBionicLeg.description>
-	<CreateGTBionicLeg.jobString>Haciendo pierna bionica cibernetica.</CreateGTBionicLeg.jobString>
+  <CreateGTBionicLeg.label>Oierna bionica cibernetica</CreateGTBionicLeg.label>
+  <CreateGTBionicLeg.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. Le da al dueño una increible velocidad. Produce 1.</CreateGTBionicLeg.description>
+  <CreateGTBionicLeg.jobString>Creando pierna bionica cibernetica.</CreateGTBionicLeg.jobString>
 
-	<CreateCyberneticPowerArm.label>Actualizar brazo poderoso</CreateCyberneticPowerArm.label>
-	<CreateCyberneticPowerArm.description>Actualiza un brazo de poder con músculos artificiales. Produce 1.</CreateCyberneticPowerArm.description>
-	<CreateCyberneticPowerArm.jobString>Actualizando brazo poderoso.</CreateCyberneticPowerArm.jobString>
+  <CreateGTBionicJaw.label>Mandibula bionica cibernetica</CreateGTBionicJaw.label>
+  <CreateGTBionicJaw.description>La segunda generación de actualizaciones biónicas, utilizando nano maquinaria para descomponer la comida al instante con un mínimo esfuerzo. Produce 1.</CreateGTBionicJaw.description>
+  <CreateGTBionicJaw.jobString>Creando mandibula bionica cibernetica.</CreateGTBionicJaw.jobString>
 
-	<CreateGTBionicHand.label>Hacer mano bionica cibernetica</CreateGTBionicHand.label>
-	<CreateGTBionicHand.description>La segunda generación de mejoras biónicas, utilizando nano fibras para producir músculos artificiales. La mas limitada version de actualizacion de brazos, solo reemplazando la mano. Produce 1.</CreateGTBionicHand.description>
-	<CreateGTBionicHand.jobString>Haciendo mano bionica cibernetica.</CreateGTBionicHand.jobString>
+  <CreateGTBionicEar.label>Oreja bionica cibernetica</CreateGTBionicEar.label>
+  <CreateGTBionicEar.description>La version avanzada de una oreja bionica. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicEar.description>
+  <CreateGTBionicEar.jobString>Creando oreja bionica cibernetica.</CreateGTBionicEar.jobString>
 
-	<CreateGTLung.label>Hacer pulmón cibernético</CreateGTLung.label>
-	<CreateGTLung.description>Un poderoso aumento vascular que reemplaza a un pulmón humano estándar. El emparejamiento perfecto con un corazón cibernético, ya que aumenta la velocidad circulatoria, lo que aumenta la eficiencia general. Produce 1.</CreateGTLung.description>
-	<CreateGTLung.jobString>Haciendo pulmón cibernético.</CreateGTLung.jobString>
+  <CreateGTBionicSpine.label>Columna cibernetica bionica</CreateGTBionicSpine.label>
+  <CreateGTBionicSpine.description>La version avanzada de una columna bionica. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicSpine.description>
+  <CreateGTBionicSpine.jobString>Creando columna bionica cibernetica.</CreateGTBionicSpine.jobString>
 
-	<CreateGTHeart.label>Hacer corazon cibernético</CreateGTHeart.label>
-	<CreateGTHeart.description>Un poderoso aumento vascular que reemplaza el corazon humano estándar. Gestiona con seguridad el flujo sanguíneo muy alto sin abrumar las partes estándar del cuerpo. Produce 1.</CreateGTHeart.description>
-	<CreateGTHeart.jobString>Haciendo corazon cibernético.</CreateGTHeart.jobString>
+  <CreateGTLung.label>Pulmón cibernético</CreateGTLung.label>
+  <CreateGTLung.description>Un poderoso aumento vascular que reemplaza a un pulmón humano estándar. El emparejamiento perfecto con un corazón cibernético, ya que aumenta la velocidad circulatoria, lo que aumenta la eficiencia general. Produce 1.</CreateGTLung.description>
+  <CreateGTLung.jobString>Creando pulmón cibernético.</CreateGTLung.jobString>
 
-	<CreateExoskeleton.label>Hacer exoesqeleto</CreateExoskeleton.label>
-	<CreateExoskeleton.description>Un exoesqueleto mejora enormemente el rendimiento general del cuerpo. Produce 1.</CreateExoskeleton.description>
-	<CreateExoskeleton.jobString>Haciendo exoesqeleto.</CreateExoskeleton.jobString>
+  <CreateGTStomach.label>Creando estomago cibernético</CreateGTStomach.label>
+  <CreateGTStomach.description>Un poderoso aumento vascular que reemplaza a un estomago humano estándar. Aumenta la eficiencia de la digestión y la eficiencia metabólica. Produce 1.</CreateGTStomach.description>
+  <CreateGTStomach.jobString>Creando estomago cibernético.</CreateGTStomach.jobString>
 
-	<CreateGTBionicSpine.label>Hacer columna cibernetica bionica</CreateGTBionicSpine.label>
-	<CreateGTBionicSpine.description>La version avanzada de una columna bionica. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicSpine.description>
-	<CreateGTBionicSpine.jobString>Haciendo columna bionica cibernetica.</CreateGTBionicSpine.jobString>
+  <CreateGTLiver.label>Higado cibernético</CreateGTLiver.label>
+  <CreateGTLiver.description>Un poderoso aumento vascular que reemplaza el higado humano estándar. Aumenta la eficiencia de la filtracion y la eficiencia metabólica. Produce 1.</CreateGTLiver.description>
+  <CreateGTLiver.jobString>Creando higado cibernético.</CreateGTLiver.jobString>
 
-	<CreateGTBionicEye.label>Hacer ojo bionico cibernetico</CreateGTBionicEye.label>
-	<CreateGTBionicEye.description>La version avanzada de el ojo bionico. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicEye.description>
-	<CreateGTBionicEye.jobString>Haciendo ojo bionico cibernetico.</CreateGTBionicEye.jobString>
+  <CreateGTKidney.label>Riñon cibernético</CreateGTKidney.label>
+  <CreateGTKidney.description>Un poderoso aumento vascular que reemplaza el riñon humano estándar. Aumenta la eficiencia de la filtracion y la eficiencia metabólica. Produce 1.</CreateGTKidney.description>
+  <CreateGTKidney.jobString>Creando riñon cibernético.</CreateGTKidney.jobString>
 
-	<CreateGTBionicEar.label>Hacer oreja bionica cibernetica</CreateGTBionicEar.label>
-	<CreateGTBionicEar.description>La version avanzada de una oreja bionica. La segunda generación de mejoras biónicas, normalmente reservadas para los altos mandos de las fuerzas militares. Produce 1.</CreateGTBionicEar.description>
-	<CreateGTBionicEar.jobString>Haciendo oreja bionica cibernetica.</CreateGTBionicEar.jobString>
+  <CreateGTHeart.label>Corazon cibernético</CreateGTHeart.label>
+  <CreateGTHeart.description>Un poderoso aumento vascular que reemplaza el corazon humano estándar. Gestiona con seguridad el flujo sanguíneo muy alto sin abrumar las partes estándar del cuerpo. Produce 1.</CreateGTHeart.description>
+  <CreateGTHeart.jobString>Creando corazon cibernético.</CreateGTHeart.jobString>
 
-	<CreateGTStomach.label>Hacer estomago cibernético</CreateGTStomach.label>
-	<CreateGTStomach.description>Un poderoso aumento vascular que reemplaza a un estomago humano estándar. Aumenta la eficiencia de la digestión y la eficiencia metabólica. Produce 1.</CreateGTStomach.description>
-	<CreateGTStomach.jobString>Haciendo estomago cibernético.</CreateGTStomach.jobString>
+  <CreateExoskeleton.label>Exoesqeleto</CreateExoskeleton.label>
+  <CreateExoskeleton.description>Un exoesqueleto mejora enormemente el rendimiento general del cuerpo. Produce 1.</CreateExoskeleton.description>
+  <CreateExoskeleton.jobString>Creando exoesqeleto.</CreateExoskeleton.jobString>
+
 
 </LanguageData>

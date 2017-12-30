@@ -1,54 +1,93 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
-
-
-
-  <ThingDef ParentName="BasePawn" Name="BaseMutant" Abstract="True">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Verse.ThingDef Name="BaseMutant" Abstract="True">
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>true</hasTooltip>
     <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
     <statBases>
       <PsychicSensitivity>0.5</PsychicSensitivity>
       <Flammability>1</Flammability>
       <ComfyTemperatureMin>-55</ComfyTemperatureMin>
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <Mass>70</Mass>
     </statBases>
+    <inspectorTabs>
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_Character</li>
+      <li>ITab_Pawn_Training</li>
+      <li>CombatExtended.ITab_Inventory</li>
+      <li>ITab_Pawn_Guest</li>
+      <li>ITab_Pawn_Prisoner</li>
+      <li>ITab_Pawn_Social</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompAttachBase</compClass>
+      </li>
+      <li>
+        <compClass>CombatExtended.CompPawnGizmo</compClass>
+      </li>
+      <li>
+        <compClass>CombatExtended.CompInventory</compClass>
+      </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
     <race>
       <meatColor>(200,135,100)</meatColor>
       <hasGenders>false</hasGenders>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
     </race>
-  </ThingDef>
+  </Verse.ThingDef>
 
-
-  <ThingDef ParentName="BaseMutant">
+  <Verse.ThingDef ParentName="BaseMutant">
     <defName>Mutant_Ogre</defName>
-	<thingClass>SK.Berserk</thingClass>
-    <label>Ogre</label>
+    <thingClass>SK.Berserk</thingClass>
+    <label>Mutant</label>
     <description>Originally designed for construction and heavy industry, the Ogron™ is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
-	  <Mass>150</Mass>
+      <Mass>150</Mass>
       <MoveSpeed>3.7</MoveSpeed>
-      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <MeatAmount>45</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
       <CarryWeight>170</CarryWeight>
       <CarryBulk>70</CarryBulk>
-	  <ArmorPenetration>0.6</ArmorPenetration>
+      <MeleeWeapon_Penetration>0.7</MeleeWeapon_Penetration>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+      <MeleeCritChance>0.25</MeleeCritChance>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.8</defaultCooldownTime>
         <meleeDamageBaseAmount>25</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <meleeArmorPenetration>0.35</meleeArmorPenetration>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.8</defaultCooldownTime>
         <meleeDamageBaseAmount>25</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <meleeArmorPenetration>0.35</meleeArmorPenetration>
+      </li>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <meleeArmorPenetration>0.2</meleeArmorPenetration>
       </li>
     </verbs>
     <race>
@@ -58,8 +97,8 @@
       <predator>true</predator>
       <baseHungerRate>1.5</baseHungerRate>
       <lifeExpectancy>80</lifeExpectancy>
-      <baseBodySize>1.8</baseBodySize>
-      <baseHealthScale>5.5</baseHealthScale>
+      <baseBodySize>1.6</baseBodySize>
+      <baseHealthScale>4.8</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>AnimalAdult</def>
@@ -77,14 +116,17 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-	  <useMeatFrom>Human</useMeatFrom>
-	  <useLeatherFrom>Elephant</useLeatherFrom>
-	  <hediffGiverSets>
+      <useMeatFrom>Human</useMeatFrom>
+      <useLeatherFrom>Elephant</useLeatherFrom>
+      <hediffGiverSets>
         <li>BerserkPassiveSet</li>
       </hediffGiverSets>
     </race>
-  </ThingDef>
-  
+    <modExtensions>
+      <li Class="CombatExtended.RacePropertiesExtensionCE">
+        <bodyShape>Humanoid</bodyShape>
+      </li>
+    </modExtensions>
+  </Verse.ThingDef>
 
-
-</ThingDefs>
+</Defs>

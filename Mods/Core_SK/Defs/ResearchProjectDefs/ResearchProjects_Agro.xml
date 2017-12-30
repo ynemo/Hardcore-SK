@@ -291,7 +291,7 @@
 	  <ResearchProjectDef>
 		<defName>SK_MedicalCropsI</defName>
 		<label>Medical agriculture I</label>
-		<description>Allows the growing of xerigium.</description>
+		<description>Allows the growing of medical crops.</description>
 		<baseCost>120</baseCost>
 		<techLevel>Neolithic</techLevel>
 			<prerequisites>
@@ -382,7 +382,7 @@
 		  <ResearchProjectDef ParentName="IndustrialBase">
 			<defName>SK_DrugCropsI</defName>
 			<label>Drugs research I</label>
-			<description>Allows the growing some drug plants.</description>
+			<description>Allows the growing some plants for making drugs.</description>
 			<baseCost>300</baseCost>
 			<techLevel>Neolithic</techLevel>
 				<prerequisites>
@@ -462,7 +462,7 @@
 				  <ResearchProjectDef ParentName="IndustrialBase">
 					<defName>SK_LivestockII</defName>
 					<label>Animal husbandry II</label>
-					<description>This allows your colonists to build a Silage (Brewery), so they can refine hops, berries, rice, agave, and corn into tasty Wort, wine, saki, tequila, and whisky.</description>
+					<description>This allows your colonists to make silage, scratching post and food bowl for animals.</description>
 					<baseCost>150</baseCost>
 					<techLevel>Neolithic</techLevel>
 						<prerequisites>
@@ -528,7 +528,7 @@
   <ResearchProjectDef>
     <defName>SK_SoilFertillizationI</defName>
     <label>Soil fertillization I</label>
-    <description>Further advancements in agriculture give your colonists the ability to fertilize the soil and make Rich Soil tiles.</description>
+    <description>Further advancements in agriculture give your colonists the ability to fertilize the soil and do minor terraforming.</description>
     <baseCost>300</baseCost>
     <techLevel>Neolithic</techLevel>
 		<prerequisites>
@@ -542,9 +542,9 @@
 		  <ResearchProjectDef>
 			<defName>SK_SoilFertillizationII</defName>
 			<label>Soil fertillization II</label>
-			<description>Even further advancements in agriculture give your colonists the ability to fertilize the soil and make Tilled Soil tiles.</description>
+			<description>Even further advancements in teraforming give your colonists the ability to change the terrain.</description>
 			<baseCost>350</baseCost>
-			<techLevel>Neolithic</techLevel>
+			<techLevel>Industrial</techLevel>
 				<prerequisites>
 					<li>SK_SoilFertillizationI</li>					
 					<li>SK_Petrochemistry</li>
@@ -571,7 +571,7 @@
 					<label>Terraforming</label>
 					<description>Time to get your feet wet or the ones of your enemies. A work intensive time awaits your colonists if they want to form the planet to their needs. Unlocks the potential to place water or floors anywhere. Enables your colonists to fill deep water holes to shallow ones and build there.</description>
 					<baseCost>1000</baseCost>
-					<techLevel>Medieval</techLevel>
+					<techLevel>Industrial</techLevel>
 					<prerequisites>
 						<li>SK_Bridges</li>
 						<li>SK_SoilFertillizationII</li>
@@ -587,7 +587,6 @@
 							<techLevel>Industrial</techLevel>
 								<prerequisites>
 									<li>LandReclamation</li>
-									<li>SK_ElectronicsI</li>
 								</prerequisites>
 						  </ResearchProjectDef>
 				  
@@ -600,7 +599,6 @@
 					<techLevel>Industrial</techLevel>
 						<prerequisites>
 							<li>SK_SoilFertillizationII</li>
-							<li>SK_ElectronicsI</li>
 						</prerequisites>
 				  </ResearchProjectDef>
 					<!--
@@ -611,8 +609,8 @@
   <ResearchProjectDef ParentName="IndustrialBase">
     <defName>SK_IndoorFarming</defName>
     <label>Indoor farming</label>
-    <description>Learn all what you need about growing your plants indoor! Unlocks the Sun Lamp.</description>
-    <baseCost>150</baseCost>
+    <description>A gateway tech into learning to grow crops indoors. More research needed to actualy use the reserach.</description>
+    <baseCost>250</baseCost>
 	<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>SK_Agriculture</li>
@@ -661,7 +659,7 @@
 			<label>Fungi I</label>
 			<description>Research how to adapt the hydroponics tables to grow cave plants, such as champignon and glowbuld. Also unlocks Fungiponics Basin for them.</description>
 			<baseCost>200</baseCost>
-			<techLevel>Neolithic</techLevel>
+			<techLevel>Industrial</techLevel>
 				<prerequisites>
 					<li>SK_IndoorFarming</li>
 				</prerequisites>
@@ -680,7 +678,7 @@
 					<label>Fungi II</label>
 					<description>Allows the growing of shimmershrooms on your Fungiponics Basins.</description>
 					<baseCost>400</baseCost>
-					<techLevel>Neolithic</techLevel>
+					<techLevel>Industrial</techLevel>
 						<prerequisites>
 							<li>Fungiponics</li>
 						</prerequisites>
@@ -696,7 +694,7 @@
 							<label>Fungi III</label>
 							<description>Allows the growing of gleamcap on your Fungiponics Basins.</description>
 							<baseCost>750</baseCost>
-							<techLevel>Neolithic</techLevel>
+							<techLevel>Industrial</techLevel>
 								<prerequisites>
 									<li>SK_FungiII</li>
 								</prerequisites>

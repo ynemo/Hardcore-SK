@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
+
   <Imprisoned.stages.0.label>Encarcelado</Imprisoned.stages.0.label>
   <Imprisoned.stages.0.description>No me gusta nada que me encierren.</Imprisoned.stages.0.description>
-
-  <SharedBedroom.stages.0.label>Habitación compartida</SharedBedroom.stages.0.label>
-  <SharedBedroom.stages.0.description>Compartir habitación con más gente es molesto. Me gustaría tener algo de privacidad.</SharedBedroom.stages.0.description>
 
   <SharedBed.stages.0.label>Colono sin enterrar</SharedBed.stages.0.label>
   <SharedBed.stages.0.description>Uno de los nuestros ha muerto y le hemos dejado ahí tirado al aire libre. Nadie debería terminar así. Los nuestros se merecen un entierro decente.</SharedBed.stages.0.description>
@@ -24,5 +21,5 @@
   <Pain.stages.2.description>Haz que deje de doler... ¡Haz que deje de doler!</Pain.stages.2.description>
   <Pain.stages.3.label>En shock por el dolor</Pain.stages.3.label>
   <Pain.stages.3.description>¡Aaaah!... ¡Mátenme por favor!</Pain.stages.3.description>
-  
+
 </LanguageData>

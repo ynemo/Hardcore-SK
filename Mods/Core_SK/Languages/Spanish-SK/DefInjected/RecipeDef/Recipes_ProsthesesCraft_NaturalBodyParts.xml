@@ -1,36 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<MakeNaturalEye.label>Cultivar ojo natural</MakeNaturalEye.label>
-	<MakeNaturalEye.description>Cultivar un ojo natural de biomateria. Produce 1.</MakeNaturalEye.description>
-	<MakeNaturalEye.jobString>Cultivando ojo natural.</MakeNaturalEye.jobString>
+  <!-- Recipes (Body Parts) -->
 
-	<MakeNaturalEar.label>Cultivar oreja natural</MakeNaturalEar.label>
-	<MakeNaturalEar.description>Cultivar una oreja natural de biomateria. Produce 1.</MakeNaturalEar.description>
-	<MakeNaturalEar.jobString>Cultivando una oreja Natural.</MakeNaturalEar.jobString>
+  <MakeNaturalEye.label>Ojo natural</MakeNaturalEye.label>
+  <MakeNaturalEye.description>Cultivar un Ojo Natural de Biomateria. Produce 1.</MakeNaturalEye.description>
+  <MakeNaturalEye.jobString>Cultivando ojo natural.</MakeNaturalEye.jobString>
 
-	<MakeNaturalNose.label>Cultivar nariz natural</MakeNaturalNose.label>
-	<MakeNaturalNose.description>Cultivar una nariz natural de biomateria. Produce 1.</MakeNaturalNose.description>
-	<MakeNaturalNose.jobString>Cultivando nariz natural.</MakeNaturalNose.jobString>
+  <MakeNaturalEar.label>Oreja natural</MakeNaturalEar.label>
+  <MakeNaturalEar.description>Cultivar una Oreja Natural de Biomateria. Produce 1.</MakeNaturalEar.description>
+  <MakeNaturalEar.jobString>Cultivando una oreja natural.</MakeNaturalEar.jobString>
 
-	<MakeNaturalHeart.label>Cultivar corazon natural</MakeNaturalHeart.label>
-	<MakeNaturalHeart.description>Cultivar un corazon natural de biomateria. Produce 1.</MakeNaturalHeart.description>
-	<MakeNaturalHeart.jobString>Cultivando corazon natural.</MakeNaturalHeart.jobString>
+  <MakeNaturalNose.label>Nariz natural</MakeNaturalNose.label>
+  <MakeNaturalNose.description>Cultivar una nariz Natural de Biomateria. Produce 1.</MakeNaturalNose.description>
+  <MakeNaturalNose.jobString>Cultivando nariz natural.</MakeNaturalNose.jobString>
 
-	<MakeNaturalLung.label>Cultivar pulmon natural</MakeNaturalLung.label>
-	<MakeNaturalLung.description>Cultivar un pulmon natural de biomateria. Produce 1.</MakeNaturalLung.description>
-	<MakeNaturalLung.jobString>Cultivando un pulmon natural.</MakeNaturalLung.jobString>
+  <MakeNaturalHeart.label>Corazon natural</MakeNaturalHeart.label>
+  <MakeNaturalHeart.description>Cultivar un Corazon Natural de Biomateria. Produce 1.</MakeNaturalHeart.description>
+  <MakeNaturalHeart.jobString>Cultivando corazon natural.</MakeNaturalHeart.jobString>
 
-	<MakeNaturalLiver.label>Cultivar higado natural</MakeNaturalLiver.label>
-	<MakeNaturalLiver.description>Cultivar un higado natural de biomateria Produce 1.</MakeNaturalLiver.description>
-	<MakeNaturalLiver.jobString>Cultivando higado natural.</MakeNaturalLiver.jobString>
+  <MakeNaturalLung.label>Pulmon natural</MakeNaturalLung.label>
+  <MakeNaturalLung.description>Cultivar un Pulmon Natural de Biomateria. Produce 1.</MakeNaturalLung.description>
+  <MakeNaturalLung.jobString>Cultivando un pulmon natural.</MakeNaturalLung.jobString>
 
-	<MakeNaturalKidney.label>Cultivar riñon natural</MakeNaturalKidney.label>
-	<MakeNaturalKidney.description>Cultivar un riñon natural de biomateria. Produce 1.</MakeNaturalKidney.description>
-	<MakeNaturalKidney.jobString>Cultivando riñon natural.</MakeNaturalKidney.jobString>
+  <MakeNaturalLiver.label>Higado natural</MakeNaturalLiver.label>
+  <MakeNaturalLiver.description>Cultivar un Higado Natural de Biomateria Produce 1.</MakeNaturalLiver.description>
+  <MakeNaturalLiver.jobString>Cultivando higado natural.</MakeNaturalLiver.jobString>
 
-	<MakeNaturalStomach.label>Cultivar estomago natural</MakeNaturalStomach.label>
-	<MakeNaturalStomach.description>Cultivar un estomago natural de Biomateria. Produce 1.</MakeNaturalStomach.description>
-	<MakeNaturalStomach.jobString>Cultivando estomago natural.</MakeNaturalStomach.jobString>
+  <MakeNaturalKidney.label>Riñon natural</MakeNaturalKidney.label>
+  <MakeNaturalKidney.description>Cultivar un Riñon Natural de Biomateria. Produce 1.</MakeNaturalKidney.description>
+  <MakeNaturalKidney.jobString>Cultivando riñon natural.</MakeNaturalKidney.jobString>
+
+  <MakeNaturalStomach.label>Estomago natural</MakeNaturalStomach.label>
+  <MakeNaturalStomach.description>Cultivar un estomago Natural de Biomateria. Produce 1.</MakeNaturalStomach.description>
+  <MakeNaturalStomach.jobString>Cultivando estomago natural.</MakeNaturalStomach.jobString>
+
 
 </LanguageData>

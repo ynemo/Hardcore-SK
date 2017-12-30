@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>Pirate</defName>
 		<label>pirate band</label>
     <description>A gang of bandits.\n\nPirates don't sow, they don't build, and they rarely trade. They enrich themselves mostly by raiding and robbing the more productive groups in the area.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though the luckier ones may have advanced energy weapons, and some may just like to stab people at close range.</description>
     <pawnsPlural>renegades faction</pawnsPlural>
-    <factionBaseSelectionWeight>2</factionBaseSelectionWeight>
+    <baseSelectionWeight>2</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -29,7 +29,7 @@
     </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-    <factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>
@@ -50,15 +50,14 @@
     <thingDefs>
         <li>WoodPlank</li>
         <li>Cloth</li>
-        <li>MuffaloWool</li>
-        <li>CamelHair</li>
-        <li>AlpacaWool</li>
+        <li>WoolMuffalo</li>
+        <li>WoolCamel</li>
+        <li>WoolAlpaca</li>
 		<li>HempCloth</li>
         <li>RamWool</li>
         <li>CopperBar</li>
 		<li>Bronze</li>
         <li>SteelBar</li>
-        <li>SilverBar</li>
     </thingDefs>
     </apparelStuffFilter>
     <pawnGroupMakers>
@@ -66,49 +65,49 @@
         <kindDef>Normal</kindDef>
         <commonality>100</commonality>
         <options>
-          <Drifter>5</Drifter>
-          <Thrasher>70</Thrasher>
-          <GrenadierDestructive>100</GrenadierDestructive>
-          <GrenadierEMP>50</GrenadierEMP>
-          <Scavenger>100</Scavenger>
-          <Pirate>150</Pirate>
-          <MercenaryGunner>200</MercenaryGunner>
-          <MercenarySniper>150</MercenarySniper>
-          <MercenarySlasher>180</MercenarySlasher>
-          <MercenaryElite>200</MercenaryElite>
-          <PirateBoss>200</PirateBoss>
-          <MercenaryHeavy>60</MercenaryHeavy>
+          <Drifter>30</Drifter>
+          <Thrasher>60</Thrasher>
+          <GrenadierDestructive>40</GrenadierDestructive>
+          <GrenadierEMP>35</GrenadierEMP>
+          <Scavenger>55</Scavenger>
+          <MercenaryGunner>65</MercenaryGunner>
+          <MercenarySniper>45</MercenarySniper>
+          <MercenarySlasher>50</MercenarySlasher>
+          <Pirate>75</Pirate>
+          <MercenaryHeavy>40</MercenaryHeavy>
+          <MercenaryElite>35</MercenaryElite>
+          <PirateBoss>110</PirateBoss>
         </options>
       </li>
       <li>
         <kindDef>Normal</kindDef>
-        <commonality>50</commonality>
+        <commonality>25</commonality>
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
         <options>
-          <MercenarySlasher>200</MercenarySlasher>
+          <MercenarySlasher>100</MercenarySlasher>
         </options>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <Drifter>5</Drifter>
-          <Thrasher>70</Thrasher>
-          <GrenadierDestructive>100</GrenadierDestructive>
-          <GrenadierEMP>50</GrenadierEMP>
-          <Scavenger>100</Scavenger>
-          <Pirate>150</Pirate>
-          <MercenaryGunner>200</MercenaryGunner>
-          <MercenarySniper>150</MercenarySniper>
-          <MercenarySlasher>180</MercenarySlasher>
-          <MercenaryElite>200</MercenaryElite>
-          <PirateBoss>200</PirateBoss>
-          <MercenaryHeavy>60</MercenaryHeavy>
+          <Drifter>30</Drifter>
+          <Thrasher>60</Thrasher>
+          <GrenadierDestructive>40</GrenadierDestructive>
+          <GrenadierEMP>35</GrenadierEMP>
+          <Scavenger>55</Scavenger>
+          <MercenaryGunner>65</MercenaryGunner>
+          <MercenarySniper>45</MercenarySniper>
+          <MercenarySlasher>50</MercenarySlasher>
+          <Pirate>75</Pirate>
+          <MercenaryHeavy>40</MercenaryHeavy>
+          <MercenaryElite>35</MercenaryElite>
+          <PirateBoss>110</PirateBoss>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

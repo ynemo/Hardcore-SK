@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData><!-- Various --><Hit>Golpe</Hit>
-  <NuclearStrikeIncoming>Golpe nuclear entrante.</NuclearStrikeIncoming>
-  
+<LanguageData>
+
+  <!-- Various -->
+  <Hit>Onda expansiva</Hit>
+  <NuclearStrikeIncoming>La onda expansiva de una explosión nuclear, está llegando.</NuclearStrikeIncoming>
+
 </LanguageData>

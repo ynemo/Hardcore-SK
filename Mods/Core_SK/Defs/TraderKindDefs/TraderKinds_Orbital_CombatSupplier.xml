@@ -5,8 +5,9 @@
 
 
 	<TraderKindDef>
-		<defName>CombatSupplier</defName>
+		<defName>Orbital_CombatSupplier</defName>
 		<label>Combat Supplier</label>
+		<commonality>1</commonality>
 		<orbital>true</orbital>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
@@ -143,7 +144,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>CR_AutoEnableTrade</tradeTag>
+				<tradeTag>CE_AutoEnableTrade</tradeTag>
 				<thingDefCountRange>
 					<min>1</min>
 					<max>5</max>

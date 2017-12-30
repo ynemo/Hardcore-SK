@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0"?>
 <Defs>
- 
   <DesignationCategoryDef>
     <DefName>Temperature</DefName>
     <label>Temperature</label>
@@ -12,5 +11,4 @@
       <li>RedistHeat.Designator_DeconstructReversed</li>
     </specialDesignatorClasses>
   </DesignationCategoryDef>
-  
 </Defs>

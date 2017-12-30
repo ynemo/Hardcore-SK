@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
-  
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
   <!-- ====================================================== -->
-
-  <ThingDef ParentName="BaseAnimalPawn" Name="InstectoidBase" Abstract="True">
+  <Verse.ThingDef ParentName="BaseAnimalPawn" Name="InstectoidBase" Abstract="True">
     <statBases>
       <Flammability>1.0</Flammability>
       <LeatherAmount>20</LeatherAmount>
       <ToxicSensitivity>0</ToxicSensitivity>
+      <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
     </statBases>
     <race>
+      <intelligence>ToolUser</intelligence>
       <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
       <fleshType>Insectoid</fleshType>
       <bloodDef>FilthBloodInsect</bloodDef>
@@ -31,29 +31,30 @@
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
     </recipes>
-  </ThingDef>
- 
-  
-  <ThingDef ParentName="InstectoidBase">
+  </Verse.ThingDef>
+
+  <Verse.ThingDef ParentName="InstectoidBase">
     <defName>Antis</defName>
     <label>antis</label>
     <description>A quiet stalker and merciless killer, the Antis (ant mantis) is a warrior caste of the insectoid hive. This species was created to fight the Mechanoid invasion, but poses a danger to people, too. It is a social creature that cannot reproduce individually.</description>
     <statBases>
-	  <Mass>50</Mass>
-      <MoveSpeed>5.3</MoveSpeed>
+      <Mass>50</Mass>
+      <MoveSpeed>4.7</MoveSpeed>
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
       <Flammability>1</Flammability>
-      <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
       <MarketValue>4000</MarketValue>
       <LeatherAmount>0</LeatherAmount>
       <ImmunityGainSpeed>3</ImmunityGainSpeed>
-	  <ArmorPenetration>0.3</ArmorPenetration>
+      <MeleeWeapon_Penetration>0.3</MeleeWeapon_Penetration>
+      <MeleeDodgeChance>0.15</MeleeDodgeChance>
+      <MeleeCritChance>0.25</MeleeCritChance>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.6</defaultCooldownTime>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>ToxicBite</meleeDamageDef>
@@ -66,24 +67,26 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.35</meleeArmorPenetration>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.25</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
         <linkedBodyPartsGroup>LeftAntisForeleg</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>5</amount>
+              <amount>10</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.3</meleeArmorPenetration>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.25</defaultCooldownTime>
         <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
@@ -96,17 +99,27 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.3</meleeArmorPenetration>
+      </li>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <meleeArmorPenetration>0.01</meleeArmorPenetration>
       </li>
     </verbs>
-	<butcherProducts>
-	  	<Chitin>2</Chitin>
-	</butcherProducts>
+    <butcherProducts>
+      <Chitin>2</Chitin>
+    </butcherProducts>
     <race>
       <thinkTreeMain>BountyHunter</thinkTreeMain>
       <body>Antis</body>
       <baseBodySize>0.9</baseBodySize>
       <baseHungerRate>0.4</baseHungerRate>
-      <baseHealthScale>1.1</baseHealthScale>
+      <baseHealthScale>1.0</baseHealthScale>
       <maxPreyBodySize>2.2</maxPreyBodySize>
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
@@ -143,14 +156,20 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
-  </ThingDef>
+    <modExtensions>
+      <li Class="CombatExtended.RacePropertiesExtensionCE">
+        <bodyShape>Quadruped</bodyShape>
+      </li>
+    </modExtensions>
+  </Verse.ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef>
     <defName>Antis</defName>
     <label>Antis</label>
     <race>Antis</race>
     <defaultFactionType>Insectoid</defaultFactionType>
-    <combatPower>190</combatPower>
+    <aiAvoidCover>true</aiAvoidCover>
+    <combatPower>140</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -195,38 +214,31 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
-      <min>2</min>
-      <max>3</max>
-    </wildSpawn_GroupSizeRange>
   </PawnKindDef>
-  
-  
+
   <!-- ====================================================== -->
-
-
-  <ThingDef ParentName="InstectoidBase">
+  <Verse.ThingDef ParentName="InstectoidBase">
     <defName>Gnawler</defName>
     <label>gnawler</label>
     <description>Gnawlers are a "grunt" caste of the insectoid hive. They are much smaller than the "warrior" caste and isn't particular dangerous when alone. Gnawlers can be very dangerous when they form into packs. It is a social creature that cannot reproduce individually.</description>
     <statBases>
-	  <Mass>90</Mass>
-      <MoveSpeed>4.7</MoveSpeed>
+      <Mass>90</Mass>
+      <MoveSpeed>4.5</MoveSpeed>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
       <Flammability>1</Flammability>
-      <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>90</ComfyTemperatureMax>
       <MarketValue>4000</MarketValue>
       <LeatherAmount>0</LeatherAmount>
       <ImmunityGainSpeed>3</ImmunityGainSpeed>
-	  <ArmorPenetration>0.4</ArmorPenetration>
+      <MeleeWeapon_Penetration>0.4</MeleeWeapon_Penetration>
+      <MeleeDodgeChance>0.15</MeleeDodgeChance>
+      <MeleeCritChance>0.25</MeleeCritChance>
     </statBases>
     <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.6</defaultCooldownTime>
         <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
         <meleeDamageDef>ToxicBite</meleeDamageDef>
@@ -239,9 +251,10 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.45</meleeArmorPenetration>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.55</defaultCooldownTime>
         <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
@@ -254,9 +267,10 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.4</meleeArmorPenetration>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
         <defaultCooldownTime>1.55</defaultCooldownTime>
         <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
         <meleeDamageDef>Cut</meleeDamageDef>
@@ -269,17 +283,27 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+        <meleeArmorPenetration>0.4</meleeArmorPenetration>
+      </li>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <meleeArmorPenetration>0.02</meleeArmorPenetration>
       </li>
     </verbs>
-	<butcherProducts>
-	  	<Chitin>5</Chitin>
-	</butcherProducts>
+    <butcherProducts>
+      <Chitin>5</Chitin>
+    </butcherProducts>
     <race>
       <thinkTreeMain>BountyHunter</thinkTreeMain>
       <body>Antis</body>
       <baseBodySize>1.3</baseBodySize>
       <baseHungerRate>0.4</baseHungerRate>
-      <baseHealthScale>2.2</baseHealthScale>
+      <baseHealthScale>1.5</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>FilthBloodInsect</bloodDef>
       <maxPreyBodySize>2.2</maxPreyBodySize>
@@ -316,14 +340,20 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
-  </ThingDef>
+    <modExtensions>
+      <li Class="CombatExtended.RacePropertiesExtensionCE">
+        <bodyShape>Quadruped</bodyShape>
+      </li>
+    </modExtensions>
+  </Verse.ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef>
     <defName>Gnawler</defName>
     <label>Gnawler</label>
     <race>Gnawler</race>
     <defaultFactionType>Insectoid</defaultFactionType>
-    <combatPower>220</combatPower>
+    <aiAvoidCover>true</aiAvoidCover>
+    <combatPower>170</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -356,13 +386,5 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
-      <min>3</min>
-      <max>5</max>
-    </wildSpawn_GroupSizeRange>
   </PawnKindDef>
-  
-  
-</ThingDefs>
+</Defs>

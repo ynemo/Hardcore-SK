@@ -27,7 +27,6 @@
 			<ArmorRating_Sharp>0.07</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -42,6 +41,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+					<generateCommonality>1.5</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -50,7 +50,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1.5</commonality>
 		  <tags>
 			<li>Medieval</li>
 			<li>NorbalSage</li>
@@ -93,7 +92,6 @@
 			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -104,7 +102,9 @@
 			<TradePriceImprovement>0.1</TradePriceImprovement>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
+			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -113,7 +113,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>NorbalArcher</li>
 			<li>PredatorsLight</li>
@@ -155,7 +154,6 @@
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -166,7 +164,9 @@
 			<TradePriceImprovement>0.1</TradePriceImprovement>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
+			<Suppressability>-0.07</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -175,7 +175,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>NorbalThunder</li>
 			<li>NorbalKingly</li>
@@ -216,7 +215,6 @@
 			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -227,7 +225,9 @@
 			<TradePriceImprovement>0.1</TradePriceImprovement>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
+			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -236,7 +236,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>Medieval</li>
 			<li>NorbalWarrior</li>
@@ -273,14 +272,15 @@
 			<ArmorRating_Sharp>0.48</ArmorRating_Sharp>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.14</MoveSpeed>
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 			<SocialImpact>-0.06</SocialImpact>
+			<Suppressability>-0.07</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -289,7 +289,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>MedievalKnightly</li>
 		  </tags>
@@ -344,7 +343,6 @@
 			<ArmorRating_Sharp>0.46</ArmorRating_Sharp>
 			<Mass>2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -352,7 +350,9 @@
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 			<SocialImpact>-0.05</SocialImpact>
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<Suppressability>-0.08</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -361,7 +361,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>MedievalKnightly</li>
 		  </tags>
@@ -401,7 +400,6 @@
 			<ArmorRating_Sharp>0.52</ArmorRating_Sharp>
 			<Mass>2.5</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>2.5</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -409,7 +407,9 @@
 			<WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
 			<SocialImpact>-0.05</SocialImpact>
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<Suppressability>-0.08</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -418,7 +418,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-		  <commonality>1</commonality>
 		  <tags>
 			<li>MedievalKnightly</li>
 		  </tags>
@@ -459,7 +458,6 @@
 			<ArmorRating_Electric>0</ArmorRating_Electric>
 			<Mass>3</Mass>
 			<Bulk>5</Bulk>
-			<WornWeight>3</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -471,7 +469,9 @@
 			<TradePriceImprovement>0.05</TradePriceImprovement>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
+			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -480,7 +480,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		  <tags>
 			<li>Medieval</li>
 		  </tags>
@@ -527,13 +526,14 @@
 			<ArmorRating_Electric>0</ArmorRating_Electric>
 			<Mass>3</Mass>
 			<Bulk>5</Bulk>
-			<WornWeight>3</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -542,7 +542,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		  <tags>
 			<li>Medieval</li>
 		  </tags>

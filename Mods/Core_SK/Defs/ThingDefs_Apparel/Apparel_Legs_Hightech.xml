@@ -31,7 +31,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -43,6 +42,7 @@
 			<MeleeWeapon_Cooldown>0.04</MeleeWeapon_Cooldown>
 			<ConstructionSpeed>0.15</ConstructionSpeed>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -51,7 +51,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>PredatorsMedium</li>
@@ -98,7 +97,6 @@
 			<ArmorRating_Electric>0.31</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>0.8</Bulk>
-			<WornWeight>0.6</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -110,6 +108,7 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.05</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/CamoPants/USCM_Camo_Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -118,7 +117,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Military</li>
 			<li>BrotherhoodLight</li>
@@ -137,79 +135,6 @@
 			<li>MilitaryPantsCat</li>
 		</thingCategories>
 	</ThingDef>
-	
-	
-	<ThingDef ParentName="ApparelIndustrialBase">
-		<defName>Marine_MilitaryPants</defName>
-		<label>Marine Military Pants</label>
-		<description>Reliable military pants intended for marines.</description>
-		<graphicData>
-		  <texPath>Things/Apparel/Marines/Pants/MilitaryPants</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		</graphicData>		
-		<stuffCategories>
-			<li>HF</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
-		<CostList>
-			<Component>6</Component>
-			<Compaste>18</Compaste>
-			<SyntheticFibers>8</SyntheticFibers>
-			<Kevlar>20</Kevlar>
-		</CostList>
-		<statBases>
-			<WorkToMake>8000</WorkToMake>
-			<MaxHitPoints>80</MaxHitPoints>
-			<Flammability>3</Flammability>
-			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-8</Insulation_Cold>
-			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<ArmorRating_Electric>0.27</ArmorRating_Electric>
-			<Mass>0.6</Mass>
-			<Bulk>0.5</Bulk>
-			<WornWeight>0.6</WornWeight>
-			<WornBulk>0</WornBulk>
-		</statBases>
-		<equippedStatOffsets>
-			<CarryBulk>5</CarryBulk>
-			<MoveSpeed>-0.07</MoveSpeed>
-			<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
-			<ShootingAccuracy>-0.04</ShootingAccuracy>
-			<AimingDelayFactor>0.04</AimingDelayFactor>
-			<MeleeHitChance>-0.04</MeleeHitChance>
-			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
-		</equippedStatOffsets>
-		<apparel>
-		<worngraphicPath>Things/Apparel/Marines/Pants/MilitaryPants</worngraphicPath>
-		  <bodyPartGroups>
-			<li>Legs</li>
-		  </bodyPartGroups>
-		  <layers>
-			<li>OnSkin</li>
-		  </layers>
-			<commonality>1</commonality>
-		<tags>
-			<li>Military</li>
-			<li>BrotherhoodMedium</li>
-			<li>SectarianLight</li>
-			<li>SectarianMedium</li>
-			<li>OrionMedium</li>
-			<li>OrionLight</li>
-			<li>SyndicateScout</li>
-			<li>SyndicateMelee</li>
-			<li>OrionMelee</li>
-		</tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-		</apparel>
-		<thingCategories>
-			<li>MilitaryPantsCat</li>
-		</thingCategories>
-	</ThingDef>
-	
 
 	<ThingDef ParentName="ApparelSpacerBase">
 		<defName>Apparello_Spants</defName>
@@ -241,7 +166,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>0.7</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -253,15 +177,15 @@
 			<MeleeHitChance>-0.04</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.04</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Apparel/Marines/Pants/MilitaryPants</worngraphicPath>
+		  <worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
 			<li>Legs</li>
 		  </bodyPartGroups>
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>SyndicateLight</li>
@@ -322,7 +246,6 @@
 			<ArmorRating_Electric>0.3</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>0.9</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -334,6 +257,7 @@
 			<MeleeHitChance>-0.06</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		<worngraphicPath>Things/Apparel/Apparello/Accessorello/Pants/Pants</worngraphicPath>
 		  <bodyPartGroups>
@@ -342,7 +266,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>OrionMedium</li>
 			<li>SyndicateMedium</li>

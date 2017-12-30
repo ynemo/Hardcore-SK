@@ -12,12 +12,12 @@ Minutus
 
 Borealis
 Australis
-Medios de comunicación
+Media
 Meridiana
 Posterious
 Prior
 
-Planeta
+Planet
 World
 
 

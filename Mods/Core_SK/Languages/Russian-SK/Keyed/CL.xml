@@ -8,17 +8,6 @@
   <ContinueLabel>Продолжить</ContinueLabel>
   <QuickStartLabel>Быстрый старт</QuickStartLabel>
 
-  <!-- Quarry -->
-  <QuarryAlreadyBuilt>Только один карьер доступен для строительства.</QuarryAlreadyBuilt>
-  <QRY_Haul>Включить автоматический перенос породы</QRY_Haul>
-  <QRY_NotHaul>Отключить и игнорировать автоперенос</QRY_NotHaul>
-  <QRY_ChunksMined>Осколков добыто</QRY_ChunksMined>
-  <QRY_JunkMined>Каменных блоков добыто</QRY_JunkMined>
-  <QRY_ResourcesMined>Ресурсов добыто</QRY_ResourcesMined>
-  <QRY_SwitchToParent>Показать настройки переноски или деконструкции</QRY_SwitchToParent>
-  <QRY_TextMote_LargeVein>Найдено большое месторождение!</QRY_TextMote_LargeVein>
-  <QRY_NotEnoughStone>Требуется хотя бы 60% каменистой поверхности</QRY_NotEnoughStone>
-  <QRY_SwitchToParentLabel>Настройки</QRY_SwitchToParentLabel>
   <ImpassableDoor>Дверь можно разместить только если с обоих сторон есть поддерживающая структура, а также если проходу ничего не мешает.</ImpassableDoor>
 
   <LookLabel>Найдено место крушения космического корабля</LookLabel>
@@ -41,5 +30,26 @@
     <WarnAboutRestart>После смены языка крайне рекомендуется перезагрузить игру. Вы можете выбрать другой язык, но перед стартом новой игры или перед загрузкой сохранения, пожалуйста сделайте перезагрузку. \n\nВ противном случае, не избежать игровых ошибок в процессе игры!</WarnAboutRestart>
 	<AcceptTheConsequences>Да, я понимаю возможные последствия</AcceptTheConsequences>
 
-	
+<RL_CannotChangeMod>В данный момент невозможно изменить режим. Стержень все еще разряжается.</RL_CannotChangeMod>
+<RL_ChangeMode>Изменить режим</RL_ChangeMode>
+<RL_PowerSavingMode>Режим энергосбережения (нажмите, чтобы изменить режим): не потребляет электроэнергию в режиме ожидания, выдает много энергии при ударе, но имеет только</RL_PowerSavingMode>
+<RL_ChanceToAttract>шанс приманить молнию и охладиться.</RL_ChanceToAttract>
+<RL_Slower>Медленнее</RL_Slower>
+<RL_NormalMode>Обычный режим (нажмите, чтобы изменить режим): потребляет немного энергии при простоях, выдает достаточную мощность, чтобы поддерживать себя в шторме и имеет 100% шанс привлечь молнию. Имеет только</RL_NormalMode>
+<RL_ChanceOverwhelmed>шанс привлечь молнию при перегрузке.</RL_ChanceOverwhelmed>
+<RL_FastCooldown>Режим быстрой перезарядки (нажмите, чтобы изменить режим: Охлаждается в 4 раза быстрее, чем обычно, но потребляет втрое больше энергии. Имеет 100% шанс привлечь молнию. Имеет только</RL_FastCooldown>
+<RL_Cooldown>Перезарядка</RL_Cooldown>
+<RL_Standby>Ожидание</RL_Standby>
+<RL_Discharging>Разрядка</RL_Discharging>
+<RL_Overwhelmed>Перегрузка</RL_Overwhelmed>
+<RL_PowerConsumption>Потребляемая мощность</RL_PowerConsumption>
+
+<OneTradingSpotMessage>Разрешено иметь только один тип этого строения. Сперва требуется убрать предыдущий.</OneTradingSpotMessage>
+
+<HungryFlockTitle>Голодные твари</HungryFlockTitle>
+<HungryFlockText>Совсем недалеко появилась появилась группа голодных тварей и они хотят крови! Вы можете попробовать на начать на них охоту или спрятаться, все зависит от вас. Скорее всего в течении дня-двух они покинут территорию.</HungryFlockText>
+
+<DevourersCropsTitle>Пожиратели посевов</DevourersCropsTitle>
+<DevourersCropsText>Некоторые особенно проголодавшиеся пожиратели сельскохозяйственных культур пробрались на ваши грядки! Скорее всего, они начнут уничтожать наши посевы, пока вы не справитесь с ними.</DevourersCropsText>
+
 </LanguageData>

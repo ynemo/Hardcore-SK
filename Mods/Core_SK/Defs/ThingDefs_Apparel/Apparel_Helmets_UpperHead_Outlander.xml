@@ -27,7 +27,6 @@
 			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
 			<Mass>0.7</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -42,6 +41,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -50,7 +50,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -95,7 +94,6 @@
 			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
 			<Mass>0.7</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -110,6 +108,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -118,7 +117,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -162,7 +160,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.7</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -176,6 +173,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -184,7 +182,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -235,7 +232,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.3</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -250,6 +246,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -258,7 +255,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -310,7 +306,6 @@
 			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -322,6 +317,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -330,7 +326,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Colonist</li>
 			<li>Outlander</li>
@@ -383,7 +378,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -396,6 +390,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -404,7 +399,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -458,7 +452,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -471,6 +464,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -479,7 +473,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireLight</li>
@@ -531,7 +524,6 @@
 			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -544,6 +536,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -552,7 +545,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -601,7 +593,6 @@
 			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
 			<Mass>0.4</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -614,6 +605,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -622,7 +614,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>EmpireLight</li>
@@ -672,7 +663,6 @@
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -688,6 +678,7 @@
 			<TrainAnimalChance>0.05</TrainAnimalChance>
 			<TameAnimalChance>0.04</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -696,7 +687,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>

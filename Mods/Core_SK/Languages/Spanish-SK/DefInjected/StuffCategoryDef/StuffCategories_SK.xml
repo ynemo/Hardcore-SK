@@ -1,28 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Matty.label>Matty</Matty.label>
-	
-	<Precious.label>Precioso</Precious.label>
-	
-	<RareMetallic.label>Metal Raro</RareMetallic.label>
-	
-	<SolidMetallic.label>Metal Solido</SolidMetallic.label>
+  <Matty.label>Matty</Matty.label>
+  <Precious.label>Precioso</Precious.label>
+  <RareMetallic.label>Metalico Raro</RareMetallic.label>
+  <SolidMetallic.label>Metalico Solido</SolidMetallic.label>
+  <Bricks.label>Ladrillos</Bricks.label>
+  <HF.label>Tejido de alta tecnología</HF.label>
+  <Plastic.label>Plástico</Plastic.label>
+  <Ceramic.label>Cerámico</Ceramic.label>
+  <Parts.label>Partes y Mecanismos</Parts.label>
+  <WoodLogs.label>Troncos de madera</WoodLogs.label>
+  <Kindlingstuff.label>Leña</Kindlingstuff.label>
+  <Foods.label>Alimentos</Foods.label>
+  <Stuff.label>Embutidos</Stuff.label>
+  <Chemical.label>Químicos</Chemical.label>
+  <Hydrocarbons.label>Hidrocarburos</Hydrocarbons.label>
+  <Paint.label>Pintura</Paint.label>
 
-	<HF.label>Tejido de alta tecnología</HF.label>
-
-	<Plastic.label>Plástico</Plastic.label>
-
-	<Ceramic.label>Cerámica</Ceramic.label>
-
-	<Glass.label>Vidrio</Glass.label>
-
-	<WoodLogs.label>Troncos de madera</WoodLogs.label>
-
-	<Kindlingstuff.label>Leña</Kindlingstuff.label>
-
-	<Stuff.label>Embutido</Stuff.label>
-
-	<Paint.label>Pintura</Paint.label>
 
 </LanguageData>

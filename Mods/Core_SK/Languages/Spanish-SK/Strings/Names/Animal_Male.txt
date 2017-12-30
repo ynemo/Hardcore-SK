@@ -31,7 +31,7 @@ Barney
 Bart
 Bartholomew
 Baxter
-Pretendiente
+Beau
 Beauregard
 Beethoven
 Bellboy
@@ -43,9 +43,9 @@ Big Boy
 Blotto
 Bob
 Bogeyman
-Vínculo
+Bond
 Boris
-Niño
+Boy
 Bruno
 Brutus
 Bubba
@@ -90,11 +90,11 @@ Ferdinand
 Figaro
 Finn
 Fletch
-Sílex
+Flint
 Floyd
 Frasier
 Freud
-Fraile
+Friar
 Gatsby
 Gavin
 Gilligan
@@ -107,7 +107,7 @@ Gunner
 Gunther
 Gus
 Guy
-Villorio
+Hamlet
 Handsome
 Hannibal
 Hansel
@@ -131,7 +131,7 @@ Ignatius
 Igor
 Jack
 Jade
-Jaspe
+Jasper
 Jed
 Jethro
 Justus
@@ -141,7 +141,7 @@ Lancelot
 Lazarus
 Leo
 Levi
-Enlace
+Link
 Linus
 Little Guy
 Ludwig
@@ -150,7 +150,7 @@ Malcolm
 Max
 Melvin
 Miles
-Monje
+Monk
 Morris
 Mortimer
 Mozart
@@ -173,12 +173,12 @@ Patton
 Pavlov
 Perseus
 Petit
-Faraón
+Pharaoh
 Popeye
 Quasimodo
 Quixote
 Ralph
-Rayo
+Ray
 Rem
 Remington
 Remy
@@ -186,7 +186,7 @@ Reuben
 Rhett
 Ricky
 Rocko
-Pedregoso
+Rocky
 Rogan
 Romeo
 Romulus
@@ -204,7 +204,7 @@ Sigmund
 Sinbad
 Solomon
 Sorcerer
-Espiga
+Spike
 Stetson
 Tarzan
 Tinman
@@ -223,7 +223,7 @@ Wilbur
 Wilfred
 Wilson
 Wiseguy
-Brujo
+Wizard
 Wolfgang
 Xanadu
 Xanthus

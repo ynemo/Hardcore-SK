@@ -31,7 +31,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>0.7</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0.2</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -42,6 +41,7 @@
 			<FoodPoisonChance>-0.5</FoodPoisonChance>
 			<BrewingSpeed>0.2</BrewingSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -49,7 +49,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -96,7 +95,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0.4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -106,6 +104,7 @@
 			<ConstructionSpeed>0.13</ConstructionSpeed>
 			<SmeltingSpeed>0.12</SmeltingSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -113,7 +112,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>
@@ -160,7 +158,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -170,6 +167,7 @@
 			<MeleeHitChance>0.10</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.05</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 		<li>Hands</li>
@@ -177,7 +175,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Norbal</li>
 			<li>Outlander</li>
@@ -221,7 +218,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -231,6 +227,7 @@
 			<MeleeHitChance>0.11</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -238,7 +235,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -301,7 +297,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.7</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -312,6 +307,7 @@
 			<MeleeHitChance>0.15</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.06</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 		<li>Hands</li>
@@ -319,7 +315,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -369,7 +364,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.3</Mass>
 			<Bulk>0.2</Bulk>
-			<WornWeight>0.3</WornWeight>
 			<WornBulk>0.2</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -379,6 +373,7 @@
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 			<SmeltingSpeed>0.12</SmeltingSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -386,7 +381,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>RenegadesLight</li>
@@ -436,7 +430,6 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>0.25</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0.1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -445,6 +438,7 @@
 			<SocialImpact>0.05</SocialImpact>
 			<MentalBreakThreshold>-0.04</MentalBreakThreshold>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -452,7 +446,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodUnique</li>
 			<li>BrotherhoodScout</li>
@@ -498,7 +491,6 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.45</Mass>
 			<Bulk>0.3</Bulk>
-			<WornWeight>0.45</WornWeight>
 			<WornBulk>0.1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -511,6 +503,7 @@
 			<MeleeHitChance>-0.06</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -518,7 +511,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>OrionScout</li>
@@ -568,7 +560,6 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.45</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.45</WornWeight>
 			<WornBulk>0.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -581,6 +572,7 @@
 			<MeleeWeapon_Cooldown>-0.1</MeleeWeapon_Cooldown>
 			<MiningSpeed>0.1</MiningSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -588,7 +580,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodUnique</li>
 			<li>SyndicateMedium</li>
@@ -641,7 +632,6 @@
 			<ArmorRating_Electric>0.12</ArmorRating_Electric>
 			<Mass>0.45</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.45</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -650,9 +640,10 @@
 			<SocialImpact>0.06</SocialImpact>
 			<MentalBreakThreshold>-0.04</MentalBreakThreshold>
 			<MedicalOperationSpeed>0.1</MedicalOperationSpeed>
-			<HealingSpeed>0.1</HealingSpeed>
-			<HealingQuality>0.05</HealingQuality>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.05</MedicalTendQuality>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 			<li>Hands</li>
@@ -660,7 +651,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>BrotherhoodUnique</li>
 			<li>OrionLight</li>
@@ -710,7 +700,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>0.7</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0.7</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -719,9 +708,10 @@
 			<SocialImpact>0.07</SocialImpact>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<MedicalOperationSpeed>0.15</MedicalOperationSpeed>
-			<HealingSpeed>0.15</HealingSpeed>
-			<HealingQuality>0.1</HealingQuality>
+			<MedicalTendSpeed>0.15</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -729,7 +719,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateUnique</li>
 			<li>OrionUnique</li>
@@ -778,7 +767,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>0.5</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -790,6 +778,7 @@
 			<MeleeHitChance>0.25</MeleeHitChance>
 			<MeleeWeapon_Cooldown>-0.12</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -797,7 +786,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateUnique</li>
 			<li>OrionUnique</li>
@@ -849,7 +837,6 @@
 			<ArmorRating_Electric>0.25</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -863,6 +850,7 @@
 			<MeleeHitChance>-0.06</MeleeHitChance>
 			<MeleeWeapon_Cooldown>0.03</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -870,7 +858,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateUnique</li>
 			<li>OrionUnique</li>
@@ -919,7 +906,6 @@
 			<ArmorRating_Electric>0.3</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>1</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>1</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -930,6 +916,7 @@
 			  <ShootingAccuracy>0.2</ShootingAccuracy>	  
 			  <AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Hands</li>
@@ -937,7 +924,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateUnique</li>
 			<li>OrionUnique</li>
@@ -1000,7 +986,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.8</Mass>
 			<Bulk>0.7</Bulk>
-			<WornWeight>0.8</WornWeight>
 			<WornBulk>0.7</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -1011,6 +996,7 @@
 			<MeleeHitChance>0.2</MeleeHitChance>
 			<MeleeWeapon_Cooldown>-0.12</MeleeWeapon_Cooldown>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 		<li>Hands</li>
@@ -1018,7 +1004,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>SyndicateMedium</li>
 			<li>OrionMedium</li>

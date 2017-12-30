@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ==================== RPG-7 Grenades ========================== -->
+
+	<Ammo_RPG7Grenade_HEAT.label>40х105mm граната Кумулятивная (HEAT)</Ammo_RPG7Grenade_HEAT.label>
+	<Ammo_RPG7Grenade_HEAT.description>Мощная ракетоподобная граната, которой оснащаются различные гранатомёты.</Ammo_RPG7Grenade_HEAT.description>
+
+	<Ammo_RPG7Grenade_Thermobaric.label>40х105mm граната Термобарическая (T)</Ammo_RPG7Grenade_Thermobaric.label>
+	<Ammo_RPG7Grenade_Thermobaric.description>Мощная ракетоподобная граната, которой оснащаются различные гранатомёты.</Ammo_RPG7Grenade_Thermobaric.description>
+
+	<Ammo_RPG7Grenade_Frag.label>40х105mm граната Осколочная (FRAG)</Ammo_RPG7Grenade_Frag.label>
+	<Ammo_RPG7Grenade_Frag.description>Мощная ракетоподобная граната, которой оснащаются различные гранатомёты.</Ammo_RPG7Grenade_Frag.description>
+	
+	
+	<Bullet_RPG7Grenade_HEAT.label>40х105mm граната (HEAT)</Bullet_RPG7Grenade_HEAT.label>
+	<Bullet_RPG7Grenade_Thermobaric.label>40х105mm граната (T)</Bullet_RPG7Grenade_Thermobaric.label>
+	<Bullet_RPG7Grenade_Frag.label>40х105mm граната (FRAG)</Bullet_RPG7Grenade_Frag.label>
+
+</LanguageData>

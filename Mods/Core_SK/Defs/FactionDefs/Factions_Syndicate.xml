@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
 	<FactionDef>
 		<defName>Syndicate</defName>
 		<label>Syndicate faction</label>
     <description></description>
     <pawnsPlural>syndicate faction</pawnsPlural>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>92</raidCommonality>
+    <raidCommonality>93</raidCommonality>
     <canSiege>true</canSiege>
 	<autoFlee>true</autoFlee>
     <canStageAttacks>true</canStageAttacks>
 	<pawnNameMaker>NamerPersonNorbal</pawnNameMaker>
 	<leaderTitle>Supervisor</leaderTitle>
-	<earliestRaidDays>270</earliestRaidDays>
+	<earliestRaidDays>130</earliestRaidDays>
     <expandingIconTexture>UI/Icons/Factions/Syndicate</expandingIconTexture>
     <colorSpectrum>
       <li>(0.45, 0.03, 0.02)</li>
@@ -29,8 +29,8 @@
     </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-    <factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
-		<techLevel>Industrial</techLevel>
+    <baseNameMaker>NamerFactionBasePirate</baseNameMaker>
+		<techLevel>Ultra</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<hairTags>
 			<li>Urban</li>
@@ -43,9 +43,9 @@
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Outlander_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-65</min>
       <max>45</max>
@@ -70,29 +70,28 @@
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
-        <commonality>100</commonality>
         <options>
-          <SyndicateProspector>200</SyndicateProspector>
-          <SyndicateStriker>150</SyndicateStriker>
-          <SyndicateHunter>120</SyndicateHunter>
-          <SyndicateHawkeye>100</SyndicateHawkeye>
-          <SyndicateDevastator>100</SyndicateDevastator>
-          <SyndicateAnnihilator>30</SyndicateAnnihilator>
+          <SyndicateProspector>85</SyndicateProspector>
+          <SyndicateStriker>70</SyndicateStriker>
+          <SyndicateHunter>60</SyndicateHunter>
+          <SyndicateHawkeye>50</SyndicateHawkeye>
+          <SyndicateDevastator>40</SyndicateDevastator>
+          <SyndicateAnnihilator>110</SyndicateAnnihilator>
         </options>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <SyndicateProspector>200</SyndicateProspector>
-          <SyndicateStriker>150</SyndicateStriker>
-          <SyndicateHunter>120</SyndicateHunter>
-          <SyndicateHawkeye>100</SyndicateHawkeye>
-          <SyndicateDevastator>100</SyndicateDevastator>
-          <SyndicateAnnihilator>30</SyndicateAnnihilator>
+          <SyndicateProspector>85</SyndicateProspector>
+          <SyndicateStriker>70</SyndicateStriker>
+          <SyndicateHunter>60</SyndicateHunter>
+          <SyndicateHawkeye>50</SyndicateHawkeye>
+          <SyndicateDevastator>40</SyndicateDevastator>
+          <SyndicateAnnihilator>110</SyndicateAnnihilator>
         </options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

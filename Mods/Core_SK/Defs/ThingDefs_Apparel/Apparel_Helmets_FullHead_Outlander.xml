@@ -32,7 +32,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -48,6 +47,7 @@
 			<TradePriceImprovement>0.05</TradePriceImprovement>
 			<BrewingSpeed>0.02</BrewingSpeed>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -56,7 +56,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>PredatorsLight</li>
 			<li>PredatorsMedium</li>
@@ -108,7 +107,6 @@
 			<ArmorRating_Electric>0.15</ArmorRating_Electric>
 			<Mass>0.4</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.4</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -123,6 +121,7 @@
 			<GiftImpact>0.05</GiftImpact>
 			<TradePriceImprovement>0.05</TradePriceImprovement>
 		</equippedStatOffsets>
+					<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>FullHead</li>
@@ -131,7 +130,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Outlander</li>
 			<li>BanditsLight</li>

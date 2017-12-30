@@ -26,6 +26,7 @@
     <useHitPoints>true</useHitPoints>
     <statBases>
       <Flammability>1.0</Flammability>
+	  <SellPriceFactor>1.10</SellPriceFactor>
     </statBases>
     <comps>
       <li>
@@ -34,6 +35,7 @@
       <li Class="CompProperties_Art">
         <nameMaker>ArtName_Sculpture</nameMaker>
         <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+		<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
       </li>
     </comps>
     <inspectorTabs>
@@ -128,6 +130,7 @@
     <fillPercent>0.5</fillPercent>
     <rotatable>false</rotatable>
     <size>(2,2)</size>
+	<canOverlapZones>false</canOverlapZones>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
       <Beauty>60</Beauty>
@@ -195,8 +198,8 @@
 			<MaxHitPoints>170</MaxHitPoints>
 			<Beauty>70</Beauty>
 			<WorkToMake>36000</WorkToMake>
-	  <Bulk>80</Bulk>
-	  <Mass>50</Mass>
+	        <Bulk>80</Bulk>
+	        <Mass>50</Mass>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -226,8 +229,8 @@
 			<MaxHitPoints>170</MaxHitPoints>
 			<Beauty>85</Beauty>
 			<WorkToMake>32000</WorkToMake>
-	  <Bulk>70</Bulk>
-	  <Mass>60</Mass>
+			<Bulk>70</Bulk>
+			<Mass>60</Mass>
 		</statBases>
 		<size>(1,2)</size>
 		<stuffCategories>
@@ -238,6 +241,36 @@
 	  <li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>160</costStuffCount>
+	</ThingDef>
+	
+  <ThingDef ParentName="SculptureBase">
+		<defName>DragonArt</defName>
+		<label>behir sculpture</label>
+		<uiIconPath>Things/Building/Art/Queen_MenuIcon</uiIconPath>
+		<description>This stunning huge statue of magical beast with a crocodilian head.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Art/Dragon</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedSculpture</minifiedDef>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Beauty>80</Beauty>
+			<WorkToMake>38000</WorkToMake>
+	        <Bulk>120</Bulk>
+	        <Mass>70</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Precious</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>175</costStuffCount>
 	</ThingDef>
 	
   <ThingDef ParentName="SculptureBase">
@@ -258,8 +291,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Beauty>90</Beauty>
 			<WorkToMake>42000</WorkToMake>
-	  <Bulk>450</Bulk>
-	  <Mass>370</Mass>
+			<Bulk>450</Bulk>
+			<Mass>370</Mass>
 		</statBases>
 		<size>(3,3)</size>
 		<stuffCategories>
@@ -284,8 +317,8 @@
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>20</Beauty>
 			<WorkToMake>7000</WorkToMake>
-	  <Bulk>4</Bulk>
-	  <Mass>2</Mass>
+			<Bulk>4</Bulk>
+			<Mass>4</Mass>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -314,7 +347,7 @@
 			<Beauty>17</Beauty>
 			<WorkToMake>6000</WorkToMake>
 			<Bulk>5</Bulk>
-			<Mass>1</Mass>
+			<Mass>4</Mass>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -344,8 +377,8 @@
 			<MaxHitPoints>120</MaxHitPoints>
 			<Beauty>70</Beauty>
 			<WorkToMake>28000</WorkToMake>
-		  <Bulk>120</Bulk>
-		  <Mass>30</Mass>
+			<Bulk>120</Bulk>
+			<Mass>30</Mass>
 		</statBases>
 		<stuffCategories>
 		  <li>Metallic</li>

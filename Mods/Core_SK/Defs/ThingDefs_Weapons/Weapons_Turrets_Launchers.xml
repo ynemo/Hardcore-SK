@@ -4,20 +4,20 @@
 
 	<!-- =================== FGM-148 Javelin ================== -->	
 	
-  <ThingDef ParentName="BaseTurretGun">
+  <ThingDef ParentName="BaseGun_Turret">
     <defName>Gun_ATML</defName>
     <label>MS FGM-148 Javelin</label>
     <graphicData>
-      <texPath>Things/Building/Security/RocketComplexGun</texPath>
+	  <texPath>Things/Building/Security/FGM_Javelin_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>A mounted light missile system MS FGM-148 Javelin on a slab. Uses one rocket.</description>
 	<soundInteract>InteractPTUR</soundInteract>
     <statBases>
 		<MarketValue>2900</MarketValue>
-		<AimEfficiency>1.25</AimEfficiency>
-		<ShotSpread>0.07</ShotSpread>
-		<SwayFactor>1.1</SwayFactor>
+		<SightsEfficiency>2.5</SightsEfficiency>
+		<ShotSpread>0.05</ShotSpread>
+		<SwayFactor>0.6</SwayFactor>
 		<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
@@ -25,10 +25,10 @@
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
 	<verbs>
-      <li Class="Combat_Realism.VerbPropertiesCR">
-        <verbClass>Combat_Realism.Verb_ShootMortarCR</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-		<projectileDef>Bullet_FGMJGrenade_HEAT</projectileDef>
+		<projectileDef>Bullet_SPG9Grenade_Frag</projectileDef>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <forcedMissRadius>2</forcedMissRadius>
         <minRange>30</minRange>
@@ -44,39 +44,39 @@
 	   </li>
 	</verbs>
 		<comps>
-			<li Class="Combat_Realism.CompProperties_AmmoUser">
+			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>1</magazineSize>
-				<reloadTicks>750</reloadTicks>
+				<reloadTime>6.50</reloadTime>
 				<spawnUnloaded>true</spawnUnloaded>
-				<ammoSet>AmmoSet_FGMJ</ammoSet>
+				<ammoSet>AmmoSet_SPG9Grenade</ammoSet>
 			</li>
-			<li Class="Combat_Realism.CompProperties_FireModes" />
+			<li Class="CombatExtended.CompProperties_FireModes" />
 		</comps>
   </ThingDef>
 
   
   
-  <ThingDef ParentName="BaseTurretGun">
+  <ThingDef ParentName="BaseGun_Turret">
     <defName>Artillery_TOWMissile</defName>
     <label>BGM-71 TOW Missile</label>
 	<graphicData>
-	<texPath>Things/Building/Security/TOWLauncher_TopEdited</texPath>
+	<texPath>Things/Building/Security/TOWLauncher_Top</texPath>
 	<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
     <description>TOW Missile Launcher. Launches high speed missiles. Medium accuracy with medium range.</description>
 	<soundInteract>InteractPTUR</soundInteract>
 	<statBases>
 		<MarketValue>2000</MarketValue>
-		<AimEfficiency>1.25</AimEfficiency>
-		<ShotSpread>0.10</ShotSpread>
-		<SwayFactor>1.1</SwayFactor>
+	    <SightsEfficiency>2.5</SightsEfficiency>
+		<ShotSpread>0.04</ShotSpread>
+		<SwayFactor>0.7</SwayFactor>
 		<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
-      <li Class="Combat_Realism.VerbPropertiesCR">
-        <verbClass>Combat_Realism.Verb_ShootMortarCR</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-		<projectileDef>Bullet_FGMJGrenade_HEAT</projectileDef>
+		<projectileDef>Bullet_SPG9Grenade_Frag</projectileDef>
         <forcedMissRadius>2</forcedMissRadius>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <warmupTime>1.10</warmupTime>
@@ -92,13 +92,13 @@
       </li>
     </verbs>
 		<comps>
-			<li Class="Combat_Realism.CompProperties_AmmoUser">
+			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>1</magazineSize>
-				<reloadTicks>750</reloadTicks>
+				<reloadTime>7.50</reloadTime>
 				<spawnUnloaded>true</spawnUnloaded>
-				<ammoSet>AmmoSet_FGMJ</ammoSet>
+				<ammoSet>AmmoSet_SPG9Grenade</ammoSet>
 			</li>
-			<li Class="Combat_Realism.CompProperties_FireModes" />
+			<li Class="CombatExtended.CompProperties_FireModes" />
 		</comps>
   </ThingDef>
   
@@ -106,29 +106,29 @@
 <!-- ================ Medium missile system ============== -->
 
 
-  <ThingDef ParentName="BaseTurretGun">
+  <ThingDef ParentName="BaseGun_Turret">
     <defName>Gun_MissileSystem</defName>
     <label>Medium Missile System</label>
     <graphicData>
-      <texPath>Things/Building/Security/ShredderTurretGun</texPath>
+	  <texPath>Things/Building/Security/MedRL_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>A mounted medium missile system on a turret. Uses three rockets.</description>
 	<soundInteract>InteractPTUR</soundInteract>
     <statBases>
 		<MarketValue>3300</MarketValue>
-		<AimEfficiency>1.0</AimEfficiency>
-		<ShotSpread>0.7</ShotSpread>
-		<SwayFactor>4</SwayFactor>
-		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+	    <SightsEfficiency>2.5</SightsEfficiency>
+		<ShotSpread>0.10</ShotSpread>
+		<SwayFactor>1.0</SwayFactor>
+		<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>Artillery</li>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
 	<verbs>
-      <li Class="Combat_Realism.VerbPropertiesCR">
-        <verbClass>Combat_Realism.Verb_ShootMortarCR</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
 		<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
 		<projectileDef>Bullet_130mmRocketMissile</projectileDef>
@@ -148,9 +148,9 @@
 	   </li>
 	</verbs>
 		<comps>
-			<li Class="Combat_Realism.CompProperties_AmmoUser">
+			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>2</magazineSize>
-				<reloadTicks>650</reloadTicks>
+				<reloadTime>15.0</reloadTime>
 				<spawnUnloaded>true</spawnUnloaded>
 				<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
 			</li>
@@ -171,23 +171,23 @@
 	<soundInteract>InteractPTUR</soundInteract>
     <statBases>
       <MarketValue>4200</MarketValue>
-	  <AimEfficiency>1.0</AimEfficiency>
-	  <ShotSpread>0.9</ShotSpread>
-	  <SwayFactor>5</SwayFactor>
-		<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+	  <SightsEfficiency>2.5</SightsEfficiency>
+	  <ShotSpread>0.12</ShotSpread>
+	  <SwayFactor>1.15</SwayFactor>
+		<RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>Artillery</li>
       <li>Artillery_BaseDestroyer</li>
     </weaponTags>
 	<verbs>
-		<li Class="Combat_Realism.VerbPropertiesCR">
-			<verbClass>Combat_Realism.Verb_ShootMortarCR</verbClass>
+		<li Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
         	<hasStandardCommand>true</hasStandardCommand>
 			<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
 			<projectileDef>Bullet_130mmRocketMissile</projectileDef>
         	<ai_IsIncendiary>true</ai_IsIncendiary>
-            <forcedMissRadius>9</forcedMissRadius>
+            <forcedMissRadius>6</forcedMissRadius>
             <minRange>50</minRange>
 			<range>290</range>
 			<warmupTime>3.00</warmupTime>
@@ -202,9 +202,9 @@
 		   </li>
 	</verbs>
 		<comps>
-			<li Class="Combat_Realism.CompProperties_AmmoUser">
+			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>3</magazineSize>
-				<reloadTicks>900</reloadTicks>
+				<reloadTime>20.00</reloadTime>
 				<spawnUnloaded>true</spawnUnloaded>
 				<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
 			</li>

@@ -27,13 +27,13 @@
 			<ArmorRating_Electric>0.4</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>4</Bulk>
-			<WornWeight>2</WornWeight>
 			<WornBulk>1</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
 			<CarryBulk>10</CarryBulk>
 			<MoveSpeed>-0.02</MoveSpeed>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -45,7 +45,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>CryptosleepSpacer</li>
 		</tags>
@@ -84,7 +83,6 @@
 			<ArmorRating_Electric>0.18</ArmorRating_Electric>
 			<Mass>5</Mass>
 			<Bulk>13</Bulk>
-			<WornWeight>5</WornWeight>
 			<WornBulk>5</WornBulk>
 			</statBases>
 		<equippedStatOffsets>
@@ -92,6 +90,7 @@
 			<MoveSpeed>-0.09</MoveSpeed>
 			<WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
 		</equippedStatOffsets>
+			<generateCommonality>3</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>Torso</li>
@@ -103,7 +102,6 @@
 		  <layers>
 			<li>OnSkin</li>
 		  </layers>
-			<commonality>3</commonality>
 		<tags>
 			<li>BrotherhoodLight</li>
 			<li>SectarianLight</li>

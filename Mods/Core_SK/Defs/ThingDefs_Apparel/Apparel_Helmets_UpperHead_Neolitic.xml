@@ -29,7 +29,6 @@
 			<ArmorRating_Electric>0.05</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -43,6 +42,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -51,7 +51,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Tribal</li>
 			<li>PredatorsLight</li>
@@ -103,7 +102,6 @@
 			<ArmorRating_Electric>0.05</ArmorRating_Electric>
 			<Mass>0.2</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.2</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -117,6 +115,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -125,7 +124,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Tribal</li>
 			<li>PredatorsLight</li>
@@ -173,7 +171,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>4</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -187,6 +184,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -196,7 +194,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Animal</li>
 			<li>Tribal</li>
@@ -246,7 +243,6 @@
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>4</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -261,6 +257,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -270,7 +267,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Tribal</li>
 			<li>PredatorsLight</li>
@@ -319,7 +315,6 @@
 			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 			<Mass>0.7</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -334,6 +329,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1.5</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -342,7 +338,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1.5</commonality>
 		<tags>
 			<li>Tribal</li>
 		</tags>
@@ -392,7 +387,6 @@
 			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 			<Mass>0.7</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>0.7</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -405,6 +399,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -413,7 +408,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Tribal</li>
 		</tags>
@@ -457,7 +451,6 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<Mass>1</Mass>
 			<Bulk>3</Bulk>
-			<WornWeight>1</WornWeight>
 			<WornBulk>0</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
@@ -473,6 +466,7 @@
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<TameAnimalChance>0.07</TameAnimalChance>
 		</equippedStatOffsets>
+			<generateCommonality>1</generateCommonality>
 		<apparel>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -481,7 +475,6 @@
 		  <layers>
 			<li>Overhead</li>
 		  </layers>
-			<commonality>1</commonality>
 		<tags>
 			<li>Animal</li>
 			<li>Tribal</li>
