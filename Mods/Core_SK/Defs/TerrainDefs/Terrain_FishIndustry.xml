@@ -33,7 +33,7 @@
   <TerrainDef Abstract="True" Name="SK_WaterDeepBase" ParentName="SK_WaterBase">
     <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <passability>Impassable</passability>
+   <!-- <passability>Impassable</passability>  -->
     <pathCost>300</pathCost>
     <changeable>false</changeable>
   </TerrainDef>
